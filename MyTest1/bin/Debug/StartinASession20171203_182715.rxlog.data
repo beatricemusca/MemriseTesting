@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2d53b3641b23d769"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="taran"
+		rxversion="7.2.1.0"
+		host="DESKTOP-B2K450G"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="6400x2160"
+		timestamp="03/12/2017 18:27:18"
+		timestampiso="2017-12-03T18:27:18"
+		endtime="03/12/2017 18:28:11"
+		timeoutfactor="1"
+		module="StartinASession">
+		<detail>
+			StartinASession
+		</detail>
+		<errormessage>
+			Failed to find item 'MyTest1Repository.MemriseLearningMadeJoyful.Boxes.SpanTagHi'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.822"
+			timeRelativeToTestModuleStartTime="00:00.825"
+			timeWallClock="18:27:19"
+			time="00:00.822"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MemriseLearningMadeJoyful.Content.Learn' at 21;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.memrise.com']//div[#'content']//section/div/div[2]/div[1]/div/div[2]/div/a[8]/span[@innertext='Learn']"
+				fullname="MyTest1Repository.MemriseLearningMadeJoyful.Content.Learn"
+				id="44a407d1b8c54d20807840da3b9d7a67"
+				timeout="36000"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\WebApp\Lessons\StartinASession.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.934"
+			timeRelativeToTestModuleStartTime="00:01.937"
+			timeWallClock="18:27:20"
+			time="00:01.934"
+			level="Warn"
+			category="Qt">
+			<message>
+				Failed to instrument Qt process. Please make sure you have enough privileges to access the process and a supported version of Qt.<br/>Process: 'AsPowerBar' (pid 16916)<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="QtWindow"
+				showInProgressDialog="False"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\WebApp\Lessons\StartinASession.cs"
+				codeline="83"
+				loglvl="Warn"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.040"
+			timeRelativeToTestModuleStartTime="00:03.043"
+			timeWallClock="18:27:21"
+			time="00:03.040"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MemriseLearningMadeJoyful.Boxes.NextIcon' at 15;25.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.memrise.com']//div[#'boxes']/?/?/button[@title='Next [Shortcut : Enter]']/span"
+				fullname="MyTest1Repository.MemriseLearningMadeJoyful.Boxes.NextIcon"
+				id="a7f0fade43714f43b2ce89a2a764441d"
+				timeout="36000"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\WebApp\Lessons\StartinASession.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.280"
+			timeRelativeToTestModuleStartTime="00:04.283"
+			timeWallClock="18:27:22"
+			time="00:04.280"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 1s.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\WebApp\Lessons\StartinASession.cs"
+				codeline="90"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.297"
+			timeRelativeToTestModuleStartTime="00:05.300"
+			timeWallClock="18:27:23"
+			time="00:05.297"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MemriseLearningMadeJoyful.Boxes.NextIcon' at 13;31.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.memrise.com']//div[#'boxes']/?/?/button[@title='Next [Shortcut : Enter]']/span"
+				fullname="MyTest1Repository.MemriseLearningMadeJoyful.Boxes.NextIcon"
+				id="a7f0fade43714f43b2ce89a2a764441d"
+				timeout="36000"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\WebApp\Lessons\StartinASession.cs"
+				codeline="93"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.290"
+			timeRelativeToTestModuleStartTime="00:06.293"
+			timeWallClock="18:27:24"
+			time="00:06.290"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 1s.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\WebApp\Lessons\StartinASession.cs"
+				codeline="97"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.307"
+			timeRelativeToTestModuleStartTime="00:07.310"
+			timeWallClock="18:27:25"
+			time="00:07.307"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MemriseLearningMadeJoyful.Boxes.Hallo' at 29;24.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.memrise.com']//div[#'boxes']/?/?/ol/?/?/span[@innertext='hallo']"
+				fullname="MyTest1Repository.MemriseLearningMadeJoyful.Boxes.Hallo"
+				id="41a2d6b0e65d40b1a0b1577a36562f27"
+				timeout="36000"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\WebApp\Lessons\StartinASession.cs"
+				codeline="100"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.231"
+			timeRelativeToTestModuleStartTime="00:08.234"
+			timeWallClock="18:27:26"
+			time="00:08.231"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 1s.
+			</message>
+			<metainfo
+				itemindex="6"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\WebApp\Lessons\StartinASession.cs"
+				codeline="104"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.252"
+			timeRelativeToTestModuleStartTime="00:09.255"
+			timeWallClock="18:27:27"
+			time="00:09.252"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MemriseLearningMadeJoyful.Boxes.WasGehtAb' at 76;26.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.memrise.com']//div[#'boxes']/?/?/ol/?/?/span[@innertext='was geht ab?']"
+				fullname="MyTest1Repository.MemriseLearningMadeJoyful.Boxes.WasGehtAb"
+				id="78b5344079724e08b2adc95859314a60"
+				timeout="36000"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\WebApp\Lessons\StartinASession.cs"
+				codeline="107"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.077"
+			timeRelativeToTestModuleStartTime="00:11.080"
+			timeWallClock="18:27:29"
+			time="00:11.077"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 1s.
+			</message>
+			<metainfo
+				itemindex="8"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\WebApp\Lessons\StartinASession.cs"
+				codeline="111"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.084"
+			timeRelativeToTestModuleStartTime="00:12.087"
+			timeWallClock="18:27:30"
+			time="00:12.084"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MemriseLearningMadeJoyful.Boxes.NextIcon' at 25;28.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.memrise.com']//div[#'boxes']/?/?/button[@title='Next [Shortcut : Enter]']/span"
+				fullname="MyTest1Repository.MemriseLearningMadeJoyful.Boxes.NextIcon"
+				id="a7f0fade43714f43b2ce89a2a764441d"
+				timeout="36000"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\WebApp\Lessons\StartinASession.cs"
+				codeline="114"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.983"
+			timeRelativeToTestModuleStartTime="00:12.986"
+			timeWallClock="18:27:31"
+			time="00:12.983"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 1s.
+			</message>
+			<metainfo
+				itemindex="10"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\WebApp\Lessons\StartinASession.cs"
+				codeline="118"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.995"
+			timeRelativeToTestModuleStartTime="00:13.998"
+			timeWallClock="18:27:32"
+			time="00:13.995"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MemriseLearningMadeJoyful.Boxes.NextIcon' at 24;28.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.memrise.com']//div[#'boxes']/?/?/button[@title='Next [Shortcut : Enter]']/span"
+				fullname="MyTest1Repository.MemriseLearningMadeJoyful.Boxes.NextIcon"
+				id="a7f0fade43714f43b2ce89a2a764441d"
+				timeout="36000"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\WebApp\Lessons\StartinASession.cs"
+				codeline="121"
+				itemindex="11"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.879"
+			timeRelativeToTestModuleStartTime="00:14.882"
+			timeWallClock="18:27:33"
+			time="00:14.879"
+			level="Info"
+			category="Delay"
+			errimg=".\StartinA_9459488b_b6fab2f8_trace.jpg"
+			errthumb=".\StartinA_9459488b_b6fab2f8_trace_thumb.jpg">
+			<message>
+				Waiting for 1s.
+			</message>
+			<metainfo
+				itemindex="12"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\WebApp\Lessons\StartinASession.cs"
+				codeline="125"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.898"
+			timeRelativeToTestModuleStartTime="00:15.901"
+			timeWallClock="18:27:34"
+			time="00:15.898"
+			level="Info"
+			category="Mouse"
+			errimg=".\StartinA_9459488b_9fa327ca_trace.jpg"
+			errthumb=".\StartinA_9459488b_9fa327ca_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'MemriseLearningMadeJoyful.Boxes.SpanTagHi' at 17;20.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.memrise.com']//div[#'boxes']/?/?/ol/?/?/span[@innertext='hi']"
+				fullname="MyTest1Repository.MemriseLearningMadeJoyful.Boxes.SpanTagHi"
+				id="5cdf89557b7a4c488273cfa75e9def4f"
+				timeout="36000"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\WebApp\Lessons\StartinASession.cs"
+				codeline="128"
+				itemindex="13"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:52.046"
+			timeRelativeToTestModuleStartTime="00:52.049"
+			timeWallClock="18:28:10"
+			time="00:52.046"
+			level="Error"
+			category="Module"
+			errimg=".\StartinA_9459488b_cc4e919a_trace.jpg"
+			errthumb=".\StartinA_9459488b_cc4e919a_trace_thumb.jpg">
+			<message>
+				Failed to find item 'MyTest1Repository.MemriseLearningMadeJoyful.Boxes.SpanTagHi'.<br/>No element found for path '/dom[@domain='www.memrise.com']//div[#'boxes']/?/?/ol/?/?/span[@innertext='hi']' within 36s.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at MyTest1.MyTest1RepositoryFolders.BoxesFolder.get_SpanTagHi() in C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\MyTest1Repository.cs:line 1375
+   at MyTest1.Memrise.WebApp.Lessons.StartinASession.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\WebApp\Lessons\StartinASession.cs:line 129
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\WebApp\Lessons\StartinASession.cs"
+				codeline="129"
+				type="repoitem"
+				path="/dom[@domain='www.memrise.com']//div[#'boxes']/?/?/ol/?/?/span[@innertext='hi']"
+				fullname="MyTest1Repository.MemriseLearningMadeJoyful.Boxes.SpanTagHi"
+				id="5cdf89557b7a4c488273cfa75e9def4f"
+				timeout="36000"
+				loglvl="Error"
+				itemindex="13">
+			</metainfo>
+		</item>
+	</activity>
+</report>

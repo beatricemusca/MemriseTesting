@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="4bd4985eebded18"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="taran"
+		rxversion="7.2.1.0"
+		host="USB-LGH850d3335ed1 (Unknown)
+USB - LGH850d3335ed1"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="03/12/2017 17:40:35"
+		timestampiso="2017-12-03T17:40:35"
+		endtime="03/12/2017 17:40:54"
+		timeoutfactor="1"
+		module="EmailLogin">
+		<detail>
+			EmailLogin
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.692"
+			timeRelativeToTestModuleStartTime="00:00.693"
+			timeWallClock="17:40:36"
+			time="00:00.692"
+			level="Info"
+			category="Application">
+			<message>
+				Run mobile app 'io.selendroid.testapp' on device USB-LGH850d3335ed1.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\AndroidApp\Logins\EmailLogin.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.181"
+			timeRelativeToTestModuleStartTime="00:10.182"
+			timeWallClock="17:40:45"
+			time="00:10.181"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'IoSelendroidTestapp.Linear.VisibleButtonTest' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='io.selendroid.testapp']/form[@title='HomeScreenActivity']/container/container[@containertype='Linear']/container[4]/button[@contentdescription='visibleButtonTestCD']"
+				fullname="MyTest1Repository.IoSelendroidTestapp.Linear.VisibleButtonTest"
+				id="ec247723b08b4379b4204e1f6db02a67"
+				timeout="90000"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\AndroidApp\Logins\EmailLogin.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.992"
+			timeRelativeToTestModuleStartTime="00:11.993"
+			timeWallClock="17:40:47"
+			time="00:11.992"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'IoSelendroidTestapp.Linear.ShowToastButton' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='io.selendroid.testapp']/form[@title='HomeScreenActivity']/container/container[@containertype='Linear']/container[5]/button[@contentdescription='showToastButtonCD']"
+				fullname="MyTest1Repository.IoSelendroidTestapp.Linear.ShowToastButton"
+				id="767c042f3ef740cc967a32a775767934"
+				timeout="90000"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\AndroidApp\Logins\EmailLogin.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.542"
+			timeRelativeToTestModuleStartTime="00:13.543"
+			timeWallClock="17:40:48"
+			time="00:13.542"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'IoSelendroidTestapp.Linear.ShowPopupWindowButton' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='io.selendroid.testapp']/form[@title='HomeScreenActivity']/container/container[@containertype='Linear']/container[5]/button[@contentdescription='showPopupWindowButtonCD']"
+				fullname="MyTest1Repository.IoSelendroidTestapp.Linear.ShowPopupWindowButton"
+				id="43858804bf6242219abe8ae16a27c9a0"
+				timeout="90000"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\AndroidApp\Logins\EmailLogin.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.715"
+			timeRelativeToTestModuleStartTime="00:15.715"
+			timeWallClock="17:40:51"
+			time="00:15.715"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'IoSelendroidTestapp.PopupDismissButton' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='io.selendroid.testapp']/form[@title='(none)']/container/container[@containertype='Linear']/container[@containertype='Linear']/button[@rid='popup_dismiss_button']"
+				fullname="MyTest1Repository.IoSelendroidTestapp.PopupDismissButton"
+				id="62556ba59e664df39e628eaeab123a79"
+				timeout="60000"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\AndroidApp\Logins\EmailLogin.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.059"
+			timeRelativeToTestModuleStartTime="00:18.059"
+			timeWallClock="17:40:53"
+			time="00:18.059"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'IoSelendroidTestapp.Linear.ExceptionTestButton' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='io.selendroid.testapp']/form[@title='HomeScreenActivity']/container/container[@containertype='Linear']/container[5]/button[@contentdescription='exceptionTestButtonCD']"
+				fullname="MyTest1Repository.IoSelendroidTestapp.Linear.ExceptionTestButton"
+				id="4ecc45eb8296484d98d32450eda80637"
+				timeout="90000"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\AndroidApp\Logins\EmailLogin.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

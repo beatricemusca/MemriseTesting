@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="b6e7675d-3e5d-44bb-ae34-2168cccc92f2"
+mode="Desktop"
+rxversion="7.2">
+	<name>
+		PromoPopUpClose
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="PromoPopUpClose"
+	namespace="MyTest1.Memrise.WebApp.Payment">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Down"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="8;18"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="321eeb44-b67d-4cec-8a76-e6ac43454c88"
+		sx="2155"
+		sy="393"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="796d90cb-0fa6-4279-b0bc-b86b2034ae51"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="webelement"
+				rect="2147,375,30,30"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						svg
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="height"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="viewBox"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="width"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='www.memrise.com']//div[#'promotion-modal']//tag[@tagname='svg']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="e2a21153-6883-4e13-88b8-b0a0ba9c7759">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABMAEwDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwAxRiin
+qm4ZJxQAzFGKk8of3j+VHlD+8fyoAjxRipPKH94/lR5Q/vH8qAI8UYqTyh/eP5UeUP7x/KgCPFGK
+UjBxSUAFSp9wVFUqfcFADJ5jEVAXcW96Z9ok/wCfdv8AP4UXP+ug/wB7/CrUcbSNtXrUatvU6fcj
+CLcb39e5V+0Sf8+7f5/Cj7RJ/wA+7f5/CrLKUYqwwRTxC5jMgHyinZ9yfaU/5PxZSNy6jJgYD1P/
+AOqrCNuRW6ZGajuv+Pdvw/nTof8AUp/uikr3swmoumpRVtRr/fNNpz/fNNqzAKlT7gqKpU+4KAIb
+n/XQf73+FWVYowZTgiq1z/roP97/AAqZ1D7EJYBpEX5Tg8sAefpUrdm9T+HD5/maKqtyiu6kEfrU
+F1KS3lgbVH61V+3Lb/uDI67JHUMwJyAxxz7DFWmmhubfzAw3DoVOc1RgUrr/AI92/D+dOh/1Kf7o
+pt1/x7t+H86dD/qU/wB0VP2jd/wV6/ohr/fNNpz/AHzTaowCpU+4KiqVPuCgCC6IWSEnoDk/pUsb
+tIYXWKTyzOgD44JDj8vxp7IrfeUHHqKW3n+wTbwv+jv/AK0D+E/3gP50ktWzSU04Rj1RovYb4nXz
+B8yTL0/vtn9Ky7hobe+uYxhAHBCgcfdWttrq3WHzTNGI8Z3bhisPct1NLcFBtlfKZHO0AAfyzTd+
+hMeW/vbEVxPG8LKrZJx2NTQ/6lP90UeVH/zzX8qeBgYHAqUne7NJzhycsSJ/vmm05/vmm1RiFOVy
+oxTaKAH+Z7UeZ7UyigBBHCpBEEYI5BCipPM9qZRQA/zPajzPamUUABOTmiiigD//2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Up"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="8;18"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="cb2c7a37-4552-4dfd-b25c-5ac74bda71ef"
+		sx="2155"
+		sy="393"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="796d90cb-0fa6-4279-b0bc-b86b2034ae51"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="webelement"
+				rect="2147,375,30,30"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						svg
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="height"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="viewBox"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="width"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='www.memrise.com']//div[#'promotion-modal']//tag[@tagname='svg']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="e2a21153-6883-4e13-88b8-b0a0ba9c7759">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABMAEwDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwAxRiin
+qm4ZJxQAzFGKk8of3j+VHlD+8fyoAjxRipPKH94/lR5Q/vH8qAI8UYqTyh/eP5UeUP7x/KgCPFGK
+UjBxSUAFSp9wVFUqfcFADJ5jEVAXcW96Z9ok/wCfdv8AP4UXP+ug/wB7/CrUcbSNtXrUatvU6fcj
+CLcb39e5V+0Sf8+7f5/Cj7RJ/wA+7f5/CrLKUYqwwRTxC5jMgHyinZ9yfaU/5PxZSNy6jJgYD1P/
+AOqrCNuRW6ZGajuv+Pdvw/nTof8AUp/uikr3swmoumpRVtRr/fNNpz/fNNqzAKlT7gqKpU+4KAIb
+n/XQf73+FWVYowZTgiq1z/roP97/AAqZ1D7EJYBpEX5Tg8sAefpUrdm9T+HD5/maKqtyiu6kEfrU
+F1KS3lgbVH61V+3Lb/uDI67JHUMwJyAxxz7DFWmmhubfzAw3DoVOc1RgUrr/AI92/D+dOh/1Kf7o
+pt1/x7t+H86dD/qU/wB0VP2jd/wV6/ohr/fNNpz/AHzTaowCpU+4KiqVPuCgCC6IWSEnoDk/pUsb
+tIYXWKTyzOgD44JDj8vxp7IrfeUHHqKW3n+wTbwv+jv/AK0D+E/3gP50ktWzSU04Rj1RovYb4nXz
+B8yTL0/vtn9Ky7hobe+uYxhAHBCgcfdWttrq3WHzTNGI8Z3bhisPct1NLcFBtlfKZHO0AAfyzTd+
+hMeW/vbEVxPG8LKrZJx2NTQ/6lP90UeVH/zzX8qeBgYHAqUne7NJzhycsSJ/vmm05/vmm1RiFOVy
+oxTaKAH+Z7UeZ7UyigBBHCpBEEYI5BCipPM9qZRQA/zPajzPamUUABOTmiiigD//2Q==
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="ff7215c2-1fdf-425f-a3c5-e5cdf3f84e9d"
+	name="MyTest1Repository"
+	relativepath="..\..\..\MyTest1Repository.rxrep"
+	rxversion="7.2">
+		<codegen
+		classname="MyTest1Repository"
+		namespace="MyTest1">
+		</codegen>
+		<rootfolder
+		id="db9647e4-ee00-45ed-ba86-06c2f3589160"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		PromoPopUpClose.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

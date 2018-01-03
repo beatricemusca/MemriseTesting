@@ -1,0 +1,157 @@
+C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\MyTest1.rxtmg
+C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\MyTest1.rxtst
+C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\MyTest1.exe.config
+C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\MyTest1.exe
+C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\MyTest1.pdb
+C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\Ranorex.Core.dll
+C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\Ranorex.Plugin.Cef.dll
+C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\Ranorex.Plugin.ChromeWeb.dll
+C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\Ranorex.Plugin.FirefoxWeb.dll
+C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\Ranorex.Plugin.Flex.dll
+C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\Ranorex.Plugin.Java.dll
+C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\Ranorex.Plugin.Mobile.dll
+C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\Ranorex.Plugin.Msaa.dll
+C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\Ranorex.Plugin.Office.dll
+C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\Ranorex.Plugin.Qt.dll
+C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\Ranorex.Plugin.RawText.dll
+C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\Ranorex.Plugin.Sap.dll
+C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\Ranorex.Plugin.Uia.dll
+C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\Ranorex.Plugin.Web.dll
+C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\Ranorex.Plugin.WebDriver.dll
+C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\Ranorex.Plugin.Win32.dll
+C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\Ranorex.Plugin.WinForms.dll
+C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\Ranorex.Plugin.Wpf.dll
+C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\Ranorex.Libs.dll
+C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\Ranorex.Common.Net35.dll
+C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\Ranorex.Common.dll
+C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\Ranorex.Libs.Util.dll
+C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\Ranorex.Libs.Base.dll
+C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\Ranorex.Core.WinApi.dll
+C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\Ranorex.Libs.Licensing.dll
+C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\Ranorex.Core.Injection.dll
+C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\Ranorex.Libs.WinApi.dll
+C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\Ranorex.Libs.Domain.dll
+C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\Ranorex.Plugin.CefHost.dll
+C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\Ranorex.Mvvm.dll
+C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\Ranorex.Instrumentation.Qt.dll
+C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\Ranorex.Instrumentation.RawText.dll
+C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\Ranorex.Controls.Wpf.dll
+C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\Ranorex.Libs.WinForms.dll
+C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\Ranorex.Plugin.WinFormsProxy.dll
+C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\Ranorex.Plugin.WpfProxy.dll
+C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\stdole.dll
+C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\obj\x86\Debug\MyTest1.csprojResolveAssemblyReference.cache
+C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\obj\x86\Debug\MyTest1.exe
+C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\obj\x86\Debug\MyTest1.pdb
+C:\Users\beatr\Desktop\MyTest1\MyTest1\bin\Debug\MyTest1.rxtmg
+C:\Users\beatr\Desktop\MyTest1\MyTest1\bin\Debug\MyTest1.rxtst
+C:\Users\beatr\Desktop\MyTest1\MyTest1\bin\Debug\MyTest1.exe.config
+C:\Users\beatr\Desktop\MyTest1\MyTest1\bin\Debug\MyTest1.exe
+C:\Users\beatr\Desktop\MyTest1\MyTest1\bin\Debug\MyTest1.pdb
+C:\Users\beatr\Desktop\MyTest1\MyTest1\bin\Debug\stdole.dll
+C:\Users\beatr\Desktop\MyTest1\MyTest1\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\beatr\Desktop\MyTest1\MyTest1\obj\x86\Debug\MyTest1.csprojResolveAssemblyReference.cache
+C:\Users\beatr\Desktop\MyTest1\MyTest1\obj\x86\Debug\MyTest1.exe
+C:\Users\beatr\Desktop\MyTest1\MyTest1\obj\x86\Debug\MyTest1.pdb
+C:\Users\Beatrice\Desktop\MyTest1\MyTest1\bin\Debug\MyTest1.rxtmg
+C:\Users\Beatrice\Desktop\MyTest1\MyTest1\bin\Debug\MyTest1.rxtst
+C:\Users\Beatrice\Desktop\MyTest1\MyTest1\bin\Debug\MyTest1.exe.config
+C:\Users\Beatrice\Desktop\MyTest1\MyTest1\bin\Debug\MyTest1.exe
+C:\Users\Beatrice\Desktop\MyTest1\MyTest1\bin\Debug\MyTest1.pdb
+C:\Users\Beatrice\Desktop\MyTest1\MyTest1\bin\Debug\Ranorex.Core.dll
+C:\Users\Beatrice\Desktop\MyTest1\MyTest1\bin\Debug\Ranorex.Plugin.Cef.dll
+C:\Users\Beatrice\Desktop\MyTest1\MyTest1\bin\Debug\Ranorex.Plugin.ChromeWeb.dll
+C:\Users\Beatrice\Desktop\MyTest1\MyTest1\bin\Debug\Ranorex.Plugin.FirefoxWeb.dll
+C:\Users\Beatrice\Desktop\MyTest1\MyTest1\bin\Debug\Ranorex.Plugin.Flex.dll
+C:\Users\Beatrice\Desktop\MyTest1\MyTest1\bin\Debug\Ranorex.Plugin.Java.dll
+C:\Users\Beatrice\Desktop\MyTest1\MyTest1\bin\Debug\Ranorex.Plugin.Mobile.dll
+C:\Users\Beatrice\Desktop\MyTest1\MyTest1\bin\Debug\Ranorex.Plugin.Msaa.dll
+C:\Users\Beatrice\Desktop\MyTest1\MyTest1\bin\Debug\Ranorex.Plugin.Office.dll
+C:\Users\Beatrice\Desktop\MyTest1\MyTest1\bin\Debug\Ranorex.Plugin.Qt.dll
+C:\Users\Beatrice\Desktop\MyTest1\MyTest1\bin\Debug\Ranorex.Plugin.RawText.dll
+C:\Users\Beatrice\Desktop\MyTest1\MyTest1\bin\Debug\Ranorex.Plugin.Sap.dll
+C:\Users\Beatrice\Desktop\MyTest1\MyTest1\bin\Debug\Ranorex.Plugin.Uia.dll
+C:\Users\Beatrice\Desktop\MyTest1\MyTest1\bin\Debug\Ranorex.Plugin.Web.dll
+C:\Users\Beatrice\Desktop\MyTest1\MyTest1\bin\Debug\Ranorex.Plugin.WebDriver.dll
+C:\Users\Beatrice\Desktop\MyTest1\MyTest1\bin\Debug\Ranorex.Plugin.Win32.dll
+C:\Users\Beatrice\Desktop\MyTest1\MyTest1\bin\Debug\Ranorex.Plugin.WinForms.dll
+C:\Users\Beatrice\Desktop\MyTest1\MyTest1\bin\Debug\Ranorex.Plugin.Wpf.dll
+C:\Users\Beatrice\Desktop\MyTest1\MyTest1\bin\Debug\Ranorex.Libs.dll
+C:\Users\Beatrice\Desktop\MyTest1\MyTest1\bin\Debug\Ranorex.Common.Net35.dll
+C:\Users\Beatrice\Desktop\MyTest1\MyTest1\bin\Debug\Ranorex.Common.dll
+C:\Users\Beatrice\Desktop\MyTest1\MyTest1\bin\Debug\Ranorex.Libs.Util.dll
+C:\Users\Beatrice\Desktop\MyTest1\MyTest1\bin\Debug\Ranorex.Libs.Base.dll
+C:\Users\Beatrice\Desktop\MyTest1\MyTest1\bin\Debug\Ranorex.Core.WinApi.dll
+C:\Users\Beatrice\Desktop\MyTest1\MyTest1\bin\Debug\Ranorex.Libs.Licensing.dll
+C:\Users\Beatrice\Desktop\MyTest1\MyTest1\bin\Debug\Ranorex.Core.Injection.dll
+C:\Users\Beatrice\Desktop\MyTest1\MyTest1\bin\Debug\Ranorex.Libs.WinApi.dll
+C:\Users\Beatrice\Desktop\MyTest1\MyTest1\bin\Debug\Ranorex.Libs.Domain.dll
+C:\Users\Beatrice\Desktop\MyTest1\MyTest1\bin\Debug\Ranorex.Plugin.CefHost.dll
+C:\Users\Beatrice\Desktop\MyTest1\MyTest1\bin\Debug\Ranorex.Mvvm.dll
+C:\Users\Beatrice\Desktop\MyTest1\MyTest1\bin\Debug\Ranorex.Instrumentation.Qt.dll
+C:\Users\Beatrice\Desktop\MyTest1\MyTest1\bin\Debug\Ranorex.Instrumentation.RawText.dll
+C:\Users\Beatrice\Desktop\MyTest1\MyTest1\bin\Debug\Ranorex.Controls.Wpf.dll
+C:\Users\Beatrice\Desktop\MyTest1\MyTest1\bin\Debug\Ranorex.Libs.WinForms.dll
+C:\Users\Beatrice\Desktop\MyTest1\MyTest1\bin\Debug\Ranorex.Plugin.WinFormsProxy.dll
+C:\Users\Beatrice\Desktop\MyTest1\MyTest1\bin\Debug\Ranorex.Plugin.WpfProxy.dll
+C:\Users\Beatrice\Desktop\MyTest1\MyTest1\bin\Debug\stdole.dll
+C:\Users\Beatrice\Desktop\MyTest1\MyTest1\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Beatrice\Desktop\MyTest1\MyTest1\obj\x86\Debug\MyTest1.csprojResolveAssemblyReference.cache
+C:\Users\Beatrice\Desktop\MyTest1\MyTest1\obj\x86\Debug\MyTest1.exe
+C:\Users\Beatrice\Desktop\MyTest1\MyTest1\obj\x86\Debug\MyTest1.pdb
+C:\Users\beatr\Desktop\test payment\MyTest1\bin\Debug\MyTest1.rxtmg
+C:\Users\beatr\Desktop\test payment\MyTest1\bin\Debug\MyTest1.rxtst
+C:\Users\beatr\Desktop\test payment\MyTest1\bin\Debug\MyTest1.exe.config
+C:\Users\beatr\Desktop\test payment\MyTest1\bin\Debug\MyTest1.exe
+C:\Users\beatr\Desktop\test payment\MyTest1\bin\Debug\MyTest1.pdb
+C:\Users\beatr\Desktop\test payment\MyTest1\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\beatr\Desktop\test payment\MyTest1\obj\x86\Debug\MyTest1.csprojResolveAssemblyReference.cache
+C:\Users\beatr\Desktop\test payment\MyTest1\obj\x86\Debug\MyTest1.exe
+C:\Users\beatr\Desktop\test payment\MyTest1\obj\x86\Debug\MyTest1.pdb
+C:\Users\Beatrice\Desktop\test payment\MyTest1\bin\Debug\MyTest1.rxtmg
+C:\Users\Beatrice\Desktop\test payment\MyTest1\bin\Debug\MyTest1.rxtst
+C:\Users\Beatrice\Desktop\test payment\MyTest1\bin\Debug\MyTest1.exe.config
+C:\Users\Beatrice\Desktop\test payment\MyTest1\bin\Debug\MyTest1.exe
+C:\Users\Beatrice\Desktop\test payment\MyTest1\bin\Debug\MyTest1.pdb
+C:\Users\Beatrice\Desktop\test payment\MyTest1\bin\Debug\Ranorex.Core.dll
+C:\Users\Beatrice\Desktop\test payment\MyTest1\bin\Debug\Ranorex.Plugin.Cef.dll
+C:\Users\Beatrice\Desktop\test payment\MyTest1\bin\Debug\Ranorex.Plugin.ChromeWeb.dll
+C:\Users\Beatrice\Desktop\test payment\MyTest1\bin\Debug\Ranorex.Plugin.FirefoxWeb.dll
+C:\Users\Beatrice\Desktop\test payment\MyTest1\bin\Debug\Ranorex.Plugin.Flex.dll
+C:\Users\Beatrice\Desktop\test payment\MyTest1\bin\Debug\Ranorex.Plugin.Java.dll
+C:\Users\Beatrice\Desktop\test payment\MyTest1\bin\Debug\Ranorex.Plugin.Mobile.dll
+C:\Users\Beatrice\Desktop\test payment\MyTest1\bin\Debug\Ranorex.Plugin.Msaa.dll
+C:\Users\Beatrice\Desktop\test payment\MyTest1\bin\Debug\Ranorex.Plugin.Office.dll
+C:\Users\Beatrice\Desktop\test payment\MyTest1\bin\Debug\Ranorex.Plugin.Qt.dll
+C:\Users\Beatrice\Desktop\test payment\MyTest1\bin\Debug\Ranorex.Plugin.RawText.dll
+C:\Users\Beatrice\Desktop\test payment\MyTest1\bin\Debug\Ranorex.Plugin.Sap.dll
+C:\Users\Beatrice\Desktop\test payment\MyTest1\bin\Debug\Ranorex.Plugin.Uia.dll
+C:\Users\Beatrice\Desktop\test payment\MyTest1\bin\Debug\Ranorex.Plugin.Web.dll
+C:\Users\Beatrice\Desktop\test payment\MyTest1\bin\Debug\Ranorex.Plugin.WebDriver.dll
+C:\Users\Beatrice\Desktop\test payment\MyTest1\bin\Debug\Ranorex.Plugin.Win32.dll
+C:\Users\Beatrice\Desktop\test payment\MyTest1\bin\Debug\Ranorex.Plugin.WinForms.dll
+C:\Users\Beatrice\Desktop\test payment\MyTest1\bin\Debug\Ranorex.Plugin.Wpf.dll
+C:\Users\Beatrice\Desktop\test payment\MyTest1\bin\Debug\Ranorex.Libs.dll
+C:\Users\Beatrice\Desktop\test payment\MyTest1\bin\Debug\Ranorex.Common.Net35.dll
+C:\Users\Beatrice\Desktop\test payment\MyTest1\bin\Debug\Ranorex.Common.dll
+C:\Users\Beatrice\Desktop\test payment\MyTest1\bin\Debug\Ranorex.Libs.Util.dll
+C:\Users\Beatrice\Desktop\test payment\MyTest1\bin\Debug\Ranorex.Libs.Base.dll
+C:\Users\Beatrice\Desktop\test payment\MyTest1\bin\Debug\Ranorex.Core.WinApi.dll
+C:\Users\Beatrice\Desktop\test payment\MyTest1\bin\Debug\Ranorex.Libs.Licensing.dll
+C:\Users\Beatrice\Desktop\test payment\MyTest1\bin\Debug\Ranorex.Core.Injection.dll
+C:\Users\Beatrice\Desktop\test payment\MyTest1\bin\Debug\Ranorex.Libs.WinApi.dll
+C:\Users\Beatrice\Desktop\test payment\MyTest1\bin\Debug\Ranorex.Libs.Domain.dll
+C:\Users\Beatrice\Desktop\test payment\MyTest1\bin\Debug\Ranorex.Plugin.CefHost.dll
+C:\Users\Beatrice\Desktop\test payment\MyTest1\bin\Debug\Ranorex.Mvvm.dll
+C:\Users\Beatrice\Desktop\test payment\MyTest1\bin\Debug\Ranorex.Instrumentation.Qt.dll
+C:\Users\Beatrice\Desktop\test payment\MyTest1\bin\Debug\Ranorex.Instrumentation.RawText.dll
+C:\Users\Beatrice\Desktop\test payment\MyTest1\bin\Debug\Ranorex.Controls.Wpf.dll
+C:\Users\Beatrice\Desktop\test payment\MyTest1\bin\Debug\Ranorex.Libs.WinForms.dll
+C:\Users\Beatrice\Desktop\test payment\MyTest1\bin\Debug\Ranorex.Plugin.WinFormsProxy.dll
+C:\Users\Beatrice\Desktop\test payment\MyTest1\bin\Debug\Ranorex.Plugin.WpfProxy.dll
+C:\Users\Beatrice\Desktop\test payment\MyTest1\bin\Debug\stdole.dll
+C:\Users\Beatrice\Desktop\test payment\MyTest1\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Beatrice\Desktop\test payment\MyTest1\obj\x86\Debug\MyTest1.csprojResolveAssemblyReference.cache
+C:\Users\Beatrice\Desktop\test payment\MyTest1\obj\x86\Debug\MyTest1.exe
+C:\Users\Beatrice\Desktop\test payment\MyTest1\obj\x86\Debug\MyTest1.pdb

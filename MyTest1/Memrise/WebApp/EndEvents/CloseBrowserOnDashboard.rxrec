@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="79b23647-3d2a-483c-bb5e-d282e2f99188"
+mode="Global"
+rxversion="7.2">
+	<name>
+		CloseBrowserOnDashboard
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowserOnDashboard"
+	namespace="MyTest1.Memrise.WebApp.EndEvents">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="False"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="f724d439-b66c-4b15-95fe-7c71577ff0ca">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="83ec5529-147a-4ec6-9752-edfb206e0f95"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/form[@title~'^Do\ you\ want\ to\ leave\ this']
+				</path>
+			</info>
+		</closeapprecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="False"
+		loc="2;1"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="07d1edd5-563d-4608-b67b-2ce8b8cf6809"
+		sx="2479"
+		sy="79"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="fee15156-81a8-4aba-8e2b-e42004cf1a56"
+			sourcename="Recorder">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="2"
+				prefcap="button"
+				rect="2477,78,24,24"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Close
+					</attribute>
+					<attribute
+					name="accessibledefaultaction"
+					type="System.String">
+						Press
+					</attribute>
+					<attribute
+					name="accessibledescription"
+					type="System.String">
+						Closes the window
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						Close
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						PushButton
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						None
+					</attribute>
+				</element>
+				<path>
+					/form[@title~'^Dashboard\ -\ Memrise\ -\ Goo']/?/?/button[@accessiblerole='PushButton' and @text='Close' and @accessibledescription='Closes the window']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="72a8b838-d479-4d8c-bc43-1b9552594111">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="b01cc0f6-381b-460a-bca7-514f41e3febb">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="5dfb4af4-0a2d-43db-bc67-0798908e96c3"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/form[@title~'^Dashboard\ -\ Memrise\ -\ Goo']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="ff7215c2-1fdf-425f-a3c5-e5cdf3f84e9d"
+	name="MyTest1Repository"
+	relativepath="..\..\..\MyTest1Repository.rxrep"
+	rxversion="7.2">
+		<codegen
+		classname="MyTest1Repository"
+		namespace="MyTest1">
+		</codegen>
+		<rootfolder
+		id="db9647e4-ee00-45ed-ba86-06c2f3589160"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowserOnDashboard.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

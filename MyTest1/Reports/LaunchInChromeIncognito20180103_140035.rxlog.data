@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="12.01s"
+		durationms="12006"
+		type="root"
+		rid="5926bf4bc789623"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="beatr"
+		rxversion="7.2.1.0"
+		host="DESKTOP-A2LH711"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="1920x1200"
+		timestamp="03/01/2018 14:00:45"
+		timestampiso="2018-01-03T14:00:45"
+		endtime="03/01/2018 14:00:57"
+		timeoutfactor="1"
+		module="LaunchInChromeIncognito">
+		<detail>
+			LaunchInChromeIncognito
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.786"
+			timeRelativeToTestModuleStartTime="00:00.786"
+			timeWallClock="14:00:46"
+			time="00:00.786"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'http://memrise.com' with browser 'chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\beatr\Desktop\test payment\MyTest1\Memrise\WebApp\Start events\LaunchInChromeIncognito.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.001"
+			timeRelativeToTestModuleStartTime="00:01.001"
+			timeWallClock="14:00:46"
+			time="00:01.001"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (InnerText='
+    Unlock your learning superpowers with Memrise
+    ') on item 'MemriseLearningMadeJoyful.H1TagUnlockYourLearningSuperpowe'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.memrise.com']//div[#'page-head']//h1[@innertext~'^\ \ \ \ Unlock\ your\ learning']"
+				fullname="MyTest1Repository.MemriseLearningMadeJoyful.H1TagUnlockYourLearningSuperpowe"
+				id="91289523ffb746fcb370c7797965a0f8"
+				timeout="33000"
+				codefile="c:\Users\beatr\Desktop\test payment\MyTest1\Memrise\WebApp\Start events\LaunchInChromeIncognito.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.006"
+			timeRelativeToTestModuleStartTime="00:12.006"
+			timeWallClock="14:00:57"
+			time="00:12.006"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

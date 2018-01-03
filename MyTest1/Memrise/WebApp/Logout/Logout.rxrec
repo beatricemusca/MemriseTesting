@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="61e945ee-71e7-4d84-a4c3-6f48406f8a61"
+mode="Desktop"
+rxversion="7.2">
+	<name>
+		Logout
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Logout"
+	namespace="MyTest1.Memrise.WebApp.Logout">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="1f33ad07-24b1-4633-953e-18312e9b8faf"
+		sx="1754"
+		sy="589"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="1cd4703a-8eb3-487e-a187-6cdffc815e26"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, imgtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="imgtag"
+				rect="1712,562,50,50"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						profile-avatar
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						img
+					</attribute>
+					<attribute
+					name="alt"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						40
+					</attribute>
+					<attribute
+					name="hspace"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="src"
+					type="System.String">
+						https://d2rhekw5qr4gcj.cloudfront.net/img/100sqf/from/uploads/profiles/BeaTrisy_161103_1457_54.png
+					</attribute>
+					<attribute
+					name="vspace"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						40
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='www.memrise.com']//div[#'header']/?/?/ul/li[5]//img[@alt='']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="94dff1cb-978a-449d-9b27-0f4b3cce7334">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="026b28f1-b0f2-45b8-8f87-9790f912e3b4"
+		sx="1678"
+		sy="1028"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e766aef1-fa87-4361-b299-b08e80d16e8c"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, itag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="itag"
+				rect="1671,1020,25,25"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						profile-link-icon link-icon-3
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						i
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='www.memrise.com']//div[#'header']/?/?/ul//a[@href~'^https://www\.memrise\.com/l']/i
+				</path>
+			</info>
+			<helperscreenshot
+			guid="f681b6c7-ea3a-4609-822f-252422027b37">
+				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
+KKAP/9k=
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="ff7215c2-1fdf-425f-a3c5-e5cdf3f84e9d"
+	name="MyTest1Repository"
+	relativepath="..\..\..\MyTest1Repository.rxrep"
+	rxversion="7.2">
+		<codegen
+		classname="MyTest1Repository"
+		namespace="MyTest1">
+		</codegen>
+		<rootfolder
+		id="db9647e4-ee00-45ed-ba86-06c2f3589160"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Logout.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

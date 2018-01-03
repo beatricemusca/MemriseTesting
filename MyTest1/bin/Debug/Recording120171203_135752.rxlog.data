@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="9c005051a67a458"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="taran"
+		rxversion="7.2.1.0"
+		host="DESKTOP-B2K450G"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="6400x2160"
+		timestamp="03/12/2017 13:57:57"
+		timestampiso="2017-12-03T13:57:57"
+		endtime="03/12/2017 13:58:07"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.925"
+			timeRelativeToTestModuleStartTime="00:00.925"
+			timeWallClock="13:57:58"
+			time="00:00.925"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Program Files (x86)\KeePass Password Safe 2\KeePass.exe' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording1.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.024"
+			timeRelativeToTestModuleStartTime="00:01.024"
+			timeWallClock="13:57:58"
+			time="00:01.024"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'KeyPromptForm.Text' at 76;5.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='KeyPromptForm']/?/?/text[@accessiblerole='Text']"
+				fullname="MyTest1Repository.KeyPromptForm.Text"
+				id="8a7485bf9df74af2a570bd9895a3044f"
+				timeout="60000"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.793"
+			timeRelativeToTestModuleStartTime="00:01.793"
+			timeWallClock="13:57:59"
+			time="00:01.793"
+			level="Warn"
+			category="Qt">
+			<message>
+				Failed to instrument Qt process. Please make sure you have enough privileges to access the process and a supported version of Qt.<br/>Process: 'AsPowerBar' (pid 4760)<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="QtWindow"
+				showInProgressDialog="False"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording1.cs"
+				codeline="87"
+				loglvl="Warn"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.845"
+			timeRelativeToTestModuleStartTime="00:03.845"
+			timeWallClock="13:58:01"
+			time="00:03.845"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'llamalovesgiraffe' with focus on 'KeyPromptForm.Text'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='KeyPromptForm']/?/?/text[@accessiblerole='Text']"
+				fullname="MyTest1Repository.KeyPromptForm.Text"
+				id="8a7485bf9df74af2a570bd9895a3044f"
+				timeout="60000"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording1.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.243"
+			timeRelativeToTestModuleStartTime="00:06.243"
+			timeWallClock="13:58:03"
+			time="00:06.243"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}' with focus on 'KeyPromptForm.Text'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='KeyPromptForm']/?/?/text[@accessiblerole='Text']"
+				fullname="MyTest1Repository.KeyPromptForm.Text"
+				id="8a7485bf9df74af2a570bd9895a3044f"
+				timeout="60000"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording1.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.818"
+			timeRelativeToTestModuleStartTime="00:06.818"
+			timeWallClock="13:58:04"
+			time="00:06.818"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MainForm.File' at 25;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MainForm']/?/?/menuitem[@accessiblename='File']"
+				fullname="MyTest1Repository.MainForm.File"
+				id="ce0463b855b24a37b54ce4c677c05587"
+				timeout="60000"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording1.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.490"
+			timeRelativeToTestModuleStartTime="00:08.490"
+			timeWallClock="13:58:06"
+			time="00:08.490"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'KeePass.Exit' at 87;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='KeePass']/menuitem[@accessiblename='Exit']"
+				fullname="MyTest1Repository.KeePass.Exit"
+				id="6ed88aab31d545de9d7c095e9f5f34ef"
+				timeout="60000"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording1.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

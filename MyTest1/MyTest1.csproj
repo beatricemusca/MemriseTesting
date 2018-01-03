@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{0EE81627-725C-4274-9DEA-32595203E1E3}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>MyTest1</RootNamespace>
+    <AssemblyName>MyTest1</AssemblyName>
+    <RanorexVersion>7.2</RanorexVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <RanorexTargetsPath>$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>4bb8a466-5557-4837-9030-ee0422c06940</projectdefaultrepository>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Core" />
+    <Reference Include="Ranorex.Plugin.Cef" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb" />
+    <Reference Include="Ranorex.Plugin.FirefoxWeb" />
+    <Reference Include="Ranorex.Plugin.Flex" />
+    <Reference Include="Ranorex.Plugin.Java" />
+    <Reference Include="Ranorex.Plugin.Mobile" />
+    <Reference Include="Ranorex.Plugin.Msaa" />
+    <Reference Include="Ranorex.Plugin.Office" />
+    <Reference Include="Ranorex.Plugin.Qt" />
+    <Reference Include="Ranorex.Plugin.RawText" />
+    <Reference Include="Ranorex.Plugin.Sap" />
+    <Reference Include="Ranorex.Plugin.Uia" />
+    <Reference Include="Ranorex.Plugin.Web" />
+    <Reference Include="Ranorex.Plugin.WebDriver" />
+    <Reference Include="Ranorex.Plugin.Win32" />
+    <Reference Include="Ranorex.Plugin.WinForms" />
+    <Reference Include="Ranorex.Plugin.Wpf" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>2e052acc-92c2-49b6-ac2a-4123fc68bb92</id>
+    </Compile>
+    <Compile Include="Memrise\AndroidApp\Logins\EmailLogin.cs">
+      <DependentUpon>EmailLogin.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7ada78a5-a655-4e64-bb75-e6f0a0b6574d</id>
+      <BoundTo>e4f8c09d-b99b-4ef5-8683-8b1c867d94e0</BoundTo>
+    </Compile>
+    <Compile Include="Memrise\AndroidApp\Logins\EmailLogin.UserCode.cs">
+      <DependentUpon>EmailLogin.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9599c9a8-eadc-43fc-bb59-dc9cbd418421</id>
+      <BoundTo>e4f8c09d-b99b-4ef5-8683-8b1c867d94e0</BoundTo>
+    </Compile>
+    <Compile Include="Memrise\AndroidApp\Logins\Recording1.cs">
+      <BoundTo>7652335b-ed53-4855-aa6f-9f39c53926bf</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6e9785db-49c1-4de9-8250-98c1aa4f62b6</id>
+    </Compile>
+    <Compile Include="Memrise\AndroidApp\Logins\Recording1.UserCode.cs">
+      <BoundTo>7652335b-ed53-4855-aa6f-9f39c53926bf</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>902670fa-48eb-484d-a74e-8a8575fc3c55</id>
+    </Compile>
+    <Compile Include="Memrise\WebApp\Dashboard\HomeNavigation.cs">
+      <BoundTo>61142acc-b9e5-441e-a293-83c2189e3442</BoundTo>
+      <DependentUpon>HomeNavigation.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c2e15080-32ec-4e19-9115-6637ce67cb4a</id>
+    </Compile>
+    <Compile Include="Memrise\WebApp\Dashboard\HomeNavigation.UserCode.cs">
+      <BoundTo>61142acc-b9e5-441e-a293-83c2189e3442</BoundTo>
+      <DependentUpon>HomeNavigation.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b24c7e67-2634-4316-88c3-aaad50b2f921</id>
+    </Compile>
+    <Compile Include="Memrise\WebApp\EndEvents\CloseBrowserOnDashboard.cs">
+      <DependentUpon>CloseBrowserOnDashboard.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c8729a6d-3571-4a39-814b-8cef444fb6a3</id>
+      <BoundTo>6c6a0db6-d6dd-4653-83d4-8d47a5e745d1</BoundTo>
+    </Compile>
+    <Compile Include="Memrise\WebApp\EndEvents\CloseBrowserOnDashboard.UserCode.cs">
+      <DependentUpon>CloseBrowserOnDashboard.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5c6f319d-4067-493c-9912-a36c3e352cf4</id>
+      <BoundTo>6c6a0db6-d6dd-4653-83d4-8d47a5e745d1</BoundTo>
+    </Compile>
+    <Compile Include="Memrise\WebApp\EndEvents\CloseBrowserOnApp.cs">
+      <BoundTo>06f503ff-1472-45bf-9d22-faa0830c6f35</BoundTo>
+      <DependentUpon>CloseBrowserOnApp.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>59a8ca53-8a24-4e1f-aaa2-2822cc4dc72c</id>
+    </Compile>
+    <Compile Include="Memrise\WebApp\EndEvents\CloseBrowserOnApp.UserCode.cs">
+      <BoundTo>06f503ff-1472-45bf-9d22-faa0830c6f35</BoundTo>
+      <DependentUpon>CloseBrowserOnApp.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b4b60eb8-951d-4c40-9f1e-3ad45365f208</id>
+    </Compile>
+    <Compile Include="Memrise\WebApp\Logins\EmailLogin.cs">
+      <BoundTo>9fb51175-a7ce-4d5f-9bb1-5a57c96ce9d2</BoundTo>
+      <DependentUpon>EmailLogin.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1bdf7026-6ca9-4794-ae2d-337b2d318de2</id>
+    </Compile>
+    <Compile Include="Memrise\WebApp\Logins\EmailLogin.UserCode.cs">
+      <BoundTo>9fb51175-a7ce-4d5f-9bb1-5a57c96ce9d2</BoundTo>
+      <DependentUpon>EmailLogin.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9a196ce8-50a0-432b-93bb-b87d6c634174</id>
+    </Compile>
+    <Compile Include="Memrise\WebApp\Logins\GoogleLogin.cs">
+      <BoundTo>19d0f22a-2b44-4ff7-81a9-a6753a096afc</BoundTo>
+      <DependentUpon>GoogleLogin.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f0cb3cbc-49a1-4cf1-b320-b05d96398685</id>
+    </Compile>
+    <Compile Include="Memrise\WebApp\Logins\GoogleLogin.UserCode.cs">
+      <BoundTo>19d0f22a-2b44-4ff7-81a9-a6753a096afc</BoundTo>
+      <DependentUpon>GoogleLogin.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>22007349-ac72-4c99-80e2-d6a76ab82555</id>
+    </Compile>
+    <Compile Include="Memrise\WebApp\Lessons\StartinASession.cs">
+      <BoundTo>6b800360-08cf-4ae6-8fbe-5dbef2321eb7</BoundTo>
+      <DependentUpon>StartinASession.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>396832eb-c62e-491e-9f39-cd785a76ea69</id>
+    </Compile>
+    <Compile Include="Memrise\WebApp\Lessons\StartinASession.UserCode.cs">
+      <BoundTo>6b800360-08cf-4ae6-8fbe-5dbef2321eb7</BoundTo>
+      <DependentUpon>StartinASession.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2b4c48b4-5ecb-40e5-aa72-dd0551c95a82</id>
+    </Compile>
+    <Compile Include="Memrise\WebApp\Logout\Logout.cs">
+      <BoundTo>caf60dba-6e3e-4e90-b185-4090938f9537</BoundTo>
+      <DependentUpon>Logout.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f26a5836-137c-4378-8940-e268778bbf3f</id>
+    </Compile>
+    <Compile Include="Memrise\WebApp\Logout\Logout.UserCode.cs">
+      <BoundTo>caf60dba-6e3e-4e90-b185-4090938f9537</BoundTo>
+      <DependentUpon>Logout.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2d433bb4-368a-4840-9bcf-f501a9d7db57</id>
+    </Compile>
+    <Compile Include="Memrise\WebApp\Payment\PromoPopUpAccept.cs">
+      <BoundTo>4b5460f2-e738-4e86-8fe8-16520214bbc6</BoundTo>
+      <DependentUpon>PromoPopUpAccept.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>cd7055ef-aa82-4516-90c9-69e26dd46ff2</id>
+    </Compile>
+    <Compile Include="Memrise\WebApp\Payment\PromoPopUpAccept.UserCode.cs">
+      <BoundTo>4b5460f2-e738-4e86-8fe8-16520214bbc6</BoundTo>
+      <DependentUpon>PromoPopUpAccept.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b9babc22-1f22-47f4-b0f7-a52f8c061121</id>
+    </Compile>
+    <Compile Include="Memrise\WebApp\Payment\PaymentPage.cs">
+      <BoundTo>945be1d8-5932-4960-b206-05fa5668c9a9</BoundTo>
+      <DependentUpon>PaymentPage.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>260b23b4-d641-486a-b488-e8b28ce1a79c</id>
+    </Compile>
+    <Compile Include="Memrise\WebApp\Payment\PaymentPage.UserCode.cs">
+      <BoundTo>945be1d8-5932-4960-b206-05fa5668c9a9</BoundTo>
+      <DependentUpon>PaymentPage.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>468b1aa7-9067-41f6-b1d5-5d23d27f0578</id>
+    </Compile>
+    <Compile Include="Memrise\WebApp\Payment\PromoPopUpClose.cs">
+      <BoundTo>1c18c553-bea1-45d3-bbe3-9a3808c86f73</BoundTo>
+      <DependentUpon>PromoPopUpClose.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b30df3fa-b907-45bc-bf4c-284cddac0578</id>
+    </Compile>
+    <Compile Include="Memrise\WebApp\Payment\PromoPopUpClose.UserCode.cs">
+      <BoundTo>1c18c553-bea1-45d3-bbe3-9a3808c86f73</BoundTo>
+      <DependentUpon>PromoPopUpClose.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9d228b16-6752-4110-a834-6504fb8e8923</id>
+    </Compile>
+    <Compile Include="Memrise\WebApp\Start events\LaunchInChromeIncognito.cs">
+      <BoundTo>97dbd32c-2411-4c6f-9171-eb8447c1f047</BoundTo>
+      <DependentUpon>LaunchInChromeIncognito.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>967d2fb5-5f64-4d7b-95a0-0103e007bb68</id>
+    </Compile>
+    <Compile Include="Memrise\WebApp\Start events\LaunchInChromeIncognito.UserCode.cs">
+      <BoundTo>97dbd32c-2411-4c6f-9171-eb8447c1f047</BoundTo>
+      <DependentUpon>LaunchInChromeIncognito.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5f1f03c1-f3ea-4eda-9e05-f8d2fc51e192</id>
+    </Compile>
+    <Compile Include="MyTest1Repository.cs">
+      <BoundTo>4bb8a466-5557-4837-9030-ee0422c06940</BoundTo>
+      <DependentUpon>MyTest1Repository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>bf7bbe3e-a0ca-4aea-96cd-4b7a16be96c8</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>01964b3b-a986-4c7e-8379-342f2eda4144</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>2eb477d5-add3-4f9d-b857-33b01e202ff6</id>
+    </None>
+    <None Include="Memrise\AndroidApp\Logins\EmailLogin.rxrec">
+      <BoundTo>4bb8a466-5557-4837-9030-ee0422c06940</BoundTo>
+      <id>e4f8c09d-b99b-4ef5-8683-8b1c867d94e0</id>
+      <recordtableid>3827aa83-5c87-4809-a30e-d7ad07188b2a</recordtableid>
+    </None>
+    <None Include="Memrise\AndroidApp\Logins\Recording1.rxrec">
+      <BoundTo>4bb8a466-5557-4837-9030-ee0422c06940</BoundTo>
+      <id>7652335b-ed53-4855-aa6f-9f39c53926bf</id>
+      <recordtableid>a6d522c6-f45a-4006-b52b-6995bfb04845</recordtableid>
+    </None>
+    <None Include="Memrise\WebApp\Dashboard\HomeNavigation.rxrec">
+      <BoundTo>4bb8a466-5557-4837-9030-ee0422c06940</BoundTo>
+      <id>61142acc-b9e5-441e-a293-83c2189e3442</id>
+      <recordtableid>70a6b8ad-a51b-4f31-95ff-1511d8b3d316</recordtableid>
+    </None>
+    <None Include="Memrise\WebApp\EndEvents\CloseBrowserOnDashboard.rxrec">
+      <BoundTo>4bb8a466-5557-4837-9030-ee0422c06940</BoundTo>
+      <id>6c6a0db6-d6dd-4653-83d4-8d47a5e745d1</id>
+      <recordtableid>79b23647-3d2a-483c-bb5e-d282e2f99188</recordtableid>
+    </None>
+    <None Include="Memrise\WebApp\EndEvents\CloseBrowserOnApp.rxrec">
+      <BoundTo>4bb8a466-5557-4837-9030-ee0422c06940</BoundTo>
+      <id>06f503ff-1472-45bf-9d22-faa0830c6f35</id>
+      <recordtableid>f8c50ae9-a04e-46e9-a1dc-590fc36cfd41</recordtableid>
+    </None>
+    <None Include="Memrise\WebApp\Logins\EmailLogin.rxrec">
+      <BoundTo>4bb8a466-5557-4837-9030-ee0422c06940</BoundTo>
+      <id>9fb51175-a7ce-4d5f-9bb1-5a57c96ce9d2</id>
+      <recordtableid>f54f1069-2f67-4b96-a099-eec806d90957</recordtableid>
+    </None>
+    <None Include="Memrise\WebApp\Logins\GoogleLogin.rxrec">
+      <BoundTo>4bb8a466-5557-4837-9030-ee0422c06940</BoundTo>
+      <id>19d0f22a-2b44-4ff7-81a9-a6753a096afc</id>
+      <recordtableid>f835e951-13ff-4268-8590-7dec5c59d95f</recordtableid>
+    </None>
+    <None Include="Memrise\WebApp\Lessons\StartinASession.rxrec">
+      <BoundTo>4bb8a466-5557-4837-9030-ee0422c06940</BoundTo>
+      <id>6b800360-08cf-4ae6-8fbe-5dbef2321eb7</id>
+      <recordtableid>58d877e0-4d18-4101-960d-4c894965b86a</recordtableid>
+    </None>
+    <None Include="Memrise\WebApp\Logout\Logout.rxrec">
+      <BoundTo>4bb8a466-5557-4837-9030-ee0422c06940</BoundTo>
+      <id>caf60dba-6e3e-4e90-b185-4090938f9537</id>
+      <recordtableid>61e945ee-71e7-4d84-a4c3-6f48406f8a61</recordtableid>
+    </None>
+    <None Include="Memrise\WebApp\Payment\PromoPopUpAccept.rxrec">
+      <BoundTo>4bb8a466-5557-4837-9030-ee0422c06940</BoundTo>
+      <id>4b5460f2-e738-4e86-8fe8-16520214bbc6</id>
+      <recordtableid>44c2302d-3958-411f-b75f-89dbc70bd311</recordtableid>
+    </None>
+    <None Include="Memrise\WebApp\Payment\PaymentPage.rxrec">
+      <BoundTo>4bb8a466-5557-4837-9030-ee0422c06940</BoundTo>
+      <id>945be1d8-5932-4960-b206-05fa5668c9a9</id>
+      <recordtableid>71b737bd-9c18-47f4-9e8a-8496512310a0</recordtableid>
+    </None>
+    <None Include="Memrise\WebApp\Payment\PromoPopUpClose.rxrec">
+      <BoundTo>4bb8a466-5557-4837-9030-ee0422c06940</BoundTo>
+      <id>1c18c553-bea1-45d3-bbe3-9a3808c86f73</id>
+      <recordtableid>b6e7675d-3e5d-44bb-ae34-2168cccc92f2</recordtableid>
+    </None>
+    <None Include="Memrise\WebApp\Start events\LaunchInChromeIncognito.rxrec">
+      <BoundTo>4bb8a466-5557-4837-9030-ee0422c06940</BoundTo>
+      <id>97dbd32c-2411-4c6f-9171-eb8447c1f047</id>
+      <recordtableid>99c6a36f-9788-4315-85ec-d3166512f478</recordtableid>
+    </None>
+    <None Include="MyTest1Repository.rximg">
+      <BoundTo>4bb8a466-5557-4837-9030-ee0422c06940</BoundTo>
+      <DependentUpon>MyTest1Repository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>6327b866-9c43-420e-8a27-495fd023702f</id>
+    </None>
+    <None Include="MyTest1Repository.rxrep">
+      <id>4bb8a466-5557-4837-9030-ee0422c06940</id>
+      <repoid>ff7215c2-1fdf-425f-a3c5-e5cdf3f84e9d</repoid>
+      <reporootid>db9647e4-ee00-45ed-ba86-06c2f3589160</reporootid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MyTest1.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>4cdf1c03-acf2-4a59-9f92-8a473b72db51</id>
+    </Content>
+    <Content Include="MyTest1.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>3baffea3-4ee5-4122-8635-98de36e47cad</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Memrise">
+      <id>e23c1962-fb51-47bd-a7d3-e36e9ea29392</id>
+    </Folder>
+    <Folder Include="Memrise\AndroidApp">
+      <id>d27961ed-2665-4583-b37a-e39d150dd66d</id>
+    </Folder>
+    <Folder Include="Memrise\AndroidApp\Logins">
+      <id>37bc1d88-cc06-49a3-8908-4a1191ccbd65</id>
+    </Folder>
+    <Folder Include="Memrise\WebApp">
+      <id>cf480a62-2158-439a-9af8-280602a088ad</id>
+    </Folder>
+    <Folder Include="Memrise\WebApp\Logins">
+      <id>415e6a5c-167c-45ee-88fa-8f40af4aa072</id>
+    </Folder>
+    <Folder Include="Memrise\WebApp\Lessons">
+      <id>fc612e24-3b69-4ad7-957e-e7392beb0bdc</id>
+    </Folder>
+    <Folder Include="Memrise\WebApp\Dashboard">
+      <id>aeec5d46-14be-4c9f-928f-a611f9bddf64</id>
+    </Folder>
+    <Folder Include="Memrise\WebApp\EndEvents">
+      <id>90a5fd1b-c939-4566-ba79-c38081df634d</id>
+    </Folder>
+    <Folder Include="Memrise\WebApp\Logout">
+      <id>72d55765-6716-4c15-a648-078a1af7fc89</id>
+    </Folder>
+    <Folder Include="Memrise\WebApp\Start events">
+      <id>3e190b43-51ae-45ed-bf03-8d7a80234720</id>
+    </Folder>
+    <Folder Include="Memrise\WebApp\Payment">
+      <id>b916432a-d7e6-4040-b7b6-1aefcf445adc</id>
+    </Folder>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

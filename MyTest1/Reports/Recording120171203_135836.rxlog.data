@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1024d4ebe743d180"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="taran"
+		rxversion="7.2.1.0"
+		host="DESKTOP-B2K450G"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="6400x2160"
+		timestamp="03/12/2017 13:58:40"
+		timestampiso="2017-12-03T13:58:40"
+		endtime="03/12/2017 13:58:47"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.838"
+			timeRelativeToTestModuleStartTime="00:00.839"
+			timeWallClock="13:58:41"
+			time="00:00.838"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Program Files (x86)\KeePass Password Safe 2\KeePass.exe' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording1.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.915"
+			timeRelativeToTestModuleStartTime="00:00.916"
+			timeWallClock="13:58:41"
+			time="00:00.915"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'KeyPromptForm.Text' at 76;5.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='KeyPromptForm']/?/?/text[@accessiblerole='Text']"
+				fullname="MyTest1Repository.KeyPromptForm.Text"
+				id="8a7485bf9df74af2a570bd9895a3044f"
+				timeout="60000"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.743"
+			timeRelativeToTestModuleStartTime="00:01.744"
+			timeWallClock="13:58:42"
+			time="00:01.743"
+			level="Warn"
+			category="Qt">
+			<message>
+				Failed to instrument Qt process. Please make sure you have enough privileges to access the process and a supported version of Qt.<br/>Process: 'AsPowerBar' (pid 4760)<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="QtWindow"
+				showInProgressDialog="False"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording1.cs"
+				codeline="87"
+				loglvl="Warn"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.458"
+			timeRelativeToTestModuleStartTime="00:03.459"
+			timeWallClock="13:58:44"
+			time="00:03.458"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'llamalovesgiraffe' with focus on 'KeyPromptForm.Text'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='KeyPromptForm']/?/?/text[@accessiblerole='Text']"
+				fullname="MyTest1Repository.KeyPromptForm.Text"
+				id="8a7485bf9df74af2a570bd9895a3044f"
+				timeout="60000"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording1.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.844"
+			timeRelativeToTestModuleStartTime="00:05.845"
+			timeWallClock="13:58:46"
+			time="00:05.844"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}' with focus on 'KeyPromptForm.Text'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='KeyPromptForm']/?/?/text[@accessiblerole='Text']"
+				fullname="MyTest1Repository.KeyPromptForm.Text"
+				id="8a7485bf9df74af2a570bd9895a3044f"
+				timeout="60000"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording1.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

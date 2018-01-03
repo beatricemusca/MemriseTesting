@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2d1eedcde01ceda"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Beatrice"
+		rxversion="7.2.1.0"
+		host="TRISY-PC"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2560x1080"
+		timestamp="02/01/2018 13:17:28"
+		timestampiso="2018-01-02T13:17:28"
+		endtime="02/01/2018 13:17:39"
+		timeoutfactor="1"
+		module="EmailLogin">
+		<detail>
+			EmailLogin
+		</detail>
+		<errormessage>
+			Failed to find item 'MyTest1Repository.TrialActivationRanorexTestAutomati.TitleClearfix'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.470"
+			timeRelativeToTestModuleStartTime="00:00.472"
+			timeWallClock="13:17:29"
+			time="00:00.470"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'http://memrise.com' with browser 'Chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\Beatrice\Desktop\MyTest1\MyTest1\Memrise\WebApp\Logins\EmailLogin.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.575"
+			timeRelativeToTestModuleStartTime="00:00.577"
+			timeWallClock="13:17:29"
+			time="00:00.575"
+			level="Info"
+			category="Mouse"
+			errimg=".\EmailLog_6c5e110a_6913da56_trace.jpg"
+			errthumb=".\EmailLog_6c5e110a_6913da56_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'MemriseLearningMadeJoyful.Login' at 12;4.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.memrise.com']//div[#'header']/?/?/ul//span[@innertext='Login']"
+				fullname="MyTest1Repository.MemriseLearningMadeJoyful.Login"
+				id="b382df2f4b3445a995e03b6cb62e9ef6"
+				timeout="60000"
+				codefile="C:\Users\Beatrice\Desktop\MyTest1\MyTest1\Memrise\WebApp\Logins\EmailLogin.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.667"
+			timeRelativeToTestModuleStartTime="00:04.669"
+			timeWallClock="13:17:33"
+			time="00:04.667"
+			level="Info"
+			category="Mouse"
+			errimg=".\EmailLog_6c5e110a_8e12b270_trace.jpg"
+			errthumb=".\EmailLog_6c5e110a_8e12b270_trace_thumb.jpg">
+			<message>
+				Mouse Right Click item 'TrialActivationRanorexTestAutomati.TitleClearfix' at 394;73.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.ranorex.com']//div[#'header']/div/div/div"
+				fullname="MyTest1Repository.TrialActivationRanorexTestAutomati.TitleClearfix"
+				id="a09e16126b6f46ad880f0574c818750a"
+				timeout="6000"
+				codefile="C:\Users\Beatrice\Desktop\MyTest1\MyTest1\Memrise\WebApp\Logins\EmailLogin.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.891"
+			timeRelativeToTestModuleStartTime="00:10.893"
+			timeWallClock="13:17:39"
+			time="00:10.891"
+			level="Error"
+			category="Module"
+			errimg=".\EmailLog_6c5e110a_2e28b14b_trace.jpg"
+			errthumb=".\EmailLog_6c5e110a_2e28b14b_trace_thumb.jpg">
+			<message>
+				Failed to find item 'MyTest1Repository.TrialActivationRanorexTestAutomati.TitleClearfix'.<br/>No element found for path '/dom[@domain='www.ranorex.com']//div[#'header']/div/div/div' within 6s.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at MyTest1.MyTest1RepositoryFolders.TrialActivationRanorexTestAutomatiAppFolder.get_TitleClearfix() in C:\Users\Beatrice\Desktop\MyTest1\MyTest1\MyTest1Repository.cs:line 2234
+   at MyTest1.Memrise.WebApp.Logins.EmailLogin.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\Beatrice\Desktop\MyTest1\MyTest1\Memrise\WebApp\Logins\EmailLogin.cs:line 91
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\Beatrice\Desktop\MyTest1\MyTest1\Memrise\WebApp\Logins\EmailLogin.cs"
+				codeline="91"
+				type="repoitem"
+				path="/dom[@domain='www.ranorex.com']//div[#'header']/div/div/div"
+				fullname="MyTest1Repository.TrialActivationRanorexTestAutomati.TitleClearfix"
+				id="a09e16126b6f46ad880f0574c818750a"
+				timeout="6000"
+				loglvl="Error"
+				itemindex="2">
+			</metainfo>
+		</item>
+	</activity>
+</report>

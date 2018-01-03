@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="4.41s"
+		durationms="4412"
+		type="root"
+		rid="fa5ad9349a6374c"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="taran"
+		rxversion="7.2.1.0"
+		host="DESKTOP-B2K450G"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="6400x2160"
+		timestamp="03/12/2017 18:10:06"
+		timestampiso="2017-12-03T18:10:06"
+		endtime="03/12/2017 18:10:10"
+		timeoutfactor="1"
+		module="EmailLogin">
+		<detail>
+			EmailLogin
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.896"
+			timeRelativeToTestModuleStartTime="00:00.896"
+			timeWallClock="18:10:06"
+			time="00:00.896"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'http://memrise.com' with browser 'Chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\WebApp\Logins\EmailLogin.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.018"
+			timeRelativeToTestModuleStartTime="00:01.018"
+			timeWallClock="18:10:07"
+			time="00:01.018"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MemriseLearningMadeJoyful.Login' at 26;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.memrise.com']//div[#'header']/?/?/ul//span[@innertext='Login']"
+				fullname="MyTest1Repository.MemriseLearningMadeJoyful.Login"
+				id="b382df2f4b3445a995e03b6cb62e9ef6"
+				timeout="60000"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\WebApp\Logins\EmailLogin.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.846"
+			timeRelativeToTestModuleStartTime="00:01.847"
+			timeWallClock="18:10:07"
+			time="00:01.846"
+			level="Warn"
+			category="Qt">
+			<message>
+				Failed to instrument Qt process. Please make sure you have enough privileges to access the process and a supported version of Qt.<br/>Process: 'AsPowerBar' (pid 16916)<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="QtWindow"
+				showInProgressDialog="False"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\WebApp\Logins\EmailLogin.cs"
+				codeline="87"
+				loglvl="Warn"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.411"
+			timeRelativeToTestModuleStartTime="00:04.412"
+			timeWallClock="18:10:10"
+			time="00:04.411"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

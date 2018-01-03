@@ -1,0 +1,20 @@
+﻿<Properties>
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{0EE81627-725C-4274-9DEA-32595203E1E3}</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>e23c1962-fb51-47bd-a7d3-e36e9ea29392</string>
+      <string>cf480a62-2158-439a-9af8-280602a088ad</string>
+      <string>90a5fd1b-c939-4566-ba79-c38081df634d</string>
+      <string>415e6a5c-167c-45ee-88fa-8f40af4aa072</string>
+      <string>f54f1069-2f67-4b96-a099-eec806d90957</string>
+      <string>72d55765-6716-4c15-a648-078a1af7fc89</string>
+      <string>b916432a-d7e6-4040-b7b6-1aefcf445adc</string>
+      <string>3e190b43-51ae-45ed-bf03-8d7a80234720</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution MyTest1[Solution Items[]MyTest1[Memrise[WebApp[Dashboard[]EndEvents[]Logins[EmailLogin.rxrec[]]Logout[]Payment[]Start events[]]]]]]&#xD;&#xA;Solution MyTest1\MyTest1\Memrise\WebApp\EndEvents\Close_browser.rxrec&#xD;&#xA;Solution MyTest1\MyTest1\Memrise\WebApp\Dashboard" />
+  <StartupProject value="{0EE81627-725C-4274-9DEA-32595203E1E3}" />
+</Properties>

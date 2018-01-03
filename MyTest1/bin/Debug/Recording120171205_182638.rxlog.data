@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="ac0cb2ac035632c"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="beatr"
+		rxversion="7.2.1.0"
+		host="USB-LGH850d3335ed1 (Unknown)
+USB - LGH850d3335ed1"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="05/12/2017 18:26:43"
+		timestampiso="2017-12-05T18:26:43"
+		endtime="05/12/2017 18:26:54"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<errormessage>
+			Device  WaitFor(DeviceConnected) timed out. ConnectTimeout: 00:00:10
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.549"
+			timeRelativeToTestModuleStartTime="00:00.552"
+			timeWallClock="18:26:44"
+			time="00:00.549"
+			level="Info"
+			category="Application">
+			<message>
+				Run mobile app 'com.memrise.android.memrisecompanion' on device USB-LGH850d3335ed1.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\beatr\Desktop\MyTest1\MyTest1\Memrise\AndroidApp\Logins\Recording1.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.842"
+			timeRelativeToTestModuleStartTime="00:10.845"
+			timeWallClock="18:26:54"
+			time="00:10.842"
+			level="Error"
+			category="Module">
+			<message>
+				Device  WaitFor(DeviceConnected) timed out. ConnectTimeout: 00:00:10
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Plugin.Mobile.Device.MobileDevice.WaitFor(ChannelState state)
+   at Ranorex.Plugin.Mobile.Device.MobileDevice.ShouldRestartApp(AppInformation app, Boolean resetInitialState)
+   at Ranorex.Plugin.Mobile.Device.MobileDevice.StartApplication(AppInformation app, Boolean resetInitialState)
+   at Ranorex.Host.RunMobileApp(String deviceDisplayName, String appName, Boolean resetInitialState)
+   at MyTest1.Memrise.AndroidApp.Logins.Recording1.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\beatr\Desktop\MyTest1\MyTest1\Memrise\AndroidApp\Logins\Recording1.cs:line 83
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\beatr\Desktop\MyTest1\MyTest1\Memrise\AndroidApp\Logins\Recording1.cs"
+				codeline="83"
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

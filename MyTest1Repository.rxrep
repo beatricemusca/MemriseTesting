@@ -1,0 +1,1281 @@
+﻿<repository
+id="ff7215c2-1fdf-425f-a3c5-e5cdf3f84e9d"
+name="MyTest1Repository"
+rxversion="7.2">
+	<codegen
+	classname="MyTest1Repository"
+	namespace="MyTest1">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="db9647e4-ee00-45ed-ba86-06c2f3589160"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="4e9b230e-3b91-44df-994a-3e9c1afedb33"
+		isrooted="True"
+		name="KeyPromptForm"
+		refpath="/form[@controlname='KeyPromptForm']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="c6a469af-d956-4fd1-9a94-5d016cfdf485"
+			name="MBtnOK"
+			refimgid="b343b7f0-a89d-474a-92f1-67777ba6bf71"
+			refpath="/form[@controlname='KeyPromptForm']/button[@controlname='m_btnOK']"
+			searchtimeout="30000ms">
+				/form[@controlname='KeyPromptForm']/button[@controlname='m_btnOK']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="8a7485bf-9df7-4af2-a570-bd9895a3044f"
+			name="Text"
+			refimgid="eea811fb-fb57-41d8-aa48-ddc01374e4a9"
+			refpath="/form[@controlname='KeyPromptForm']/text[@controlname='m_tbPassword']/text[@accessiblerole='Text']"
+			searchtimeout="30000ms">
+				/form[@controlname='KeyPromptForm']/?/?/text[@accessiblerole='Text']
+			</item>
+			<basepath>
+				/form[@controlname='KeyPromptForm']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJcSURBVDhPhZJdSJNRGMe3ldteYWsEQfZ1YaAh
+ZVRGRo0oaFESVq6lA5MCI7ooCHFudlFW5tYHESSZ+RFGEBVBhjeWoHQ1LesmooZG4ZauzeHm1M23
+f+c5b8cpNPrD/+J9z/k9z3k+VGlkZG5mHmNOMHuZS5n/K4k5aTab4fMNY3pGRnxKRnRSRoPnFtgZ
+2UMX/6VNGo0Gs7MyIlEZ3/wJfBqexrvPU3j7MY7XAzEEfiVR47pEQX4oSEp6tVoNWf6N0VCSw1kr
+VomM3BdvvMCT7gn0sEAtD5/RvwHmOSUps4DzN26FwWjimbu9MTjqOniQ1s4wGp+Po3cwjg35m+nf
+coKNVHNkIvVsutzTP87hl31RntloWgbL4XO4+TiMK20hDI0k6F6MAjR/9Q0tqJkCzIfbXkWwdl0h
+tuw8xuHae0F2PsnvUYAgdVvAVRfuoLzShbITTljLnSi216DI5oClxIE9xdUcPn97DJ6OMAp37OYB
+ZmhUotvOy62oPOtGxRk37KcacPTkNRw6Xo8iez322q5y+LR7FI67QVj2H+EBvDRn0bCcvALodBK0
+zKalWbxmnWSATm+AlpngiroArj8KsUmt5gFKaUne9Cs1r8leL2qDlLmE1yy+yQTbav14/7dXzFz4
+yZaEGpadW4AMrX7OizNSXsRMsNXpR2NLJ8H3FZytJ20YvYLmLEYlGiaeTfDBqhF8+KKMWkFT+v6g
+/SlfknSw1RXgsF7KJHilgi1Ub05uHl8SmjONqpp1mxo2yGpuau8SmfkGphMd0oZh2/Zd2HegRHSb
+3MQ8TyrVHxMR59kie/4bAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="329cf3dd-85f1-4103-9333-074e2fa6e3ea"
+		isrooted="True"
+		name="MainForm"
+		refpath="/form[@controlname='MainForm']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="a1763316-51b3-4278-a76b-f89188eedeb7"
+			name="Edit"
+			refimgid="2a812f8d-173e-4d6a-8182-6e7adf343255"
+			refpath="/form[@controlname='MainForm']/menubar[@controlname='m_menuMain']/menuitem[@accessiblename='Edit']"
+			searchtimeout="30000ms">
+				/form[@controlname='MainForm']/?/?/menuitem[@accessiblename='Edit']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="ce0463b8-55b2-4a37-b54c-e4c677c05587"
+			name="File"
+			refimgid="4a2db610-5a62-4afd-beed-87528efb6015"
+			refpath="/form[@controlname='MainForm']/menubar[@controlname='m_menuMain']/menuitem[@accessiblename='File']"
+			searchtimeout="30000ms">
+				/form[@controlname='MainForm']/?/?/menuitem[@accessiblename='File']
+			</item>
+			<item
+			addcaps="treeitem,accessible,accessibletreeitem"
+			capname="treeitem"
+			id="dfd2b013-8aee-4398-9ad7-c10f992091f1"
+			name="NewDatabase"
+			refimgid="983d22f6-6fc2-4991-bccf-307f62e70b1d"
+			refpath="/form[@controlname='MainForm']/container[@controlname='m_splitHorizontal']/container[@caption='' and @controltypename='SplitterPanel' and @instance='0']/container[@controlname='m_splitVertical']/container[@caption='' and @controltypename='SplitterPanel' and @instance='0']/tree[@controlname='m_tvGroups']/tree[@accessiblerole='Outline']/treeitem[@accessiblename='NewDatabase']"
+			searchtimeout="30000ms">
+				/form[@controlname='MainForm']/container[@controlname='m_splitHorizontal']/?/?/container[@controlname='m_splitVertical']/?/?/tree[@controlname='m_tvGroups']/?/?/treeitem[@accessiblename='NewDatabase']
+			</item>
+			<basepath>
+				/form[@controlname='MainForm']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJcSURBVDhPhZJdSJNRGMe3ldteYWsEQfZ1YaAh
+ZVRGRo0oaFESVq6lA5MCI7ooCHFudlFW5tYHESSZ+RFGEBVBhjeWoHQ1LesmooZG4ZauzeHm1M23
+f+c5b8cpNPrD/+J9z/k9z3k+VGlkZG5mHmNOMHuZS5n/K4k5aTab4fMNY3pGRnxKRnRSRoPnFtgZ
+2UMX/6VNGo0Gs7MyIlEZ3/wJfBqexrvPU3j7MY7XAzEEfiVR47pEQX4oSEp6tVoNWf6N0VCSw1kr
+VomM3BdvvMCT7gn0sEAtD5/RvwHmOSUps4DzN26FwWjimbu9MTjqOniQ1s4wGp+Po3cwjg35m+nf
+coKNVHNkIvVsutzTP87hl31RntloWgbL4XO4+TiMK20hDI0k6F6MAjR/9Q0tqJkCzIfbXkWwdl0h
+tuw8xuHae0F2PsnvUYAgdVvAVRfuoLzShbITTljLnSi216DI5oClxIE9xdUcPn97DJ6OMAp37OYB
+ZmhUotvOy62oPOtGxRk37KcacPTkNRw6Xo8iez322q5y+LR7FI67QVj2H+EBvDRn0bCcvALodBK0
+zKalWbxmnWSATm+AlpngiroArj8KsUmt5gFKaUne9Cs1r8leL2qDlLmE1yy+yQTbav14/7dXzFz4
+yZaEGpadW4AMrX7OizNSXsRMsNXpR2NLJ8H3FZytJ20YvYLmLEYlGiaeTfDBqhF8+KKMWkFT+v6g
+/SlfknSw1RXgsF7KJHilgi1Ub05uHl8SmjONqpp1mxo2yGpuau8SmfkGphMd0oZh2/Zd2HegRHSb
+3MQ8TyrVHxMR59kie/4bAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="contextmenu,control,nativewindow"
+		capname="contextmenu"
+		id="f5b64114-825a-47f1-94b7-11bf8b4ef139"
+		isrooted="True"
+		name="KeePass"
+		refpath="/contextmenu[@processname='KeePass']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="23a63e84-0767-4493-a37b-2f0ca9375c2c"
+			name="Find"
+			refimgid="a15f51a8-ad6f-42f4-9bab-29d174e98041"
+			refpath="/contextmenu[@processname='KeePass']/menuitem[@accessiblename='Find...']"
+			searchtimeout="30000ms">
+				/contextmenu[@processname='KeePass']/menuitem[@accessiblename='Find...']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="6ed88aab-31d5-45de-9d7c-095e9f5f34ef"
+			name="Exit"
+			refimgid="9d947c6d-3730-42ac-b824-9d76b5a2b6ba"
+			refpath="/contextmenu[@processname='KeePass']/menuitem[@accessiblename='Exit']"
+			searchtimeout="30000ms">
+				/contextmenu[@processname='KeePass']/menuitem[@accessiblename='Exit']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="54f5b6a1-f643-4341-a366-f1f452531cb2"
+			name="MenuItemAll"
+			refimgid="3c7235ac-5d99-43b3-89dc-594f9d18ec6f"
+			refpath="/contextmenu[@processname='KeePass' and @controltypename='ToolStripDropDownMenu' and @instance='1']/menuitem[@accessiblename='All']"
+			searchtimeout="30000ms">
+				/contextmenu[@processname='KeePass']/menuitem[@accessiblename='All']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="2550a182-4c69-4eb0-b057-8efd863f13eb"
+			name="ShowEntries"
+			refimgid="5e90669c-6105-4029-92f8-8a9f9fa82ba8"
+			refpath="/contextmenu[@processname='KeePass']/menuitem[@accessiblename='Show Entries']"
+			searchtimeout="30000ms">
+				/contextmenu[@processname='KeePass']/menuitem[@accessiblename='Show Entries']
+			</item>
+			<basepath>
+				/contextmenu[@processname='KeePass']
+			</basepath>
+			<icon>
+				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
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="fa92f0f1-d522-48a2-8fa8-e5c113145c17"
+		isrooted="True"
+		name="SearchForm"
+		refpath="/form[@controlname='SearchForm']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="4740b98e-af0a-4837-9000-9a3f89623be3"
+			name="MBtnOK"
+			refimgid="b4e1eadb-3273-4738-9d7e-5e17b5930353"
+			refpath="/form[@controlname='SearchForm']/button[@controlname='m_btnOK']"
+			searchtimeout="30000ms">
+				/form[@controlname='SearchForm']/button[@controlname='m_btnOK']
+			</item>
+			<basepath>
+				/form[@controlname='SearchForm']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJcSURBVDhPhZJdSJNRGMe3ldteYWsEQfZ1YaAh
+ZVRGRo0oaFESVq6lA5MCI7ooCHFudlFW5tYHESSZ+RFGEBVBhjeWoHQ1LesmooZG4ZauzeHm1M23
+f+c5b8cpNPrD/+J9z/k9z3k+VGlkZG5mHmNOMHuZS5n/K4k5aTab4fMNY3pGRnxKRnRSRoPnFtgZ
+2UMX/6VNGo0Gs7MyIlEZ3/wJfBqexrvPU3j7MY7XAzEEfiVR47pEQX4oSEp6tVoNWf6N0VCSw1kr
+VomM3BdvvMCT7gn0sEAtD5/RvwHmOSUps4DzN26FwWjimbu9MTjqOniQ1s4wGp+Po3cwjg35m+nf
+coKNVHNkIvVsutzTP87hl31RntloWgbL4XO4+TiMK20hDI0k6F6MAjR/9Q0tqJkCzIfbXkWwdl0h
+tuw8xuHae0F2PsnvUYAgdVvAVRfuoLzShbITTljLnSi216DI5oClxIE9xdUcPn97DJ6OMAp37OYB
+ZmhUotvOy62oPOtGxRk37KcacPTkNRw6Xo8iez322q5y+LR7FI67QVj2H+EBvDRn0bCcvALodBK0
+zKalWbxmnWSATm+AlpngiroArj8KsUmt5gFKaUne9Cs1r8leL2qDlLmE1yy+yQTbav14/7dXzFz4
+yZaEGpadW4AMrX7OizNSXsRMsNXpR2NLJ8H3FZytJ20YvYLmLEYlGiaeTfDBqhF8+KKMWkFT+v6g
+/SlfknSw1RXgsF7KJHilgi1Ub05uHl8SmjONqpp1mxo2yGpuau8SmfkGphMd0oZh2/Zd2HegRHSb
+3MQ8TyrVHxMR59kie/4bAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="unknown,mobileapp,androidapp"
+		capname="mobileapp"
+		id="005a3774-9aaa-478f-8a73-6ae3c055138f"
+		isrooted="True"
+		name="IoSelendroidTestapp"
+		refpath="/mobileapp[@title='io.selendroid.testapp']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<folder
+			addcaps="container,androidelement,mobileuielement"
+			capname="container"
+			id="9ec178dd-2a03-48e2-b97c-af66be2981d5"
+			isrooted="True"
+			name="Linear"
+			refpath="/mobileapp[@title='io.selendroid.testapp']/form[@title='HomeScreenActivity']/container[@rid='content']/container[@containertype='Linear']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="button,androidelement,mobileuielement"
+				capname="button"
+				id="ec247723-b08b-4379-b420-4e1f6db02a67"
+				name="VisibleButtonTest"
+				refimgid="cb914b23-6046-4f54-9775-165025069817"
+				refpath="/mobileapp[@title='io.selendroid.testapp']/form[@title='HomeScreenActivity']/container[@rid='content']/container[@containertype='Linear']/container[4]/button[@contentdescription='visibleButtonTestCD']"
+				searchtimeout="30000ms">
+					/mobileapp[@title='io.selendroid.testapp']/form[@title='HomeScreenActivity']/container/container[@containertype='Linear']/container[4]/button[@contentdescription='visibleButtonTestCD']
+				</item>
+				<item
+				addcaps="button,androidelement,mobileuielement"
+				capname="button"
+				id="43858804-bf62-4221-9abe-8ae16a27c9a0"
+				name="ShowPopupWindowButton"
+				refimgid="5508d28b-5ac0-47dc-9185-7d9f7b42b8d1"
+				refpath="/mobileapp[@title='io.selendroid.testapp']/form[@title='HomeScreenActivity']/container[@rid='content']/container[@containertype='Linear']/container[5]/button[@contentdescription='showPopupWindowButtonCD']"
+				searchtimeout="30000ms">
+					/mobileapp[@title='io.selendroid.testapp']/form[@title='HomeScreenActivity']/container/container[@containertype='Linear']/container[5]/button[@contentdescription='showPopupWindowButtonCD']
+				</item>
+				<item
+				addcaps="button,androidelement,mobileuielement"
+				capname="button"
+				id="767c042f-3ef7-40cc-967a-32a775767934"
+				name="ShowToastButton"
+				refimgid="f2b0165d-4ad1-42d3-bf44-55217287c468"
+				refpath="/mobileapp[@title='io.selendroid.testapp']/form[@title='HomeScreenActivity']/container[@rid='content']/container[@containertype='Linear']/container[5]/button[@contentdescription='showToastButtonCD']"
+				searchtimeout="30000ms">
+					/mobileapp[@title='io.selendroid.testapp']/form[@title='HomeScreenActivity']/container/container[@containertype='Linear']/container[5]/button[@contentdescription='showToastButtonCD']
+				</item>
+				<item
+				addcaps="button,androidelement,mobileuielement"
+				capname="button"
+				id="4ecc45eb-8296-484d-98d3-2450eda80637"
+				name="ExceptionTestButton"
+				refimgid="58414654-45ed-48a9-b286-41f96fbc55a8"
+				refpath="/mobileapp[@title='io.selendroid.testapp']/form[@title='HomeScreenActivity']/container[@rid='content']/container[@containertype='Linear']/container[5]/button[@contentdescription='exceptionTestButtonCD']"
+				searchtimeout="30000ms">
+					/mobileapp[@title='io.selendroid.testapp']/form[@title='HomeScreenActivity']/container/container[@containertype='Linear']/container[5]/button[@contentdescription='exceptionTestButtonCD']
+				</item>
+				<basepath>
+					/mobileapp[@title='io.selendroid.testapp']/form[@title='HomeScreenActivity']/container/container[@containertype='Linear']
+				</basepath>
+			</folder>
+			<item
+			addcaps="button,androidelement,mobileuielement"
+			capname="button"
+			id="62556ba5-9e66-4df3-9e62-8eaeab123a79"
+			name="PopupDismissButton"
+			refimgid="4019d450-22e7-4ae0-ba96-d8d99a621223"
+			refpath="/mobileapp[@title='io.selendroid.testapp']/form[@title='(none)']/container[@containertype='Linear']/container[@containertype='Linear']/container[@containertype='Linear']/button[@rid='popup_dismiss_button']"
+			searchtimeout="30000ms">
+				/mobileapp[@title='io.selendroid.testapp']/form[@title='(none)']/container/container[@containertype='Linear']/container[@containertype='Linear']/button[@rid='popup_dismiss_button']
+			</item>
+			<item
+			addcaps="checkbox,androidelement,mobileuielement"
+			capname="checkbox"
+			id="5154e523-916a-4fca-bde6-905c3706d4f2"
+			name="InputAddsCheckBox"
+			refimgid="15c4161b-1e96-4949-b098-b75034d7f22e"
+			refpath="/mobileapp[@title='io.selendroid.testapp']/form[@title='HomeScreenActivity']/container[@rid='content']/container[@containertype='Linear']/container[@contentdescription='imageViewCD' and @rid='lastElementRow']/checkbox[@resourceid='R.string.label_acceptAdds']"
+			searchtimeout="3000ms">
+				/mobileapp[@title='io.selendroid.testapp']/form[@title='HomeScreenActivity']//container[@rid='lastElementRow']/checkbox[@resourceid='R.string.label_acceptAdds']
+			</item>
+			<item
+			addcaps="text,androidelement,mobileuielement"
+			capname="text"
+			id="805d8b58-5214-4e39-8e57-77e14e5f176b"
+			name="MyTextField"
+			refimgid="0189c8fb-0d46-444f-9231-ff063b6d23af"
+			refpath="/mobileapp[@title='io.selendroid.testapp']/form[@title='HomeScreenActivity']/container[@rid='content']/container[@containertype='Linear']/text[@contentdescription='my_text_fieldCD']"
+			searchtimeout="3000ms">
+				/mobileapp[@title='io.selendroid.testapp']/form[@title='HomeScreenActivity']//text[@contentdescription='my_text_fieldCD']
+			</item>
+			<basepath>
+				/mobileapp[@title='io.selendroid.testapp']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABl0RVh0
+U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAABNSURBVDhPY6A6CA0NWQ/E//Hg9VClmAAo
+KYCmGCuGKscEQEmwAVAuVkBInqCCUQNGjgGEMFQpdoBLIS5xDABU0ICsGAtugCqlBmBgAAAcoXfL
+E78sAQAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="18ac6d3c-c139-4b83-9376-4c2263320ad3"
+		isrooted="True"
+		name="MemriseLearningMadeJoyfulGoogle"
+		refimgid="03114b9d-9d27-47b0-8493-3f00832a92c2"
+		refpath="/form[@title='Memrise - Learning, made joyful - Google Chrome']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="unknown,nativewindow"
+			capname="unknown"
+			id="b88f08e1-2ef7-4da6-ac71-5a4a841bfb30"
+			name="Element1329142384"
+			refimgid="45f4a751-8d81-43f8-948d-4a61de4241c6"
+			refpath="/form[@title~'^Memrise\ -\ Learning,\ made\ ']/element[@controlid='1329142384']"
+			searchtimeout="30000ms">
+				/form[@title~'^Memrise\ -\ Learning,\ made\ ']/element[@controlid='1329142384']
+			</item>
+			<basepath>
+				/form[@title~'^Memrise\ -\ Learning,\ made\ ']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKFSURBVDhPrZJdSFNhHMaXQUFEBaZTZiV1EUQX
+FkRJ6c6m07lvdVPYlujSuygSlOiiEYSQfd10sZp2nFtiu7GPmyBtaoua86smltNzLKQIhGB5BurG
+eXrPOpqjj6se+PHe/H/P/+Xllfz3wCnJmDdrK5lazT3WrB5gK1XDbFWZn5znpk0lmeLYnzNjURWw
+NuMUEcFWl4NIYEylYIwlYAwKsCZljDGVOcTx9AyqC49EqlXfZ81EXCuoKksrYPQU5nQKzBmo86Im
+xunMuHDRvBDWyzEtCH+5AaMjBVo5ZrXFyXmNvEC0JZIDPU2Go676ZK+hCG/Jlg9k86duN16OLPDP
+wos8M/Ec8z4jvnhO4FvvcXB9hYg/LhoUdVLga3Ttf9CI2ktVGKo4CdbjxmU/B+PNOAwE25043s9E
+kQgokQwUIzlUhGSweBl+y+ZUQb6vsT/fdwYH6QbcqqEQGP26LutuEK7H0faIw3KkFXxICX5ECYQJ
+o7ptqYI8T31wr9eBfT4H9NfseBJegl4QRVlLaO3hsBK9CoyrCKWEEvBv1DtSBbKuur493gYICEWv
+J6dXKm//kjXtHPzBGJKRBlEuBT9GbhJVb00V5NL2Vll3PdZQP3ViILKIZi+HJvcSPIEYJibvp21P
+hBSzKVmIzGvLy+2yr+Z66rDG4d6zaBnuxJWgD00PW5AYq1iXMU4eM0Q1i/rPZHdYnTlElHad3oAd
+0rtWRF7o0uREiBrDlGWLqIqBZJO00+qS0nZkE1Egi7bBQRvAj5dvkBXv+AmlTLR+T1aH1ZLttkZ3
+01Zkumrw+ZVmWRBXR6jYSohqw5R8uzj67+ykjbuOtasKPvafOsSF5DnrnyYtEskPM43KINSheKEA
+AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<item
+		addcaps="form,nativewindow"
+		capname="form"
+		id="654f10fa-5dfa-4d77-98e8-1bb2d6e20812"
+		name="MemriseLoginGoogleChrome"
+		refimgid="b6297794-11a7-4ff4-ab46-4b6e9b7de40f"
+		searchtimeout="30000ms">
+			/form[@title~'^Memrise\ -\ Login\ -\ Google\ ']
+		</item>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="a845a511-e010-4994-ae15-83a4323a433f"
+		isrooted="True"
+		name="MemriseLearningMadeJoyful"
+		refpath="/dom[@domain='www.memrise.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="b382df2f-4b34-45a9-95e0-3b6cb62e9ef6"
+			name="Login"
+			refimgid="301683d3-8e90-44c2-88d4-aad32890dd24"
+			refpath="/dom[@domain='www.memrise.com']//div[#'header']/div/ul/li[2]/a/span[@innertext='Login']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.memrise.com']//div[#'header']/?/?/ul//span[@innertext='Login']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="675fe9bc-5d6d-4152-b401-f3533276d5bb"
+			name="Username"
+			refimgid="21034658-de41-46a5-aa3a-acae87e813e0"
+			refpath="/dom[@domain='www.memrise.com']//form[#'login']/div[4]/input[@name='username']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.memrise.com']//form[#'login']/?/?/input[@name='username']
+			</item>
+			<item
+			addcaps="unknown,webelement,h3tag"
+			capname="h3tag"
+			id="f7f9d940-6827-40a2-a9c9-36f71a6fa4ba"
+			name="BeaTrisy"
+			refimgid="3c85eeb4-15aa-4718-96c0-a3fbbb3524e1"
+			refpath="/dom[@domain='www.memrise.com']//div[#'content']/div/div[1]/div[1]/div[1]/h3[@innertext='BeaTrisy']"
+			searchtimeout="1000ms">
+				/dom[@domain='www.memrise.com']//div[#'content']/div/div[1]/div[1]/?/?/h3[@innertext='BeaTrisy']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="523a1ec3-b583-41af-b83e-cc8eae554b18"
+			name="ATagLoginWithGoogle"
+			refimgid="03fb6e33-cdbe-4532-808e-b6b09d4cfac5"
+			refpath="/dom[@domain='www.memrise.com']//form[#'login']/a[@innertext~'^\ \ \ \ \ \ \ \ Login\ with\ Googl']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.memrise.com']//form[#'login']/a[@innertext~'^\ \ \ \ \ \ \ \ Login\ with\ Googl']
+			</item>
+			<item
+			addcaps="unknown,webelement"
+			capname="webelement"
+			id="796d90cb-0fa6-4279-b0bc-b86b2034ae51"
+			name="WebElementSvg"
+			refimgid="b988ad6c-9347-40bf-95ad-76cd5eea84fd"
+			refpath="/dom[@domain='www.memrise.com']//div[#'promotion-modal']/div/button/tag[@tagname='svg']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.memrise.com']//div[#'promotion-modal']//tag[@tagname='svg']
+			</item>
+			<item
+			addcaps="unknown,webelement,h3tag"
+			capname="h3tag"
+			id="fd6e83a2-0ced-4fca-b073-17f90075145a"
+			name="JustinPopa2722"
+			refimgid="91a66f0d-4dd5-41ee-82b9-0158c20586a2"
+			refpath="/dom[@domain='www.memrise.com']//div[#'content']/div/div[1]/div[1]/div[1]/h3[@innertext='Justin_Popa2722']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.memrise.com']//div[#'content']/div/div[1]/div[1]/?/?/h3[@innertext='Justin_Popa2722']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="e400586a-ddee-4903-8d51-ea6c3ba4376a"
+			name="Courses"
+			refimgid="a7993b82-88e7-4713-bbee-33376033646d"
+			refpath="/dom[@domain='www.memrise.com']//div[#'header']/div/ul/li[2]/a/span[@innertext='Courses']"
+			searchtimeout="3000ms">
+				/dom[@domain='www.memrise.com']//div[#'header']/?/?/ul//span[@innertext='Courses']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="64b264da-7b3b-4ed5-9280-32afca766455"
+			name="HttpsWwwMemriseComHome"
+			refimgid="638e3cdd-6496-41c7-8853-027f2cbf8be5"
+			refpath="/dom[@domain='www.memrise.com']/body/div[2]/div[3]/div[2]/a[@href~'^https://www\.memrise\.com/h']"
+			searchtimeout="3000ms">
+				/dom[@domain='www.memrise.com']/body/div[2]/div[3]/?/?/a[@href~'^https://www\.memrise\.com/h']
+			</item>
+			<folder
+			capname="divtag"
+			id="df869990-792a-4e59-a21b-7335103f2810"
+			isrooted="True"
+			name="Boxes"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="461949f8-de45-4781-aa71-e91832a3bcbe"
+				name="DivTagAb"
+				refimgid="e081211e-09e4-4fcc-9512-48d94158cbc6"
+				refpath="/dom[@domain='www.memrise.com']//div[#'boxes']/div/div[4]/div[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ab\ ']"
+				searchtimeout="3000ms">
+					/dom[@domain='www.memrise.com']//div[#'boxes']//div[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ab\ ']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="e515fbd9-1361-47f1-8330-f8777de6499b"
+				name="DivTagGeht"
+				refimgid="ae9061a3-45ac-46e8-bd2d-3775777dc211"
+				refpath="/dom[@domain='www.memrise.com']//div[#'boxes']/div/div[4]/div[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ geht']"
+				searchtimeout="3000ms">
+					/dom[@domain='www.memrise.com']//div[#'boxes']//div[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ geht']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="e951860a-fdd3-4625-ab06-4d573746cc83"
+				name="DivTagWas"
+				refimgid="5d9e8823-c8db-497f-a2c2-b14fedda0082"
+				refpath="/dom[@domain='www.memrise.com']//div[#'boxes']/div/div[4]/div[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ was']"
+				searchtimeout="3000ms">
+					/dom[@domain='www.memrise.com']//div[#'boxes']//div[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ was']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="452b3fd7-9945-4e7f-a593-5a358dd56929"
+				name="Text"
+				refimgid="23650679-fd95-4c10-9b46-106b4ce9a055"
+				refpath="/dom[@domain='www.memrise.com']//div[#'boxes']/div/div[4]/input[@type='text']"
+				searchtimeout="3000ms">
+					/dom[@domain='www.memrise.com']//div[#'boxes']//input[@type='text']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="a7f0fade-4371-4f43-b2ce-89a2a764441d"
+				name="NextIcon"
+				refimgid="4d806e07-b4c4-4d4b-9453-4f3d571d1523"
+				refpath="/dom[@domain='www.memrise.com']//div[#'boxes']/div/button/span"
+				searchtimeout="3000ms">
+					/dom[@domain='www.memrise.com']//div[#'boxes']/?/?/button[@title='Next [Shortcut : Enter]']/span
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="a75bd21a-da78-46ad-bc1f-f6b5aca74a2e"
+				name="NextIcon1"
+				refimgid="5d46dd5f-953d-4832-b178-6f601f79ada8"
+				refpath="/dom[@domain='www.memrise.com']//div[#'boxes']/div/button/span"
+				searchtimeout="3000ms">
+					/dom[@domain='www.memrise.com']//div[#'boxes']/?/?/button[@title~'^Check\ \[Shortcut\ :\ Ctrl-En']/span
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="5cdf8955-7b7a-4c48-8273-cfa75e9def4f"
+				name="SpanTagHi"
+				refimgid="e2413049-3d82-4abf-9119-508a04d0b797"
+				refpath="/dom[@domain='www.memrise.com']//div[#'boxes']/div/ol/li[3]/span[@innertext='hi']"
+				searchtimeout="3000ms">
+					/dom[@domain='www.memrise.com']//div[#'boxes']/?/?/ol/?/?/span[@innertext='hi']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="4ea91f2f-95c8-409f-9f1b-2f97cb45c9b5"
+				name="LassUnsGehen"
+				refimgid="16576a4e-f3c6-4d8b-a383-7024578e4435"
+				refpath="/dom[@domain='www.memrise.com']//div[#'boxes']/div/ol/li[3]/span[@innertext='lass uns gehen!']"
+				searchtimeout="3000ms">
+					/dom[@domain='www.memrise.com']//div[#'boxes']/?/?/ol/?/?/span[@innertext='lass uns gehen!']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="78b53440-7972-4e08-b2ad-c95859314a60"
+				name="WasGehtAb"
+				refimgid="6676932e-3a0d-49d7-91f5-1e9275cf9934"
+				refpath="/dom[@domain='www.memrise.com']//div[#'boxes']/div/ol/li[4]/span[@innertext='was geht ab?']"
+				searchtimeout="3000ms">
+					/dom[@domain='www.memrise.com']//div[#'boxes']/?/?/ol/?/?/span[@innertext='was geht ab?']
+				</item>
+				<item
+				addcaps="unknown,webelement,litag"
+				capname="litag"
+				id="c72c3522-cb97-4f22-bc86-5ad6fd99f7fb"
+				name="ShinyBoxChoiceClearfixActive"
+				refimgid="84a36a82-01ae-4b42-965a-f455874f7635"
+				refpath="/dom[@domain='www.memrise.com']//div[#'boxes']/div/ol/li[4]"
+				searchtimeout="3000ms">
+					/dom[@domain='www.memrise.com']//div[#'boxes']/?/?/ol/li[4]
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="41a2d6b0-e65d-40b1-a0b1-577a36562f27"
+				name="Hallo"
+				refimgid="9beff254-e030-4faa-ad82-bab154952b4a"
+				refpath="/dom[@domain='www.memrise.com']//div[#'boxes']/div/ol/li[1]/span[@innertext='hallo']"
+				searchtimeout="3000ms">
+					/dom[@domain='www.memrise.com']//div[#'boxes']/?/?/ol/?/?/span[@innertext='hallo']
+				</item>
+				<basepath>
+					/dom[@domain='www.memrise.com']//div[#'boxes']
+				</basepath>
+			</folder>
+			<folder
+			capname="divtag"
+			id="abf84daa-53f9-4483-8981-fe062e6b9a9e"
+			isrooted="True"
+			name="Content"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="44a407d1-b8c5-4d20-8078-40da3b9d7a67"
+				name="Learn"
+				refimgid="f9034c07-37e5-408c-99fc-dcace1f74d34"
+				refpath="/dom[@domain='www.memrise.com']//div[#'content']/div/div[2]/section/div/div[2]/div[1]/div/div[2]/div/a[8]/span[@innertext='Learn']"
+				searchtimeout="3000ms">
+					/dom[@domain='www.memrise.com']//div[#'content']//section/div/div[2]/div[1]/div/div[2]/div/a[8]/span[@innertext='Learn']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="ad20ae41-9c0e-4bfb-95b4-0b0eda00adfc"
+				name="ATagLearn"
+				refimgid="4f54aa88-7d64-4810-b35c-b211b3611bf4"
+				refpath="/dom[@domain='www.memrise.com']//div[#'content']/div/div/div[1]/div[1]/div[3]/a[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Lear']"
+				searchtimeout="3000ms">
+					/dom[@domain='www.memrise.com']//div[#'content']/div/div/div[1]/div[1]/div[3]/a[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Lear']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="7875a29e-ea08-45b2-975b-a1d2ee013317"
+				name="CourseBoxPicture"
+				refimgid="7ff6ac35-c2a1-42df-8bce-0f4a812c91c5"
+				refpath="/dom[@domain='www.memrise.com']//div[#'content']/div/div/div[2]/div[1]/div/div[3]/div/div/a/div"
+				searchtimeout="3000ms">
+					/dom[@domain='www.memrise.com']//div[#'content']/div/div/div[2]/div[1]/div/div[3]//a[@href~'^https://www\.memrise\.com/c']/div
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="b3d5ca36-2de6-47c1-a2fa-13cf26b03123"
+				name="BeatriceTest"
+				refimgid="fed8b020-f2b3-41e1-8be8-33940eca6fc2"
+				refpath="/dom[@domain='www.memrise.com']//div[#'content']/div/div[2]/section/div/div[2]/div[1]/div/div[1]/div[2]/div/div/div[1]/p/a[@innertext='Beatrice test']"
+				searchtimeout="3000ms">
+					/dom[@domain='www.memrise.com']//div[#'content']//section/div/div[2]/div[1]/div/div[1]/div[2]/div/div/div[1]/p[@title='Beatrice test']/a[@innertext='Beatrice test']
+				</item>
+				<basepath>
+					/dom[@domain='www.memrise.com']//div[#'content']
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="59510f36-d1bc-4cb9-8d11-18560a268647"
+			name="SEEFULLPRICING"
+			refimgid="bb89f998-8d01-4689-b9b8-951d9141a6a5"
+			refpath="/dom[@domain='www.memrise.com']//div[#'promotion-modal']/div/div/div[2]/div/a[@innertext='SEE FULL PRICING']"
+			searchtimeout="3000ms">
+				/dom[@domain='www.memrise.com']//div[#'promotion-modal']/div/div/div[2]/?/?/a[@innertext='SEE FULL PRICING']
+			</item>
+			<item
+			addcaps="unknown,webelement,ptag"
+			capname="ptag"
+			id="bed56445-167c-490a-bc41-c6bb534d163e"
+			name="GetItNow"
+			refimgid="b322f3ec-999c-4927-81a0-c4e85d4b8cd9"
+			refpath="/dom[@domain='www.memrise.com']/body/section[1]/div[1]/div/a[2]/div/div/p[@innertext='Get it now!']"
+			searchtimeout="3000ms">
+				/dom[@domain='www.memrise.com']/body/section[1]/?/?/div/a[2]//p[@innertext='Get it now!']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="20521dd2-724c-4270-850f-953d37271c9d"
+			name="Text"
+			refimgid="8ecb8f02-cd87-420a-a870-1cc1fcca31e2"
+			refpath="/dom[@domain='www.memrise.com']//form[#'payment-form']/div[1]/label/input[@type='text']"
+			searchtimeout="3000ms">
+				/dom[@domain='www.memrise.com']//form[#'payment-form']//input[@type='text']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="2b224ed7-91d3-4765-a65d-0ef8ec263077"
+			name="Text1"
+			refimgid="41dfdfb4-aa02-40d8-8562-e898add1377a"
+			refpath="/dom[@domain='www.memrise.com']//form[#'payment-form']/div[4]/label/input[@type='text']"
+			searchtimeout="3000ms">
+				/dom[@domain='www.memrise.com']//form[#'payment-form']/div[4]/label/input[@type='text']
+			</item>
+			<item
+			addcaps="unknown,webelement,buttontag"
+			capname="buttontag"
+			id="72e78a9f-f580-4b98-8c62-a06128e88744"
+			name="PayBtn"
+			refimgid="a894824a-a867-4e6b-a9de-8487cabfd44f"
+			refpath="/dom[@domain='www.memrise.com']//button[#'pay-btn']"
+			searchtimeout="3000ms">
+				/dom[@domain='www.memrise.com']//button[#'pay-btn']
+			</item>
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="91289523-ffb7-46fc-b370-c7797965a0f8"
+			name="H1TagUnlockYourLearningSuperpowe"
+			refimgid="b5f1ab96-dfca-489f-89b2-4faa3b005983"
+			refpath="/dom[@domain='www.memrise.com']//div[#'page-head']/div/div/h1[@innertext='    Unlock your learning superpowers with Memrise    ']"
+			searchtimeout="3000ms">
+				/dom[@domain='www.memrise.com']//div[#'page-head']//h1[@innertext~'^\ \ \ \ Unlock\ your\ learning']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="d01d4ca1-baee-4993-aa78-ad71eeb4b986"
+			name="Password"
+			refimgid="f5267eca-7a95-4304-b0c6-81c8204d2ad8"
+			refpath="/dom[@domain='www.memrise.com']//form[#'login']/div[5]/input[@name='password']"
+			searchtimeout="3000ms">
+				/dom[@domain='www.memrise.com']//form[#'login']/?/?/input[@name='password']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="dbd7f54b-9bd4-4ac6-a5b1-396ee0a3cf6c"
+			name="Submit"
+			refimgid="6a3be099-ecfe-4fab-ba28-f82094178719"
+			refpath="/dom[@domain='www.memrise.com']//form[#'login']/input[@type='submit']"
+			searchtimeout="3000ms">
+				/dom[@domain='www.memrise.com']//form[#'login']/input[@type='submit']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="f9f45aa2-12c1-4b89-ae9c-7f2f889cf94d"
+			name="ModalBody"
+			refimgid="85b8e1e8-7d0f-4d5a-ab31-f4b26d078c22"
+			refpath="/dom[@domain='www.memrise.com']//div[#'promotion-modal']/div/div/div[1]"
+			searchtimeout="3000ms">
+				/dom[@domain='www.memrise.com']//div[#'promotion-modal']/div/div/div[1]
+			</item>
+			<item
+			addcaps="unknown,webelement,ptag"
+			capname="ptag"
+			id="78d6c7fb-335e-49c3-8eee-eea54ca3322b"
+			name="PTag50PercentOFF"
+			refimgid="69bc6d04-e93a-45af-a5f4-ca73ede15015"
+			refpath="/dom[@domain='www.memrise.com']//div[#'promotion-modal']/div/div/div[2]/a/div/p[@innertext='50% OFF']"
+			searchtimeout="3000ms">
+				/dom[@domain='www.memrise.com']//div[#'promotion-modal']//a[@href~'^https://www\.memrise\.com/p']/div/p[@innertext='50% OFF']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="49642098-3a38-413f-b7e2-73186238ee75"
+			name="ModalContent"
+			refimgid="6a22640d-2d22-45d0-9200-305fe7cb8d7e"
+			refpath="/dom[@domain='www.memrise.com']/body/div[5]/div/div"
+			searchtimeout="3000ms">
+				/dom[@domain='www.memrise.com']/body/div[5]/div/div
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="65827711-c5dd-4431-a1d2-af1e948858d8"
+			name="ATagOk"
+			refimgid="20f4a1f9-fbbb-4cde-89f9-963bfbd56e60"
+			refpath="/dom[@domain='www.memrise.com']/body/div[5]/div/div/div[3]/a[@innertext='Ok']"
+			searchtimeout="3000ms">
+				/dom[@domain='www.memrise.com']/body/div[5]/div/div/div[3]/a[@innertext='Ok']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="e1d5d273-3e27-4b65-ad3e-db186e8ae106"
+			name="Back"
+			refimgid="8a41fe77-1cbb-4a1d-b8e1-90023b3326b0"
+			refpath="/dom[@domain='www.memrise.com']//div[#'back-btn']/a[@innertext='Back']"
+			searchtimeout="3000ms">
+				/dom[@domain='www.memrise.com']//div[#'back-btn']/a[@innertext='Back']
+			</item>
+			<folder
+			addcaps="unknown,webelement,ultag"
+			capname="ultag"
+			id="6e306e8d-0ab4-4460-a749-8e7e9b23f391"
+			isrooted="True"
+			name="HeaderNav"
+			refpath="/dom[@domain='www.memrise.com']//div[#'header']/div/ul"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="1b794852-89fa-495a-bce4-3d0faa48ee1d"
+				name="Home"
+				refimgid="53c867d5-b027-4db2-9984-48746eec4119"
+				refpath="/dom[@domain='www.memrise.com']//div[#'header']/div/ul/li[1]/a/span[@innertext='Home']"
+				searchtimeout="3000ms">
+					/dom[@domain='www.memrise.com']//div[#'header']/?/?/ul//span[@innertext='Home']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="a92d711f-f575-40bf-b220-4643f44aa193"
+				name="HttpsWwwMemriseComLogin"
+				refimgid="e6779d5b-2ead-4ec2-9bce-045a5cdda2d8"
+				refpath="/dom[@domain='www.memrise.com']//div[#'header']/div/ul/li[2]/a[@href~'^https://www\.memrise\.com/l']"
+				searchtimeout="3000ms">
+					/dom[@domain='www.memrise.com']//div[#'header']/?/?/ul/?/?/a[@href~'^https://www\.memrise\.com/l']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="4dc18184-5262-4519-9a59-92432b88642b"
+				name="HttpsWwwMemriseComPremiumSourceEq"
+				refimgid="8688bc6d-391f-44a5-8c0e-d4fd4c87a8dc"
+				refpath="/dom[@domain='www.memrise.com']//div[#'header']/div/ul/li[4]/a[@href='https://www.memrise.com/premium/?source=dashboard']"
+				searchtimeout="3000ms">
+					/dom[@domain='www.memrise.com']//div[#'header']/?/?/ul/?/?/a[@href~'^https://www\.memrise\.com/p']
+				</item>
+				<basepath>
+					/dom[@domain='www.memrise.com']//div[#'header']/?/?/ul
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="8d06fff9-baa6-4595-98aa-44e0a8140c9a"
+			name="YourCardWasDeclinedYourRequestWas"
+			refimgid="bd1b7e91-a4d9-4b01-80e0-3492731c16c3"
+			refpath="/dom[@domain='www.memrise.com']//div[#'tooltip979944']/div[@innertext='Your card was declined. Your request was in live mode, but used a known test card.']"
+			searchtimeout="3000ms">
+				/dom[@domain='www.memrise.com']//div[#'tooltip979944']/div[@innertext~'^Your\ card\ was\ declined\.\ Y']
+			</item>
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="5b6dca89-7963-4a45-862d-2fa1b9214cbb"
+			name="BeatriceTest"
+			refimgid="37c4f971-ab92-4299-bb19-876cfab917e6"
+			refpath="/dom[@domain='www.memrise.com']//div[#'page-head']/div/div/div/div[2]/a[@href='https://www.memrise.com/course/1092065/beatrice-test/']/h1[@innertext='Beatrice test']"
+			searchtimeout="3000ms">
+				/dom[@domain='www.memrise.com']//div[#'page-head']/div/div/div/div[2]/a[@href~'^https://www\.memrise\.com/c']/h1[@innertext='Beatrice test']
+			</item>
+			<basepath>
+				/dom[@domain='www.memrise.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="83ec5529-147a-4ec6-9752-edfb206e0f95"
+		isrooted="True"
+		name="DoYouWantToLeaveThisSite"
+		refpath="/form[@title='Do you want to leave this site?']"
+		searchtimeout="3000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="18704d67-dfeb-4d21-a049-6e1f72701e9c"
+			name="Leave"
+			refimgid="98168e19-54f3-4d07-b682-15a71cb5696a"
+			refpath="/form[@title~'^Do\ you\ want\ to\ leave\ this']/container/container[2]/container/button[@accessiblename='Leave']"
+			searchtimeout="3000ms">
+				/form[@title~'^Do\ you\ want\ to\ leave\ this']/container/container[2]/container[@accessiblerole='Client']/button[@accessiblename='Leave']
+			</item>
+			<basepath>
+				/form[@title~'^Do\ you\ want\ to\ leave\ this']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKFSURBVDhPrZJdSFNhHMaXQUFEBaZTZiV1EUQX
+FkRJ6c6m07lvdVPYlujSuygSlOiiEYSQfd10sZp2nFtiu7GPmyBtaoua86smltNzLKQIhGB5BurG
+eXrPOpqjj6se+PHe/H/P/+Xllfz3wCnJmDdrK5lazT3WrB5gK1XDbFWZn5znpk0lmeLYnzNjURWw
+NuMUEcFWl4NIYEylYIwlYAwKsCZljDGVOcTx9AyqC49EqlXfZ81EXCuoKksrYPQU5nQKzBmo86Im
+xunMuHDRvBDWyzEtCH+5AaMjBVo5ZrXFyXmNvEC0JZIDPU2Go676ZK+hCG/Jlg9k86duN16OLPDP
+wos8M/Ec8z4jvnhO4FvvcXB9hYg/LhoUdVLga3Ttf9CI2ktVGKo4CdbjxmU/B+PNOAwE25043s9E
+kQgokQwUIzlUhGSweBl+y+ZUQb6vsT/fdwYH6QbcqqEQGP26LutuEK7H0faIw3KkFXxICX5ECYQJ
+o7ptqYI8T31wr9eBfT4H9NfseBJegl4QRVlLaO3hsBK9CoyrCKWEEvBv1DtSBbKuur493gYICEWv
+J6dXKm//kjXtHPzBGJKRBlEuBT9GbhJVb00V5NL2Vll3PdZQP3ViILKIZi+HJvcSPIEYJibvp21P
+hBSzKVmIzGvLy+2yr+Z66rDG4d6zaBnuxJWgD00PW5AYq1iXMU4eM0Q1i/rPZHdYnTlElHad3oAd
+0rtWRF7o0uREiBrDlGWLqIqBZJO00+qS0nZkE1Egi7bBQRvAj5dvkBXv+AmlTLR+T1aH1ZLttkZ3
+01Zkumrw+ZVmWRBXR6jYSohqw5R8uzj67+ykjbuOtasKPvafOsSF5DnrnyYtEskPM43KINSheKEA
+AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="unknown,mobileapp,androidapp"
+		capname="mobileapp"
+		id="620adaf5-b755-43f2-83a7-d66dcfb15271"
+		isrooted="True"
+		name="ComMemriseAndroidMemrisecompanion"
+		refpath="/mobileapp[@title='com.memrise.android.memrisecompanion']"
+		searchtimeout="3000ms"
+		usecache="False">
+			<folder
+			addcaps="form,mobileform,mobileuielement"
+			capname="form"
+			id="a21d5e01-7a7b-4c47-bb8a-8b6e0f8eff90"
+			isrooted="True"
+			name="LanguageSelectionActivity"
+			refpath="/mobileapp[@title='com.memrise.android.memrisecompanion']/form[@title='LanguageSelectionActivity']"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				addcaps="form,androidelement,mobileuielement"
+				capname="form"
+				id="a145b950-6fbf-467b-8fb0-f2bb1b33e981"
+				name="AndroidViewView"
+				refimgid="78a107c7-8f40-4a81-8373-608feae659e8"
+				refpath="/mobileapp[@title='com.memrise.android.memrisecompanion']/form[@title='LanguageSelectionActivity']/androidelement[@rid='content']/androidelement[@rid='dd_drawer_layout']/androidelement[@rid='dd_content_layout']/container[@containertype='Frame']/container[@rid='language_cockpit_container']/form"
+				searchtimeout="3000ms">
+					/mobileapp[@title='com.memrise.android.memrisecompanion']/form[@title='LanguageSelectionActivity']//androidelement[@rid='dd_content_layout']/?/?/container[@rid='language_cockpit_container']/form
+				</item>
+				<item
+				addcaps="text,androidelement,mobileuielement"
+				capname="text"
+				id="0c853cd2-2f77-4879-b9bb-15a20eb6bfee"
+				name="LanguagePlanetLogIn"
+				refimgid="1e5b6000-6e56-424a-b7d6-fed47dee4a92"
+				refpath="/mobileapp[@title='com.memrise.android.memrisecompanion']/form[@title='LanguageSelectionActivity']/androidelement[@rid='content']/androidelement[@rid='dd_drawer_layout']/androidelement[@rid='dd_content_layout']/container[@containertype='Frame']/text[@resourceid='R.string.signin_screen_LogInButton']"
+				searchtimeout="3000ms">
+					/mobileapp[@title='com.memrise.android.memrisecompanion']/form[@title='LanguageSelectionActivity']//androidelement[@rid='dd_content_layout']/?/?/text[@resourceid='R.string.signin_screen_LogInButton']
+				</item>
+				<item
+				addcaps="text,androidelement,mobileuielement"
+				capname="text"
+				id="2edae14c-ffb9-474e-b056-a34487e45861"
+				name="OnboardingEmailField"
+				refimgid="208a5a4c-4191-4fc6-af50-7cc5f694974c"
+				refpath="/mobileapp[@title='com.memrise.android.memrisecompanion']/form[@title='LanguageSelectionActivity']/androidelement[@rid='content']/androidelement[@rid='dd_drawer_layout']/androidelement[@rid='dd_content_layout']/container[@containertype='Frame']/androidelement[6]/container[@rid='scroll_auth_view_container']/container[@containertype='Frame']/container[@containertype='ScrollView']/container[@containertype='Linear']/text[@rid='onboarding_email_field']"
+				searchtimeout="3000ms">
+					/mobileapp[@title='com.memrise.android.memrisecompanion']/form[@title='LanguageSelectionActivity']/androidelement[@rid='content']/?/?/androidelement[@rid='dd_content_layout']//container[@rid='scroll_auth_view_container']/?/?/container[@containertype='ScrollView']/?/?/text[@rid='onboarding_email_field']
+				</item>
+				<item
+				addcaps="text,androidelement,mobileuielement"
+				capname="text"
+				id="a2a2cf81-f4c3-4936-9828-59f2c231b1db"
+				name="OnboardingPasswordField"
+				refimgid="ca228548-bf2f-419a-af3c-d15b5a735859"
+				refpath="/mobileapp[@title='com.memrise.android.memrisecompanion']/form[@title='LanguageSelectionActivity']/androidelement[@rid='content']/androidelement[@rid='dd_drawer_layout']/androidelement[@rid='dd_content_layout']/container[@containertype='Frame']/androidelement[6]/container[@rid='scroll_auth_view_container']/container[@containertype='Frame']/container[@containertype='ScrollView']/container[@containertype='Linear']/text[@rid='onboarding_password_field']"
+				searchtimeout="3000ms">
+					/mobileapp[@title='com.memrise.android.memrisecompanion']/form[@title='LanguageSelectionActivity']/androidelement[@rid='content']/?/?/androidelement[@rid='dd_content_layout']//container[@rid='scroll_auth_view_container']/?/?/container[@containertype='ScrollView']/?/?/text[@rid='onboarding_password_field']
+				</item>
+				<item
+				addcaps="picture,androidelement,mobileuielement"
+				capname="picture"
+				id="e8e66aa3-a980-4d14-bc0f-f51ab99d03b2"
+				name="FlagView"
+				refimgid="0159dfdb-a68c-4b92-866d-448fd491e04f"
+				refpath="/mobileapp[@title='com.memrise.android.memrisecompanion']/form[@title='LanguageSelectionActivity']/androidelement[@rid='content']/androidelement[@rid='dd_drawer_layout']/androidelement[@rid='dd_content_layout']/container[@containertype='Frame']/container[@rid='language_cockpit_container']/container[@containertype='Linear']/container[@containertype='Linear']/container[@containertype='Frame']/androidelement[@rid='language_recycler_view_flags']/container[5]/container[@rid='flag_overlay']/picture[@rid='flag_view']"
+				searchtimeout="3000ms">
+					/mobileapp[@title='com.memrise.android.memrisecompanion']/form[@title='LanguageSelectionActivity']//container[@rid='language_cockpit_container']/container[@containertype='Linear']/container[@containertype='Linear']/?/?/androidelement[@rid='language_recycler_view_flags']/container[5]/container[@rid='flag_overlay']/picture[@rid='flag_view']
+				</item>
+				<item
+				addcaps="form,mobileform,mobileuielement"
+				capname="form"
+				id="885561a1-5b56-4460-a816-1aaf6c8c26b0"
+				name="LanguageSelectionActivity"
+				refpath="/mobileapp[@title='com.memrise.android.memrisecompanion']/form[@title='LanguageSelectionActivity']"
+				searchtimeout="3000ms">
+					/mobileapp[@title='com.memrise.android.memrisecompanion']/form[@title='LanguageSelectionActivity']
+				</item>
+				<item
+				addcaps="container,androidelement,mobileuielement"
+				capname="container"
+				id="698c7c8c-6ab7-40d8-bc83-f767077a305e"
+				name="Frame"
+				refimgid="a646dfab-673b-415e-ae50-c1b23f729649"
+				refpath="/mobileapp[@title='com.memrise.android.memrisecompanion']/form[@title='LanguageSelectionActivity']/androidelement[@rid='content']/androidelement[@rid='dd_drawer_layout']/androidelement[@rid='dd_content_layout']/container[@containertype='Frame']/container[@rid='language_cockpit_container']/container[@containertype='Linear']/container[@containertype='Linear']/container[@containertype='Frame']/androidelement[@rid='language_recycler_view_flags']/container[5]"
+				searchtimeout="3000ms">
+					/mobileapp[@title='com.memrise.android.memrisecompanion']/form[@title='LanguageSelectionActivity']//androidelement[@rid='dd_content_layout']/?/?/container[@rid='language_cockpit_container']/container[@containertype='Linear']/container[@containertype='Linear']/?/?/androidelement[@rid='language_recycler_view_flags']/container[5]
+				</item>
+				<basepath>
+					/mobileapp[@title='com.memrise.android.memrisecompanion']/form[@title='LanguageSelectionActivity']
+				</basepath>
+			</folder>
+			<item
+			addcaps="button,androidelement,mobileuielement"
+			capname="button"
+			id="abbadedc-4592-4c86-b1d1-a69ef7efc3ce"
+			name="Button2"
+			refimgid="5841783a-852d-4fe6-a6a3-69e04711dbad"
+			refpath="/mobileapp[@title='com.memrise.android.memrisecompanion']/form[@title='Error']/container[@rid='content']/androidelement/container[@containertype='ScrollView']/androidelement/button[@resourceid='R.string.hs__permission_rationale_snackbar_action_label']"
+			searchtimeout="3000ms">
+				/mobileapp[@title='com.memrise.android.memrisecompanion']/form[@title='Error']/container[@rid='content']//button[@resourceid='R.string.hs__permission_rationale_snackbar_action_label']
+			</item>
+			<folder
+			addcaps="container,androidelement,mobileuielement"
+			capname="container"
+			id="fb270278-c4fc-4594-b25c-bb6949af2f62"
+			isrooted="True"
+			name="Linear"
+			refpath="/mobileapp[@title='com.memrise.android.memrisecompanion']/form[@title='MainActivity']/androidelement[@rid='content']/androidelement[@rid='dd_drawer_layout']/androidelement[@rid='dd_content_layout']/container[@rid='main_content_root']/androidelement[@rid='bottom_navigation']/container[@containertype='Linear']"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				addcaps="picture,androidelement,mobileuielement"
+				capname="picture"
+				id="5392ebb4-ae7b-45d6-a796-488cd769ba5d"
+				name="BottomNavigationItemIcon"
+				refimgid="cf2e88f9-6560-4ade-b578-c3de1d2f8cdf"
+				refpath="/mobileapp[@title='com.memrise.android.memrisecompanion']/form[@title='MainActivity']/androidelement[@rid='content']/androidelement[@rid='dd_drawer_layout']/androidelement[@rid='dd_content_layout']/container[@rid='main_content_root']/androidelement[@rid='bottom_navigation']/container[@containertype='Linear']/container[1]/picture[@rid='bottom_navigation_item_icon']"
+				searchtimeout="3000ms">
+					/mobileapp[@title='com.memrise.android.memrisecompanion']/form[@title='MainActivity']//container[@rid='main_content_root']/androidelement[@rid='bottom_navigation']/container/container[1]/picture[@rid='bottom_navigation_item_icon']
+				</item>
+				<item
+				addcaps="text,androidelement,mobileuielement"
+				capname="text"
+				id="b9ae9b01-e139-4821-8199-5603701d5d53"
+				name="BottomNavigationItemTitle"
+				refimgid="04a396f7-c7ba-4809-9616-947c7f80abbb"
+				refpath="/mobileapp[@title='com.memrise.android.memrisecompanion']/form[@title='MainActivity']/androidelement[@rid='content']/androidelement[@rid='dd_drawer_layout']/androidelement[@rid='dd_content_layout']/container[@rid='main_content_root']/androidelement[@rid='bottom_navigation']/container[@containertype='Linear']/container[3]/text[@resourceid='R.string.navigation_tab_pro']"
+				searchtimeout="3000ms">
+					/mobileapp[@title='com.memrise.android.memrisecompanion']/form[@title='MainActivity']//container[@rid='main_content_root']/androidelement[@rid='bottom_navigation']/container/container[3]/text[@resourceid='R.string.navigation_tab_pro']
+				</item>
+				<item
+				addcaps="text,androidelement,mobileuielement"
+				capname="text"
+				id="ce77d2cb-6d04-418d-9cc4-f7be7c1feb3c"
+				name="BottomNavigationNotification"
+				refimgid="528af4f8-d139-4319-ba8b-7139398ce3d5"
+				refpath="/mobileapp[@title='com.memrise.android.memrisecompanion']/form[@title='MainActivity']/androidelement[@rid='content']/androidelement[@rid='dd_drawer_layout']/androidelement[@rid='dd_content_layout']/container[@rid='main_content_root']/androidelement[@rid='bottom_navigation']/container[@containertype='Linear']/container[4]/text[@resourceid='R.string.hs__question_header']"
+				searchtimeout="3000ms">
+					/mobileapp[@title='com.memrise.android.memrisecompanion']/form[@title='MainActivity']//container[@rid='main_content_root']/androidelement[@rid='bottom_navigation']/container/container[4]/text[@resourceid='R.string.hs__question_header']
+				</item>
+				<basepath>
+					/mobileapp[@title='com.memrise.android.memrisecompanion']/form[@title='MainActivity']//container[@rid='main_content_root']/androidelement[@rid='bottom_navigation']/container
+				</basepath>
+			</folder>
+			<basepath>
+				/mobileapp[@title='com.memrise.android.memrisecompanion']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABl0RVh0
+U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAABNSURBVDhPY6A6CA0NWQ/E//Hg9VClmAAo
+KYCmGCuGKscEQEmwAVAuVkBInqCCUQNGjgGEMFQpdoBLIS5xDABU0ICsGAtugCqlBmBgAAAcoXfL
+E78sAQAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="fd797d19-34a5-4116-bbca-a1a783c80a77"
+		isrooted="True"
+		name="TrialActivationRanorexTestAutomati"
+		refpath="/dom[@domain='www.ranorex.com']"
+		searchtimeout="3000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="a09e1612-6b6f-46ad-880f-0574c818750a"
+			name="TitleClearfix"
+			refimgid="43159692-92df-40b1-8497-7ea5e9733afe"
+			refpath="/dom[@domain='www.ranorex.com']//div[#'header']/div/div/div"
+			searchtimeout="3000ms">
+				/dom[@domain='www.ranorex.com']//div[#'header']/div/div/div
+			</item>
+			<basepath>
+				/dom[@domain='www.ranorex.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="menubar,nativewindow"
+		capname="menubar"
+		id="77e12e09-3641-46e3-bdfe-265777566e87"
+		isrooted="True"
+		name="Explorer"
+		refpath="/menubar[@processname='explorer']"
+		searchtimeout="3000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="adf41827-c774-4d5c-92d2-40851b0ef39b"
+			name="RanorexStudio1RunningWindow"
+			refimgid="ab814910-30dc-424c-9a4e-587964b24dfe"
+			refpath="/menubar[@processname='explorer']/container[@controlid='40965']/container/element/toolbar/button[@accessiblename~'^RanorexStudio\ –\ 1\ running']"
+			searchtimeout="3000ms">
+				/menubar[@processname='explorer']/container[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[@accessiblename~'^RanorexStudio\ &#8211;\ 1\ running']
+			</item>
+			<basepath>
+				/menubar[@processname='explorer']
+			</basepath>
+			<icon>
+				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
+VZB4/J8BADyZI3kwAy98AAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="77028df6-03ef-4129-9905-5d40d1cd3ded"
+		isrooted="True"
+		name="KaizenTaranasusEBay"
+		refpath="/dom[@domain='www.ebay.co.uk']"
+		searchtimeout="3000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,imgtag"
+			capname="imgtag"
+			id="73c05678-91a9-400b-b258-29926e6a6111"
+			name="ItemImage"
+			refimgid="aa2a0e5b-26bd-4575-a0d8-bf18327e8a95"
+			refpath="/dom[@domain='www.ebay.co.uk']//li[#'item1ed6ad98e9']/div[1]/div/a/img[@alt='Item image']"
+			searchtimeout="3000ms">
+				/dom[@domain='www.ebay.co.uk']//li[#'item1ed6ad98e9']/div[1]//img[@alt='Item image']
+			</item>
+			<basepath>
+				/dom[@domain='www.ebay.co.uk']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="ebcbdbf1-ae07-4e5d-89c4-e25beb47c0b5"
+		isrooted="True"
+		name="MemriseUpgradeToMemriseProGoogl"
+		refpath="/form[@title='Memrise - Upgrade to Memrise Pro - Google Chrome']"
+		searchtimeout="3000ms"
+		usecache="True">
+			<item
+			addcaps="titlebar,accessible"
+			capname="titlebar"
+			id="9b719704-f86b-4ab6-9321-240dc8703880"
+			name="MemriseUpgradeToMemriseProGoogl"
+			refimgid="31c0c922-8ae4-4cb3-a4c3-b46e269f774a"
+			refpath="/form[@title~'^Memrise\ -\ Upgrade\ to\ Memr']/titlebar[@accessiblerole='TitleBar']"
+			searchtimeout="3000ms">
+				/form[@title~'^Memrise\ -\ Upgrade\ to\ Memr']/titlebar[@accessiblerole='TitleBar']
+			</item>
+			<basepath>
+				/form[@title~'^Memrise\ -\ Upgrade\ to\ Memr']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKFSURBVDhPrZJdSFNhHMaXQUFEBaZTZiV1EUQX
+FkRJ6c6m07lvdVPYlujSuygSlOiiEYSQfd10sZp2nFtiu7GPmyBtaoua86smltNzLKQIhGB5BurG
+eXrPOpqjj6se+PHe/H/P/+Xllfz3wCnJmDdrK5lazT3WrB5gK1XDbFWZn5znpk0lmeLYnzNjURWw
+NuMUEcFWl4NIYEylYIwlYAwKsCZljDGVOcTx9AyqC49EqlXfZ81EXCuoKksrYPQU5nQKzBmo86Im
+xunMuHDRvBDWyzEtCH+5AaMjBVo5ZrXFyXmNvEC0JZIDPU2Go676ZK+hCG/Jlg9k86duN16OLPDP
+wos8M/Ec8z4jvnhO4FvvcXB9hYg/LhoUdVLga3Ttf9CI2ktVGKo4CdbjxmU/B+PNOAwE25043s9E
+kQgokQwUIzlUhGSweBl+y+ZUQb6vsT/fdwYH6QbcqqEQGP26LutuEK7H0faIw3KkFXxICX5ECYQJ
+o7ptqYI8T31wr9eBfT4H9NfseBJegl4QRVlLaO3hsBK9CoyrCKWEEvBv1DtSBbKuur493gYICEWv
+J6dXKm//kjXtHPzBGJKRBlEuBT9GbhJVb00V5NL2Vll3PdZQP3ViILKIZi+HJvcSPIEYJibvp21P
+hBSzKVmIzGvLy+2yr+Z66rDG4d6zaBnuxJWgD00PW5AYq1iXMU4eM0Q1i/rPZHdYnTlElHad3oAd
+0rtWRF7o0uREiBrDlGWLqIqBZJO00+qS0nZkE1Egi7bBQRvAj5dvkBXv+AmlTLR+T1aH1ZLttkZ3
+01Zkumrw+ZVmWRBXR6jYSohqw5R8uzj67+ykjbuOtasKPvafOsSF5DnrnyYtEskPM43KINSheKEA
+AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

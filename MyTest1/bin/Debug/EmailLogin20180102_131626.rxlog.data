@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="46.17s"
+		durationms="46169"
+		type="root"
+		rid="114ae7ce5bf7c769"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Beatrice"
+		rxversion="7.2.1.0"
+		host="TRISY-PC"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2560x1080"
+		timestamp="02/01/2018 13:16:31"
+		timestampiso="2018-01-02T13:16:31"
+		endtime="02/01/2018 13:17:17"
+		timeoutfactor="1"
+		module="EmailLogin">
+		<detail>
+			EmailLogin
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.477"
+			timeRelativeToTestModuleStartTime="00:00.479"
+			timeWallClock="13:16:31"
+			time="00:00.477"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'http://memrise.com' with browser 'Chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\Beatrice\Desktop\MyTest1\MyTest1\Memrise\WebApp\Logins\EmailLogin.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.581"
+			timeRelativeToTestModuleStartTime="00:00.583"
+			timeWallClock="13:16:31"
+			time="00:00.581"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MemriseLearningMadeJoyful.Login' at 12;4.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.memrise.com']//div[#'header']/?/?/ul//span[@innertext='Login']"
+				fullname="MyTest1Repository.MemriseLearningMadeJoyful.Login"
+				id="b382df2f4b3445a995e03b6cb62e9ef6"
+				timeout="60000"
+				codefile="C:\Users\Beatrice\Desktop\MyTest1\MyTest1\Memrise\WebApp\Logins\EmailLogin.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:46.169"
+			timeRelativeToTestModuleStartTime="00:46.171"
+			timeWallClock="13:17:17"
+			time="00:46.169"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

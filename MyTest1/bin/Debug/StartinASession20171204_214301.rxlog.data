@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1dc66f2dc8be2b40"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="beatr"
+		rxversion="7.2.1.0"
+		host="DESKTOP-A2LH711"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2736x1824"
+		timestamp="04/12/2017 21:43:07"
+		timestampiso="2017-12-04T21:43:07"
+		endtime="04/12/2017 21:43:45"
+		timeoutfactor="1"
+		module="StartinASession">
+		<detail>
+			StartinASession
+		</detail>
+		<errormessage>
+			Failed to find item 'MyTest1Repository.MemriseLearningMadeJoyful.Content.Learn'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.072"
+			timeRelativeToTestModuleStartTime="00:01.072"
+			timeWallClock="21:43:08"
+			time="00:01.072"
+			level="Info"
+			category="Mouse"
+			errimg=".\StartinA_6a90d1c2_d9d00a49_trace.jpg"
+			errthumb=".\StartinA_6a90d1c2_d9d00a49_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'MemriseLearningMadeJoyful.Content.Learn' at 21;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.memrise.com']//div[#'content']//section/div/div[2]/div[1]/div/div[2]/div/a[8]/span[@innertext='Learn']"
+				fullname="MyTest1Repository.MemriseLearningMadeJoyful.Content.Learn"
+				id="44a407d1b8c54d20807840da3b9d7a67"
+				timeout="36000"
+				codefile="c:\Users\beatr\Desktop\MyTest1\MyTest1\Memrise\WebApp\Lessons\StartinASession.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:37.168"
+			timeRelativeToTestModuleStartTime="00:37.169"
+			timeWallClock="21:43:45"
+			time="00:37.168"
+			level="Error"
+			category="Module"
+			errimg=".\StartinA_6a90d1c2_02bb95eb_trace.jpg"
+			errthumb=".\StartinA_6a90d1c2_02bb95eb_trace_thumb.jpg">
+			<message>
+				Failed to find item 'MyTest1Repository.MemriseLearningMadeJoyful.Content.Learn'.<br/>No element found for path '/dom[@domain='www.memrise.com']//div[#'content']//section/div/div[2]/div[1]/div/div[2]/div/a[8]/span[@innertext='Learn']' within 36s.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at MyTest1.MyTest1RepositoryFolders.ContentFolder.get_Learn() in c:\Users\beatr\Desktop\MyTest1\MyTest1\MyTest1Repository.cs:line 1541
+   at MyTest1.Memrise.WebApp.Lessons.StartinASession.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\beatr\Desktop\MyTest1\MyTest1\Memrise\WebApp\Lessons\StartinASession.cs:line 83
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\beatr\Desktop\MyTest1\MyTest1\Memrise\WebApp\Lessons\StartinASession.cs"
+				codeline="83"
+				type="repoitem"
+				path="/dom[@domain='www.memrise.com']//div[#'content']//section/div/div[2]/div[1]/div/div[2]/div/a[8]/span[@innertext='Learn']"
+				fullname="MyTest1Repository.MemriseLearningMadeJoyful.Content.Learn"
+				id="44a407d1b8c54d20807840da3b9d7a67"
+				timeout="36000"
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

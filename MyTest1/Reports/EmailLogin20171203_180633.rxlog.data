@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="16.42s"
+		durationms="16416"
+		type="root"
+		rid="2b9c50bd604e4e59"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="taran"
+		rxversion="7.2.1.0"
+		host="DESKTOP-B2K450G"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="6400x2160"
+		timestamp="03/12/2017 18:06:37"
+		timestampiso="2017-12-03T18:06:37"
+		endtime="03/12/2017 18:06:53"
+		timeoutfactor="1"
+		module="EmailLogin">
+		<detail>
+			EmailLogin
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.814"
+			timeRelativeToTestModuleStartTime="00:00.815"
+			timeWallClock="18:06:38"
+			time="00:00.814"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'http://memrise.com' with browser 'Chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\WebApp\Logins\EmailLogin.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.929"
+			timeRelativeToTestModuleStartTime="00:00.930"
+			timeWallClock="18:06:38"
+			time="00:00.929"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MemriseLearningMadeJoyful.Login' at 26;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.memrise.com']//div[#'header']/?/?/ul//span[@innertext='Login']"
+				fullname="MyTest1Repository.MemriseLearningMadeJoyful.Login"
+				id="b382df2f4b3445a995e03b6cb62e9ef6"
+				timeout="60000"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\WebApp\Logins\EmailLogin.cs"
+				codeline="85"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.708"
+			timeRelativeToTestModuleStartTime="00:01.709"
+			timeWallClock="18:06:38"
+			time="00:01.708"
+			level="Warn"
+			category="Qt">
+			<message>
+				Failed to instrument Qt process. Please make sure you have enough privileges to access the process and a supported version of Qt.<br/>Process: 'AsPowerBar' (pid 16916)<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="QtWindow"
+				showInProgressDialog="False"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\WebApp\Logins\EmailLogin.cs"
+				codeline="86"
+				loglvl="Warn"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.792"
+			timeRelativeToTestModuleStartTime="00:03.793"
+			timeWallClock="18:06:41"
+			time="00:03.792"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'MemriseLearningMadeJoyful.Username' at 129;22.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.memrise.com']//form[#'login']/?/?/input[@name='username']"
+				fullname="MyTest1Repository.MemriseLearningMadeJoyful.Username"
+				id="675fe9bc5d6d4152b401f3533276d5bb"
+				timeout="60000"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\WebApp\Logins\EmailLogin.cs"
+				codeline="88"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.858"
+			timeRelativeToTestModuleStartTime="00:04.859"
+			timeWallClock="18:06:42"
+			time="00:04.858"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'MemriseLearningMadeJoyful.Username' at 129;22.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.memrise.com']//form[#'login']/?/?/input[@name='username']"
+				fullname="MyTest1Repository.MemriseLearningMadeJoyful.Username"
+				id="675fe9bc5d6d4152b401f3533276d5bb"
+				timeout="60000"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\WebApp\Logins\EmailLogin.cs"
+				codeline="91"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.291"
+			timeRelativeToTestModuleStartTime="00:05.292"
+			timeWallClock="18:06:42"
+			time="00:05.291"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'MemriseLearningMadeJoyful.Username' at 129;22.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.memrise.com']//form[#'login']/?/?/input[@name='username']"
+				fullname="MyTest1Repository.MemriseLearningMadeJoyful.Username"
+				id="675fe9bc5d6d4152b401f3533276d5bb"
+				timeout="60000"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\WebApp\Logins\EmailLogin.cs"
+				codeline="95"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.708"
+			timeRelativeToTestModuleStartTime="00:05.709"
+			timeWallClock="18:06:42"
+			time="00:05.708"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'beatrisy1{Tab}' with focus on 'MemriseLearningMadeJoyful.Username'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.memrise.com']//form[#'login']/?/?/input[@name='username']"
+				fullname="MyTest1Repository.MemriseLearningMadeJoyful.Username"
+				id="675fe9bc5d6d4152b401f3533276d5bb"
+				timeout="60000"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\WebApp\Logins\EmailLogin.cs"
+				codeline="99"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.429"
+			timeRelativeToTestModuleStartTime="00:06.430"
+			timeWallClock="18:06:43"
+			time="00:06.429"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{LShiftKey down}M{LShiftKey up}emrise{LShiftKey down}BM{LShiftKey up}12345{Return}'.
+			</message>
+			<metainfo
+				itemindex="6"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\WebApp\Logins\EmailLogin.cs"
+				codeline="102"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.889"
+			timeRelativeToTestModuleStartTime="00:06.890"
+			timeWallClock="18:06:44"
+			time="00:06.889"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>Validating AttributeEqual (InnerText='BeaTrisy') on item 'MemriseLearningMadeJoyful.BeaTrisy'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.memrise.com']//div[#'content']/div/div[1]/div[1]/?/?/h3[@innertext='BeaTrisy']"
+				fullname="MyTest1Repository.MemriseLearningMadeJoyful.BeaTrisy"
+				id="f7f9d940682740a2a9c936f71a6fa4ba"
+				timeout="60000"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\WebApp\Logins\EmailLogin.cs"
+				codeline="106"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.416"
+			timeRelativeToTestModuleStartTime="00:16.417"
+			timeWallClock="18:06:53"
+			time="00:16.416"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

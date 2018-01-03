@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1f25576458098bdc"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="taran"
+		rxversion="7.2.1.0"
+		host="USB-LGH850d3335ed1 (Unknown)
+USB - LGH850d3335ed1"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="03/12/2017 17:39:44"
+		timestampiso="2017-12-03T17:39:44"
+		endtime="03/12/2017 17:39:55"
+		timeoutfactor="1"
+		module="EmailLogin">
+		<detail>
+			EmailLogin
+		</detail>
+		<errormessage>
+			Device  WaitFor(DeviceConnected) timed out. ConnectTimeout: 00:00:10
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.712"
+			timeRelativeToTestModuleStartTime="00:00.713"
+			timeWallClock="17:39:45"
+			time="00:00.712"
+			level="Info"
+			category="Application">
+			<message>
+				Run mobile app 'io.selendroid.testapp' on device USB-LGH850d3335ed1.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\AndroidApp\Logins\EmailLogin.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.893"
+			timeRelativeToTestModuleStartTime="00:10.894"
+			timeWallClock="17:39:55"
+			time="00:10.893"
+			level="Error"
+			category="Module">
+			<message>
+				Device  WaitFor(DeviceConnected) timed out. ConnectTimeout: 00:00:10
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Plugin.Mobile.Device.MobileDevice.WaitFor(ChannelState state)
+   at Ranorex.Plugin.Mobile.Device.MobileDevice.ShouldRestartApp(AppInformation app, Boolean resetInitialState)
+   at Ranorex.Plugin.Mobile.Device.MobileDevice.StartApplication(AppInformation app, Boolean resetInitialState)
+   at Ranorex.Host.RunMobileApp(String deviceDisplayName, String appName, Boolean resetInitialState)
+   at MyTest1.Memrise.AndroidApp.Logins.EmailLogin.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\AndroidApp\Logins\EmailLogin.cs:line 83
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\AndroidApp\Logins\EmailLogin.cs"
+				codeline="83"
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

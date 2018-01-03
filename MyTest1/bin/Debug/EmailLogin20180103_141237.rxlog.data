@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1a20f1521c085d75"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="beatr"
+		rxversion="7.2.1.0"
+		host="DESKTOP-A2LH711"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="1920x1200"
+		timestamp="03/01/2018 14:12:42"
+		timestampiso="2018-01-03T14:12:42"
+		endtime="03/01/2018 14:12:52"
+		timeoutfactor="1"
+		module="EmailLogin">
+		<detail>
+			EmailLogin
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.715"
+			timeRelativeToTestModuleStartTime="00:00.731"
+			timeWallClock="14:12:43"
+			time="00:00.715"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MemriseLearningMadeJoyful.HeaderNav.HttpsWwwMemriseComLogin' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.memrise.com']//div[#'header']/?/?/ul/?/?/a[@href~'^https://www\.memrise\.com/l']"
+				fullname="MyTest1Repository.MemriseLearningMadeJoyful.HeaderNav.HttpsWwwMemriseComLogin"
+				id="a92d711ff57540bfb2204643f44aa193"
+				timeout="36000"
+				codefile="c:\Users\beatr\Desktop\test payment\MyTest1\Memrise\WebApp\Logins\EmailLogin.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.493"
+			timeRelativeToTestModuleStartTime="00:02.509"
+			timeWallClock="14:12:45"
+			time="00:02.493"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MemriseLearningMadeJoyful.Username' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.memrise.com']//form[#'login']/?/?/input[@name='username']"
+				fullname="MyTest1Repository.MemriseLearningMadeJoyful.Username"
+				id="675fe9bc5d6d4152b401f3533276d5bb"
+				timeout="60000"
+				codefile="c:\Users\beatr\Desktop\test payment\MyTest1\Memrise\WebApp\Logins\EmailLogin.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.179"
+			timeRelativeToTestModuleStartTime="00:04.194"
+			timeWallClock="14:12:47"
+			time="00:04.179"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'beatrisy' with focus on 'MemriseLearningMadeJoyful.Username'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.memrise.com']//form[#'login']/?/?/input[@name='username']"
+				fullname="MyTest1Repository.MemriseLearningMadeJoyful.Username"
+				id="675fe9bc5d6d4152b401f3533276d5bb"
+				timeout="60000"
+				codefile="c:\Users\beatr\Desktop\test payment\MyTest1\Memrise\WebApp\Logins\EmailLogin.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.525"
+			timeRelativeToTestModuleStartTime="00:05.541"
+			timeWallClock="14:12:48"
+			time="00:05.525"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MemriseLearningMadeJoyful.Password' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.memrise.com']//form[#'login']/?/?/input[@name='password']"
+				fullname="MyTest1Repository.MemriseLearningMadeJoyful.Password"
+				id="d01d4ca1baee4993aa78ad71eeb4b986"
+				timeout="33000"
+				codefile="c:\Users\beatr\Desktop\test payment\MyTest1\Memrise\WebApp\Logins\EmailLogin.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.495"
+			timeRelativeToTestModuleStartTime="00:06.511"
+			timeWallClock="14:12:49"
+			time="00:06.495"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{RShiftKey down}M{RShiftKey up}emrise{RShiftKey down}BM{RShiftKey up}12345' with focus on 'MemriseLearningMadeJoyful.Password'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.memrise.com']//form[#'login']/?/?/input[@name='password']"
+				fullname="MyTest1Repository.MemriseLearningMadeJoyful.Password"
+				id="d01d4ca1baee4993aa78ad71eeb4b986"
+				timeout="33000"
+				codefile="c:\Users\beatr\Desktop\test payment\MyTest1\Memrise\WebApp\Logins\EmailLogin.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.486"
+			timeRelativeToTestModuleStartTime="00:08.501"
+			timeWallClock="14:12:51"
+			time="00:08.486"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MemriseLearningMadeJoyful.Submit' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.memrise.com']//form[#'login']/input[@type='submit']"
+				fullname="MyTest1Repository.MemriseLearningMadeJoyful.Submit"
+				id="dbd7f54b9bd44ac6a5b1396ee0a3cf6c"
+				timeout="33000"
+				codefile="c:\Users\beatr\Desktop\test payment\MyTest1\Memrise\WebApp\Logins\EmailLogin.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

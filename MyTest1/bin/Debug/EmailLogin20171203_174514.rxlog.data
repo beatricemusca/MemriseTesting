@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="588dc5861c1d238"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="taran"
+		rxversion="7.2.1.0"
+		host="DESKTOP-B2K450G"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="6400x2160"
+		timestamp="03/12/2017 17:45:18"
+		timestampiso="2017-12-03T17:45:18"
+		endtime="03/12/2017 17:45:28"
+		timeoutfactor="1"
+		module="EmailLogin">
+		<detail>
+			EmailLogin
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.861"
+			timeRelativeToTestModuleStartTime="00:00.861"
+			timeWallClock="17:45:19"
+			time="00:00.861"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'http://memrise.com' with browser 'chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\WebApp\Logins\EmailLogin.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.095"
+			timeRelativeToTestModuleStartTime="00:01.095"
+			timeWallClock="17:45:19"
+			time="00:01.095"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'taranasus{LShiftKey down}@{LShiftKey up}gmail.com{Tab}{LShiftKey down}'.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\WebApp\Logins\EmailLogin.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.315"
+			timeRelativeToTestModuleStartTime="00:03.315"
+			timeWallClock="17:45:21"
+			time="00:03.315"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{LShiftKey up}'.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\WebApp\Logins\EmailLogin.cs"
+				codeline="90"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.430"
+			timeRelativeToTestModuleStartTime="00:03.430"
+			timeWallClock="17:45:21"
+			time="00:03.430"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '47yk2d8r6c'.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\WebApp\Logins\EmailLogin.cs"
+				codeline="94"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.575"
+			timeRelativeToTestModuleStartTime="00:04.575"
+			timeWallClock="17:45:22"
+			time="00:04.575"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{LShiftKey down}B{LShiftKey up}47yk2d8r6c'.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\WebApp\Logins\EmailLogin.cs"
+				codeline="98"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.813"
+			timeRelativeToTestModuleStartTime="00:05.813"
+			timeWallClock="17:45:24"
+			time="00:05.813"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{LShiftKey down}A{LShiftKey up}47yk2d8r6c'.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\WebApp\Logins\EmailLogin.cs"
+				codeline="102"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.059"
+			timeRelativeToTestModuleStartTime="00:07.059"
+			timeWallClock="17:45:25"
+			time="00:07.059"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'beatrisy'.
+			</message>
+			<metainfo
+				itemindex="6"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\WebApp\Logins\EmailLogin.cs"
+				codeline="106"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.985"
+			timeRelativeToTestModuleStartTime="00:07.985"
+			timeWallClock="17:45:26"
+			time="00:07.985"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{LShiftKey down}&quot;{LShiftKey up}{Back}{LShiftKey down}&quot;&#163;{Back}{Back}{LShiftKey up}{LShiftKey down}@{LShiftKey up}{Back}{Tab}'.
+			</message>
+			<metainfo
+				itemindex="7"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\WebApp\Logins\EmailLogin.cs"
+				codeline="110"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.029"
+			timeRelativeToTestModuleStartTime="00:09.029"
+			timeWallClock="17:45:27"
+			time="00:09.029"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{LShiftKey down}M{LShiftKey up}'.
+			</message>
+			<metainfo
+				itemindex="8"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\WebApp\Logins\EmailLogin.cs"
+				codeline="114"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.249"
+			timeRelativeToTestModuleStartTime="00:09.249"
+			timeWallClock="17:45:27"
+			time="00:09.249"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'emrise{LShiftKey down}BM{LShiftKey up}'.
+			</message>
+			<metainfo
+				itemindex="9"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\WebApp\Logins\EmailLogin.cs"
+				codeline="118"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.180"
+			timeRelativeToTestModuleStartTime="00:10.180"
+			timeWallClock="17:45:28"
+			time="00:10.180"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '12345'.
+			</message>
+			<metainfo
+				itemindex="10"
+				codefile="C:\Users\taran\OneDrive\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Memrise\WebApp\Logins\EmailLogin.cs"
+				codeline="122"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

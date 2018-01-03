@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="787fd6e3451af90"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Beatrice"
+		rxversion="7.2.1.0"
+		host="TRISY-PC"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="2560x1080"
+		timestamp="02/01/2018 12:22:27"
+		timestampiso="2018-01-02T12:22:27"
+		endtime="02/01/2018 12:22:27"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<errormessage>
+			Cannot start mobile app 'com.memrise.android.memrisecompanion' because there is no device with name 'None' in the list of configured devices.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.479"
+			timeRelativeToTestModuleStartTime="00:00.481"
+			timeWallClock="12:22:27"
+			time="00:00.479"
+			level="Warn"
+			category="Data"
+			errimg=".\Recordin_e3c47637_c107084b_trace.jpg"
+			errthumb=".\Recordin_e3c47637_c107084b_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>Username, Password
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.504"
+			timeRelativeToTestModuleStartTime="00:00.506"
+			timeWallClock="12:22:27"
+			time="00:00.504"
+			level="Info"
+			category="Application"
+			errimg=".\Recordin_e3c47637_c107084b_trace.jpg"
+			errthumb=".\Recordin_e3c47637_c107084b_trace_thumb.jpg">
+			<message>
+				Run mobile app 'com.memrise.android.memrisecompanion' on device None.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\Beatrice\Desktop\MyTest1\MyTest1\Memrise\AndroidApp\Logins\Recording1.cs"
+				codeline="108"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.514"
+			timeRelativeToTestModuleStartTime="00:00.516"
+			timeWallClock="12:22:27"
+			time="00:00.514"
+			level="Error"
+			category="Module"
+			errimg=".\Recordin_e3c47637_c107084b_trace.jpg"
+			errthumb=".\Recordin_e3c47637_c107084b_trace_thumb.jpg">
+			<message>
+				Cannot start mobile app 'com.memrise.android.memrisecompanion' because there is no device with name 'None' in the list of configured devices.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Host.RunMobileApp(String deviceDisplayName, String appName, Boolean resetInitialState)
+   at MyTest1.Memrise.AndroidApp.Logins.Recording1.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\Beatrice\Desktop\MyTest1\MyTest1\Memrise\AndroidApp\Logins\Recording1.cs:line 109
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\Beatrice\Desktop\MyTest1\MyTest1\Memrise\AndroidApp\Logins\Recording1.cs"
+				codeline="109"
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

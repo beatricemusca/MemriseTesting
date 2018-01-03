@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="9.12s"
+		durationms="9120"
+		type="root"
+		rid="c875ff01a6d78a0"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="beatr"
+		rxversion="7.2.1.0"
+		host="DESKTOP-A2LH711"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="1920x1200"
+		timestamp="03/01/2018 15:48:54"
+		timestampiso="2018-01-03T15:48:54"
+		endtime="03/01/2018 15:49:03"
+		timeoutfactor="1"
+		module="Close_browser">
+		<detail>
+			Close_browser
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.720"
+			timeRelativeToTestModuleStartTime="00:00.724"
+			timeWallClock="15:48:55"
+			time="00:00.720"
+			level="Info"
+			category="Application">
+			<message>
+				Closing application containing item 'MemriseLearningMadeJoyfulGoogle'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^Memrise\ -\ Learning,\ made\ ']"
+				fullname="MyTest1Repository.MemriseLearningMadeJoyfulGoogle.Self"
+				id="18ac6d3cc1394b8393764c2263320ad3"
+				timeout="30000"
+				codefile="c:\Users\beatr\Desktop\test payment\MyTest1\Memrise\WebApp\EndEvents\Close_browser.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.120"
+			timeRelativeToTestModuleStartTime="00:09.124"
+			timeWallClock="15:49:03"
+			time="00:09.120"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>
