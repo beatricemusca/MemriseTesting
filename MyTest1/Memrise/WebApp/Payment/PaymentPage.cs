@@ -91,8 +91,8 @@ namespace MyTest1.Memrise.WebApp.Payment
             repo.MemriseLearningMadeJoyful.Text.PressKeys("{Tab}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{NumPad4}{NumPad2}{NumPad4}{NumPad2}{NumPad4}{NumPad2}{NumPad4}{NumPad2}{NumPad4}{NumPad2}{NumPad4}{NumPad2}{NumPad4}{NumPad2}{NumPad4}{NumPad2}'.", new RecordItemIndex(3));
-            Keyboard.Press("{NumPad4}{NumPad2}{NumPad4}{NumPad2}{NumPad4}{NumPad2}{NumPad4}{NumPad2}{NumPad4}{NumPad2}{NumPad4}{NumPad2}{NumPad4}{NumPad2}{NumPad4}{NumPad2}");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '4242424242424242'.", new RecordItemIndex(3));
+            Keyboard.Press("4242424242424242");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Tab}'.", new RecordItemIndex(4));

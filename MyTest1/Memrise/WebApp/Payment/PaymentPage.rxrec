@@ -507,7 +507,7 @@ n90flR5af3R+VFFAB5af3R+VHlp/dH5UUUAHlp/dH5UeWn90flRRQAeWn90flR5af3R+VFFAB5af
 			</helperscreenshot>
 		</keysequenceitem>
 		<keysequenceitem
-		KeySequence="{NumPad4}{NumPad2}{NumPad4}{NumPad2}{NumPad4}{NumPad2}{NumPad4}{NumPad2}{NumPad4}{NumPad2}{NumPad4}{NumPad2}{NumPad4}{NumPad2}{NumPad4}{NumPad2}"
+		KeySequence="4242424242424242"
 		duration="100ms"
 		enabled="True"
 		optional="False"
