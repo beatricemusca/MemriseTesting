@@ -155,3 +155,12 @@ C:\Users\Beatrice\Desktop\test payment\MyTest1\bin\Debug\System.Windows.Interact
 C:\Users\Beatrice\Desktop\test payment\MyTest1\obj\x86\Debug\MyTest1.csprojResolveAssemblyReference.cache
 C:\Users\Beatrice\Desktop\test payment\MyTest1\obj\x86\Debug\MyTest1.exe
 C:\Users\Beatrice\Desktop\test payment\MyTest1\obj\x86\Debug\MyTest1.pdb
+C:\Users\beatr\OneDrive\Documents\MemriseTesting-master\MemriseTesting-master\MyTest1\bin\Debug\MyTest1.rxtmg
+C:\Users\beatr\OneDrive\Documents\MemriseTesting-master\MemriseTesting-master\MyTest1\bin\Debug\MyTest1.rxtst
+C:\Users\beatr\OneDrive\Documents\MemriseTesting-master\MemriseTesting-master\MyTest1\bin\Debug\MyTest1.exe.config
+C:\Users\beatr\OneDrive\Documents\MemriseTesting-master\MemriseTesting-master\MyTest1\bin\Debug\MyTest1.exe
+C:\Users\beatr\OneDrive\Documents\MemriseTesting-master\MemriseTesting-master\MyTest1\bin\Debug\MyTest1.pdb
+C:\Users\beatr\OneDrive\Documents\MemriseTesting-master\MemriseTesting-master\MyTest1\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\beatr\OneDrive\Documents\MemriseTesting-master\MemriseTesting-master\MyTest1\obj\x86\Debug\MyTest1.csprojResolveAssemblyReference.cache
+C:\Users\beatr\OneDrive\Documents\MemriseTesting-master\MemriseTesting-master\MyTest1\obj\x86\Debug\MyTest1.exe
+C:\Users\beatr\OneDrive\Documents\MemriseTesting-master\MemriseTesting-master\MyTest1\obj\x86\Debug\MyTest1.pdb

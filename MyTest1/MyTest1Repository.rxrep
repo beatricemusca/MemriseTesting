@@ -919,6 +919,45 @@ AAAASUVORK5CYII=
 			searchtimeout="3000ms">
 				/dom[@domain='www.memrise.com']//div[#'page-head']/div/div/div/div[2]/a[@href~'^https://www\.memrise\.com/c']/h1[@innertext='Beatrice test']
 			</item>
+			<item
+			addcaps="unknown,webelement,litag"
+			capname="litag"
+			id="78fda3e9-6f19-4a55-9905-a6af65114774"
+			name="OopsieWrongPasswordOrUsernameMay"
+			refimgid="edd14156-aa26-4490-9f29-ec081ebc54b8"
+			refpath="/dom[@domain='www.memrise.com']//form[#'login']/ul/li[@innertext='Oopsie, wrong password. Or username. Maybe it was the e-mail. Lets try again. Careful with the Caps Lock!']"
+			searchtimeout="3000ms">
+				/dom[@domain='www.memrise.com']//form[#'login']/?/?/li[@innertext~'^Oopsie,\ wrong\ password\.\ O']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="90e7ce97-2905-46c2-baa8-ad2a999c4b44"
+			name="Footer"
+			refimgid="49991f5c-1506-4ff9-a15b-6df3cf8b166d"
+			refpath="/dom[@domain='www.memrise.com']//div[#'footer']"
+			searchtimeout="3000ms">
+				/dom[@domain='www.memrise.com']//div[#'footer']
+			</item>
+			<item
+			addcaps="unknown,webelement,bodytag"
+			capname="bodytag"
+			id="3a02435e-c05a-4ca6-901c-3348f2dac3fd"
+			name="MemriseReverseHeaderRuledPlain"
+			refimgid="0a12457e-5355-486d-b8d9-16c5cc9a836d"
+			searchtimeout="3000ms">
+				/dom[@domain='www.memrise.com']/body
+			</item>
+			<item
+			addcaps="unknown,webelement,litag"
+			capname="litag"
+			id="48f452dc-8388-4d44-bdf5-31ef3316dbc7"
+			name="ThisFieldIsRequired"
+			refimgid="04ed4171-2f49-48ae-98be-e8668e70a263"
+			refpath="/dom[@domain='www.memrise.com' and @caption='Memrise - Login' and @page='' and @path='/login/' and @browsername='Chrome']//form[#'login']/div[5]/ul/li[@innertext='This field is required.']"
+			searchtimeout="3000ms">
+				/dom[@domain='www.memrise.com']//form[#'login']//li[@innertext='This field is required.']
+			</item>
 			<basepath>
 				/dom[@domain='www.memrise.com']
 			</basepath>
@@ -1399,6 +1438,147 @@ hBSzKVmIzGvLy+2yr+Z66rDG4d6zaBnuxJWgD00PW5AYq1iXMU4eM0Q1i/rPZHdYnTlElHad3oAd
 0rtWRF7o0uREiBrDlGWLqIqBZJO00+qS0nZkE1Egi7bBQRvAj5dvkBXv+AmlTLR+T1aH1ZLttkZ3
 01Zkumrw+ZVmWRBXR6jYSohqw5R8uzj67+ykjbuOtasKPvafOsSF5DnrnyYtEskPM43KINSheKEA
 AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="de85b253-e70a-4268-974f-bbe1d0da9598"
+		isrooted="True"
+		name="MemriseLogin"
+		refpath="/dom[@domain='staging.memrise.com']"
+		searchtimeout="3000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,ptag"
+			capname="ptag"
+			id="2faf9fa2-dd19-4217-ad1e-dce2bebc9e8a"
+			name="PTag50PercentOFF"
+			refimgid="9a437e9b-b55d-4332-9089-88b613ced07f"
+			refpath="/dom[@domain='staging.memrise.com']//div[#'promotion-modal']/div/div/div[2]/a/div/p[@innertext='50% OFF']"
+			searchtimeout="3000ms">
+				/dom[@domain='staging.memrise.com']//div[#'promotion-modal']//a[@href~'^https://staging\.memrise\.c']/div/p[@innertext='50% OFF']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="f576cd7a-6627-4dcc-bd65-a7823f6351d6"
+			name="Text"
+			refimgid="f6dab5b5-a8bf-4a5e-b20f-7c2d074f575b"
+			refpath="/dom[@domain='staging.memrise.com']//form[#'payment-form']/div[1]/label/input[@type='text']"
+			searchtimeout="3000ms">
+				/dom[@domain='staging.memrise.com']//form[#'payment-form']//input[@type='text']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="27f74a4c-b897-439b-bb74-05a82d0e1016"
+			name="Ccnum"
+			refimgid="fe605688-3393-4d19-8c25-a32acff56510"
+			refpath="/dom[@domain='staging.memrise.com']//input[#'ccnum']"
+			searchtimeout="3000ms">
+				/dom[@domain='staging.memrise.com']//input[#'ccnum']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="e9abbc11-64d5-4356-adf9-dd66ff27e368"
+			name="Text1"
+			refimgid="701c23cc-d199-4fbf-adf6-eec09c9946de"
+			refpath="/dom[@domain='staging.memrise.com']//form[#'payment-form']/div[4]/label/input[@type='text']"
+			searchtimeout="3000ms">
+				/dom[@domain='staging.memrise.com']//form[#'payment-form']/div[4]/label/input[@type='text']
+			</item>
+			<item
+			addcaps="unknown,webelement,buttontag"
+			capname="buttontag"
+			id="555472b7-9011-4e7d-9542-a311b446a8e3"
+			name="PayBtn"
+			refimgid="4ca86bdf-da54-4beb-add6-4311be0dd754"
+			refpath="/dom[@domain='staging.memrise.com']//button[#'pay-btn']"
+			searchtimeout="3000ms">
+				/dom[@domain='staging.memrise.com']//button[#'pay-btn']
+			</item>
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="392f2a36-92e6-449e-a765-0ba333a506b0"
+			name="CongratulationsUpgradeSuccessful"
+			refimgid="00363d28-751a-4584-b315-251638919312"
+			refpath="/dom[@domain='staging.memrise.com']//div[#'success-container']/div[1]/h1[@innertext='Congratulations - Upgrade successful!']"
+			searchtimeout="3000ms">
+				/dom[@domain='staging.memrise.com']//div[#'success-container']/?/?/h1[@innertext~'^Congratulations\ -\ Upgrade']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="b7bac0fe-125c-4727-9f55-1808b692f0eb"
+			name="Continue"
+			refimgid="589a9ecd-25a7-423c-8ee2-153853d41425"
+			refpath="/dom[@domain='staging.memrise.com']//div[#'success-container']/div[2]/a[@innertext='Continue']"
+			searchtimeout="3000ms">
+				/dom[@domain='staging.memrise.com']//div[#'success-container']/?/?/a[@innertext='Continue']
+			</item>
+			<folder
+			addcaps="unknown,webelement,formtag"
+			capname="form"
+			id="a2eb8266-e493-480e-b05a-11335701fcc2"
+			isrooted="True"
+			name="Login"
+			refpath="/dom[@domain='staging.memrise.com']//form[#'login']"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="5e05c5f0-6350-4d6c-b5a1-26ca4e2f1423"
+				name="Password"
+				refimgid="0137e3d5-581b-4db5-b3a5-87b79c797347"
+				refpath="/dom[@domain='staging.memrise.com']//form[#'login']/div[5]/input[@name='password']"
+				searchtimeout="3000ms">
+					/dom[@domain='staging.memrise.com']//form[#'login']/?/?/input[@name='password']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="a164430a-f448-4584-b215-095476c2e122"
+				name="Username"
+				refimgid="354d5884-972c-422d-b2b3-fed7c44cc3f1"
+				refpath="/dom[@domain='staging.memrise.com']//form[#'login']/div[4]/input[@name='username']"
+				searchtimeout="3000ms">
+					/dom[@domain='staging.memrise.com']//form[#'login']/?/?/input[@name='username']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="79c86a15-b889-4335-928a-35b0056f73fd"
+				name="Submit"
+				refimgid="d207b2e0-8996-4eed-b012-0fd2a219e259"
+				refpath="/dom[@domain='staging.memrise.com']//form[#'login']/input[@type='submit']"
+				searchtimeout="3000ms">
+					/dom[@domain='staging.memrise.com']//form[#'login']/input[@type='submit']
+				</item>
+				<basepath>
+					/dom[@domain='staging.memrise.com']//form[#'login']
+				</basepath>
+			</folder>
+			<basepath>
+				/dom[@domain='staging.memrise.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			</icon>
 		</appfolder>
 		<basepath>

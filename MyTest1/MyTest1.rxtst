@@ -4,12 +4,45 @@ rxversion="7.2">
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
 			<testmodule
+			id="085e78be-f950-4945-b56c-98c94b03bac0"
+			name="CloseBrowserOnLogin"
+			ref="eb613431-6790-4100-b1d8-e9ef3681c573"
+			type="Recording">
+			</testmodule>
+			<testcase
+			datarangeactive="True"
+			datasource="Authentication"
+			id="2a8f6877-bbad-46d3-902c-b8adccdbefa8"
+			maxrange="6"
+			minrange="5"
+			name="MissingPassword">
+			</testcase>
+			<testmodule
 			id="2e739678-9f86-4192-8640-04045e1e355b"
 			name="CloseBrowserOnDashboard"
 			ref="79b23647-3d2a-483c-bb5e-d282e2f99188"
 			type="Recording">
 			</testmodule>
 			<testmodule
+			id="2fc29c72-1f84-4273-9250-f3c96c665317"
+			name="LaunchChromeInIncognitoLoginPage"
+			ref="6535a83d-603f-4e89-bf35-164e297470a7"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="2ff8a730-f2a4-4248-bbcc-8f105640c182"
+			name="CloseBrowserOnLogin"
+			ref="eb613431-6790-4100-b1d8-e9ef3681c573"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="3dd2c720-8863-40e1-8be7-b23fd1616429"
+			name="LaunchChromeInIncognitoLoginPage"
+			ref="6535a83d-603f-4e89-bf35-164e297470a7"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			enabled="False"
 			id="4cbbefca-db64-4b48-840d-eae3aca1267a"
 			name="EmailLogin"
 			ref="f54f1069-2f67-4b96-a099-eec806d90957"
@@ -28,6 +61,18 @@ rxversion="7.2">
 					variablename="varPassword">
 					</var>
 				</databinding>
+			</testmodule>
+			<testmodule
+			id="4d416f96-edad-445a-8a7e-a6b4203b365a"
+			name="LaunchChromeInIncognitoLoginPage"
+			ref="6535a83d-603f-4e89-bf35-164e297470a7"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="52ade983-c914-413c-a292-78286670e683"
+			name="FailedEmailLogin"
+			ref="877c8cca-d1da-4904-9587-fd62c631cd1d"
+			type="Recording">
 			</testmodule>
 			<testmodule
 			id="54cde28b-469e-41b6-8679-6c895af9bb19"
@@ -55,26 +100,95 @@ rxversion="7.2">
 			reportlevel="Info;20">
 			</testcase>
 			<testmodule
+			enabled="False"
 			id="57a078d5-bcd7-4545-b422-a374c7636a4b"
 			name="Logout"
 			ref="61e945ee-71e7-4d84-a4c3-6f48406f8a61"
 			type="Recording">
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="66e9caae-5bd4-46d7-bfdc-81106c769edc"
 			name="HomeNavigation"
 			ref="70a6b8ad-a51b-4f31-95ff-1511d8b3d316"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="6abd7184-0eac-4d82-848d-4f797c01ed67"
+			name="CloseBrowserOnLogin"
+			ref="eb613431-6790-4100-b1d8-e9ef3681c573"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="817860c8-9bcc-4267-988f-e4338b5d3747"
+			name="Pop_up"
+			ref="f1c3760c-f8db-41db-9cb5-7b436d9cbb51"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="84330f6c-19a6-4a4c-836b-cecc40bde7a8"
+			name="FailedNoUsername"
+			ref="54212252-7821-4006-a932-62b3f6df0c58"
+			type="Recording">
+			</testmodule>
 			<testcase
+			datarangeactive="True"
 			datasource="Authentication"
 			id="87f6d3e5-5025-412a-909d-07672517452d"
-			name="TestCase">
+			maxrange="1"
+			minrange="0"
+			name="SuccesfullEmailLogIn">
 			</testcase>
 			<testmodule
-			id="a316e1c2-cfd1-4755-9944-652e28a8782a"
-			name="LaunchInChromeIncognito"
-			ref="99c6a36f-9788-4315-85ec-d3166512f478"
+			id="88e0bc49-4917-4a52-b10a-96f35b1257df"
+			name="FailedNoUsername"
+			ref="54212252-7821-4006-a932-62b3f6df0c58"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="90846a16-5c2b-4f75-a2ef-fecdb59d2b74"
+			name="EmailLogin"
+			ref="f54f1069-2f67-4b96-a099-eec806d90957"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="ColUsername"
+					datasourceid="3589696b-dd2b-4293-8806-664315f3c452"
+					variableid="10c06ea8-66be-411c-b34a-1131d17ef87b"
+					variablename="varUsername">
+					</var>
+					<var
+					dataname="ColPassword"
+					datasourceid="3589696b-dd2b-4293-8806-664315f3c452"
+					variableid="064defa2-9797-49b0-ab3c-7486bbfab016"
+					variablename="varPassword">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="9b2e15ea-678d-407b-a994-930a3700861b"
+			name="EmailLogin"
+			ref="f54f1069-2f67-4b96-a099-eec806d90957"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="ColUsername"
+					datasourceid="3589696b-dd2b-4293-8806-664315f3c452"
+					variableid="10c06ea8-66be-411c-b34a-1131d17ef87b"
+					variablename="varUsername">
+					</var>
+					<var
+					dataname="ColPassword"
+					datasourceid="3589696b-dd2b-4293-8806-664315f3c452"
+					variableid="064defa2-9797-49b0-ab3c-7486bbfab016"
+					variablename="varPassword">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="9e334999-a5de-4313-8cf2-7aab7a722dff"
+			name="FailedNoPassword"
+			ref="f7a574be-5f89-472c-a074-86e02a0f5010"
 			type="Recording">
 			</testmodule>
 			<testsuite
@@ -92,12 +206,70 @@ rxversion="7.2">
 			showinvisiblechars="True">
 			</testsuite>
 			<testmodule
-			id="aee293c2-ff5e-4b86-a563-00404bd3f51f"
-			name="LaunchInChromeIncognito"
-			ref="99c6a36f-9788-4315-85ec-d3166512f478"
+			id="a755365e-ee98-4669-9d89-f7df5a7ae394"
+			name="EmailLogin"
+			ref="f54f1069-2f67-4b96-a099-eec806d90957"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="ColUsername"
+					datasourceid="3589696b-dd2b-4293-8806-664315f3c452"
+					variableid="10c06ea8-66be-411c-b34a-1131d17ef87b"
+					variablename="varUsername">
+					</var>
+					<var
+					dataname="ColPassword"
+					datasourceid="3589696b-dd2b-4293-8806-664315f3c452"
+					variableid="064defa2-9797-49b0-ab3c-7486bbfab016"
+					variablename="varPassword">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="b2b7f65b-d3b2-4faf-a2cc-2991499d8a55"
+			name="LaunchChromeInIncognitoLoginPage"
+			ref="6535a83d-603f-4e89-bf35-164e297470a7"
 			type="Recording">
 			</testmodule>
 			<testmodule
+			id="b754340c-5248-4f94-99ec-cb946ff8cf25"
+			name="LaunchChromeInIncognitoLoginPage"
+			ref="6535a83d-603f-4e89-bf35-164e297470a7"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			enabled="False"
+			id="bc899583-d3f9-42e1-b4e1-b9ab230bbf9a"
+			name="LaunchStaging"
+			ref="a2fd2eb6-54c0-4748-9d5e-23d6fe3c4545"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="bd345440-0992-42b2-8ce9-66123447abc3"
+			name="Launch"
+			ref="12ce727f-160f-4edb-9b8c-8ee713eca96d"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="cb20b7f2-86bf-436c-8058-cf065b0a22f1"
+			name="FailedNoPassword"
+			ref="f7a574be-5f89-472c-a074-86e02a0f5010"
+			type="Recording">
+			</testmodule>
+			<smartfoldernode
+			id="cf01b8a4-b592-4cef-8823-783a045a87fc"
+			name="FailedEmailLogIn_">
+			</smartfoldernode>
+			<testcase
+			datarangeactive="True"
+			datasource="Authentication"
+			id="d117d777-ec22-4033-939a-97a593d96b51"
+			maxrange="8"
+			minrange="8"
+			name="MissingCredentials">
+			</testcase>
+			<testmodule
+			enabled="False"
 			id="d1810252-77d5-4c4e-acdf-fca5cf1ee186"
 			name="PromoPopUpAccept"
 			ref="44c2302d-3958-411f-b75f-89dbc70bd311"
@@ -110,24 +282,80 @@ rxversion="7.2">
 			type="Recording">
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="d41b1d35-c1a1-4370-a501-29278a0c690a"
 			name="CloseBrowserOnApp"
 			ref="f8c50ae9-a04e-46e9-a1dc-590fc36cfd41"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="d6f0ee2c-450d-4ec0-8396-d10a55dfc343"
+			name="CloseBrowserOnLogin"
+			ref="eb613431-6790-4100-b1d8-e9ef3681c573"
+			type="Recording">
+			</testmodule>
+			<testcase
+			datarangeactive="True"
+			datasource="Authentication"
+			id="e03b8c63-3baa-4a65-930a-1f6c47700998"
+			maxrange="7"
+			minrange="7"
+			name="MissingUsername">
+			</testcase>
+			<testcase
+			datarangeactive="True"
+			datasource="Authentication"
+			id="e60e3870-ebef-442b-a5d6-ac2316d03dbf"
+			maxrange="4"
+			minrange="2"
+			name="IncorrectCredentials">
+			</testcase>
 			<testcase
 			datarangeactive="True"
 			datasource="Authentication"
 			id="eba435ef-9b04-4999-969c-e604b2250644"
 			maxrange="0"
 			minrange="0"
-			name="TestCase1">
+			name="Payment">
 			</testcase>
 			<testmodule
+			enabled="False"
 			id="f3f44c78-b064-4c53-9c07-2b8ab1e08fea"
 			name="PaymentPage"
 			ref="71b737bd-9c18-47f4-9e8a-8496512310a0"
 			type="Recording">
+			</testmodule>
+			<testmodule
+			id="f4a32d57-c6ef-4369-956b-5c2cdf1068ad"
+			name="LogIn"
+			ref="21141f37-5cde-40ce-9afd-07f21f14b3e3"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="fc6f6ca6-0f87-40ac-96ce-006ea7f5bacd"
+			name="Payment"
+			ref="1765bd43-0044-43ba-81a9-74ab7548b394"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="fd05c08f-c689-4493-bcfc-44f04c9c5a1f"
+			name="EmailLogin"
+			ref="f54f1069-2f67-4b96-a099-eec806d90957"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="ColUsername"
+					datasourceid="3589696b-dd2b-4293-8806-664315f3c452"
+					variableid="10c06ea8-66be-411c-b34a-1131d17ef87b"
+					variablename="varUsername">
+					</var>
+					<var
+					dataname="ColPassword"
+					datasourceid="3589696b-dd2b-4293-8806-664315f3c452"
+					variableid="064defa2-9797-49b0-ab3c-7486bbfab016"
+					variablename="varPassword">
+					</var>
+				</databinding>
 			</testmodule>
 		</flatlistofchildren>
 		<childhierarchy>
@@ -139,10 +367,10 @@ rxversion="7.2">
 				name="MyTest1">
 					<testcase
 					id="87f6d3e5-5025-412a-909d-07672517452d"
-					name="TestCase">
+					name="SuccesfullEmailLogIn">
 						<testmodule
-						id="aee293c2-ff5e-4b86-a563-00404bd3f51f"
-						name="LaunchInChromeIncognito">
+						id="b754340c-5248-4f94-99ec-cb946ff8cf25"
+						name="LaunchChromeInIncognitoLoginPage">
 						</testmodule>
 						<testmodule
 						id="54cde28b-469e-41b6-8679-6c895af9bb19"
@@ -157,12 +385,100 @@ rxversion="7.2">
 						name="CloseBrowserOnDashboard">
 						</testmodule>
 					</testcase>
+					<smartfoldernode
+					id="cf01b8a4-b592-4cef-8823-783a045a87fc"
+					name="FailedEmailLogIn_">
+						<testcase
+						id="e60e3870-ebef-442b-a5d6-ac2316d03dbf"
+						name="IncorrectCredentials">
+							<testmodule
+							id="3dd2c720-8863-40e1-8be7-b23fd1616429"
+							name="LaunchChromeInIncognitoLoginPage">
+							</testmodule>
+							<testmodule
+							id="9b2e15ea-678d-407b-a994-930a3700861b"
+							name="EmailLogin">
+							</testmodule>
+							<testmodule
+							id="52ade983-c914-413c-a292-78286670e683"
+							name="FailedEmailLogin">
+							</testmodule>
+							<testmodule
+							id="6abd7184-0eac-4d82-848d-4f797c01ed67"
+							name="CloseBrowserOnLogin">
+							</testmodule>
+						</testcase>
+						<testcase
+						id="2a8f6877-bbad-46d3-902c-b8adccdbefa8"
+						name="MissingPassword">
+							<testmodule
+							id="2fc29c72-1f84-4273-9250-f3c96c665317"
+							name="LaunchChromeInIncognitoLoginPage">
+							</testmodule>
+							<testmodule
+							id="fd05c08f-c689-4493-bcfc-44f04c9c5a1f"
+							name="EmailLogin">
+							</testmodule>
+							<testmodule
+							id="9e334999-a5de-4313-8cf2-7aab7a722dff"
+							name="FailedNoPassword">
+							</testmodule>
+							<testmodule
+							id="d6f0ee2c-450d-4ec0-8396-d10a55dfc343"
+							name="CloseBrowserOnLogin">
+							</testmodule>
+						</testcase>
+						<testcase
+						id="e03b8c63-3baa-4a65-930a-1f6c47700998"
+						name="MissingUsername">
+							<testmodule
+							id="b2b7f65b-d3b2-4faf-a2cc-2991499d8a55"
+							name="LaunchChromeInIncognitoLoginPage">
+							</testmodule>
+							<testmodule
+							id="a755365e-ee98-4669-9d89-f7df5a7ae394"
+							name="EmailLogin">
+							</testmodule>
+							<testmodule
+							id="84330f6c-19a6-4a4c-836b-cecc40bde7a8"
+							name="FailedNoUsername">
+							</testmodule>
+							<testmodule
+							id="2ff8a730-f2a4-4248-bbcc-8f105640c182"
+							name="CloseBrowserOnLogin">
+							</testmodule>
+						</testcase>
+						<testcase
+						id="d117d777-ec22-4033-939a-97a593d96b51"
+						name="MissingCredentials">
+							<testmodule
+							id="4d416f96-edad-445a-8a7e-a6b4203b365a"
+							name="LaunchChromeInIncognitoLoginPage">
+							</testmodule>
+							<testmodule
+							id="90846a16-5c2b-4f75-a2ef-fecdb59d2b74"
+							name="EmailLogin">
+							</testmodule>
+							<testmodule
+							id="cb20b7f2-86bf-436c-8058-cf065b0a22f1"
+							name="FailedNoPassword">
+							</testmodule>
+							<testmodule
+							id="88e0bc49-4917-4a52-b10a-96f35b1257df"
+							name="FailedNoUsername">
+							</testmodule>
+							<testmodule
+							id="085e78be-f950-4945-b56c-98c94b03bac0"
+							name="CloseBrowserOnLogin">
+							</testmodule>
+						</testcase>
+					</smartfoldernode>
 					<testcase
 					id="eba435ef-9b04-4999-969c-e604b2250644"
-					name="TestCase1">
+					name="Payment">
 						<testmodule
-						id="a316e1c2-cfd1-4755-9944-652e28a8782a"
-						name="LaunchInChromeIncognito">
+						id="bc899583-d3f9-42e1-b4e1-b9ab230bbf9a"
+						name="LaunchStaging">
 						</testmodule>
 						<testmodule
 						id="4cbbefca-db64-4b48-840d-eae3aca1267a"
@@ -188,6 +504,22 @@ rxversion="7.2">
 						id="d41b1d35-c1a1-4370-a501-29278a0c690a"
 						name="CloseBrowserOnApp">
 						</testmodule>
+						<testmodule
+						id="bd345440-0992-42b2-8ce9-66123447abc3"
+						name="Launch">
+						</testmodule>
+						<testmodule
+						id="f4a32d57-c6ef-4369-956b-5c2cdf1068ad"
+						name="LogIn">
+						</testmodule>
+						<testmodule
+						id="817860c8-9bcc-4267-988f-e4338b5d3747"
+						name="Pop_up">
+						</testmodule>
+						<testmodule
+						id="fc6f6ca6-0f87-40ac-96ce-006ea7f5bacd"
+						name="Payment">
+						</testmodule>
 					</testcase>
 				</testcase>
 			</testsuite>
@@ -195,10 +527,10 @@ rxversion="7.2">
 	</testsuiteentryhierarchy>
 	<datasources>
 		<DataSource
-		filename="C:\Users\Beatrice\Desktop\AuthenticationTestData.xlsx"
+		filename="C:\Users\beatr\OneDrive\Documents\MemriseTesting-master\MemriseTesting-master\AuthenticationTestData (1).xlsx"
 		id="3589696b-dd2b-4293-8806-664315f3c452"
 		includefile="Unchecked"
-		lastknownrowcount="2"
+		lastknownrowcount="9"
 		name="Authentication"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"

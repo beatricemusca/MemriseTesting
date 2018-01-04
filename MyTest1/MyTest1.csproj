@@ -131,6 +131,18 @@
       <UserCode>true</UserCode>
       <id>b4b60eb8-951d-4c40-9f1e-3ad45365f208</id>
     </Compile>
+    <Compile Include="Memrise\WebApp\EndEvents\CloseBrowserOnLogin.cs">
+      <BoundTo>700bcf18-1339-43b0-87ab-cd237d17f356</BoundTo>
+      <DependentUpon>CloseBrowserOnLogin.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>fc345a29-e802-4a5a-a1e2-c38aee3b08d9</id>
+    </Compile>
+    <Compile Include="Memrise\WebApp\EndEvents\CloseBrowserOnLogin.UserCode.cs">
+      <BoundTo>700bcf18-1339-43b0-87ab-cd237d17f356</BoundTo>
+      <DependentUpon>CloseBrowserOnLogin.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>718dfbf5-a917-4c41-b0d1-af166d28d775</id>
+    </Compile>
     <Compile Include="Memrise\WebApp\Logins\EmailLogin.cs">
       <BoundTo>9fb51175-a7ce-4d5f-9bb1-5a57c96ce9d2</BoundTo>
       <DependentUpon>EmailLogin.rxrec</DependentUpon>
@@ -166,6 +178,42 @@
       <DependentUpon>StartinASession.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>2b4c48b4-5ecb-40e5-aa72-dd0551c95a82</id>
+    </Compile>
+    <Compile Include="Memrise\WebApp\Logins\FailedEmailLogin.cs">
+      <BoundTo>cb9528dd-b086-4d63-a6e1-e2dba1403c15</BoundTo>
+      <DependentUpon>FailedEmailLogin.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ce31adf4-aec1-4434-9b47-eefb8c9799b4</id>
+    </Compile>
+    <Compile Include="Memrise\WebApp\Logins\FailedEmailLogin.UserCode.cs">
+      <BoundTo>cb9528dd-b086-4d63-a6e1-e2dba1403c15</BoundTo>
+      <DependentUpon>FailedEmailLogin.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ef2e41b1-ed02-480f-8de7-f2eca32c20ba</id>
+    </Compile>
+    <Compile Include="Memrise\WebApp\Logins\FailedNoUsername.cs">
+      <BoundTo>cbefa14b-0fbf-4219-8300-3a49e390d42a</BoundTo>
+      <DependentUpon>FailedNoUsername.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1db418d7-92bd-4417-b57f-09564701e7d2</id>
+    </Compile>
+    <Compile Include="Memrise\WebApp\Logins\FailedNoUsername.UserCode.cs">
+      <BoundTo>cbefa14b-0fbf-4219-8300-3a49e390d42a</BoundTo>
+      <DependentUpon>FailedNoUsername.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4f053029-fc0c-4518-9db5-c607a34b93e4</id>
+    </Compile>
+    <Compile Include="Memrise\WebApp\Logins\FailedNoPassword.cs">
+      <BoundTo>1f48049f-f30d-4d06-8eaf-c6ab60586de3</BoundTo>
+      <DependentUpon>FailedNoPassword.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>64825491-9546-413b-a7c8-59b4c537f435</id>
+    </Compile>
+    <Compile Include="Memrise\WebApp\Logins\FailedNoPassword.UserCode.cs">
+      <BoundTo>1f48049f-f30d-4d06-8eaf-c6ab60586de3</BoundTo>
+      <DependentUpon>FailedNoPassword.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f7420713-6ebc-46d3-a49b-e389924f6af3</id>
     </Compile>
     <Compile Include="Memrise\WebApp\Logout\Logout.cs">
       <BoundTo>caf60dba-6e3e-4e90-b185-4090938f9537</BoundTo>
@@ -215,6 +263,54 @@
       <UserCode>true</UserCode>
       <id>9d228b16-6752-4110-a834-6504fb8e8923</id>
     </Compile>
+    <Compile Include="Memrise\WebApp\Staging\Launch.cs">
+      <BoundTo>bac472a0-8cb9-49a3-9586-3739114885e6</BoundTo>
+      <DependentUpon>Launch.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2a403be5-a633-4562-8000-1e249fbdc1a1</id>
+    </Compile>
+    <Compile Include="Memrise\WebApp\Staging\Launch.UserCode.cs">
+      <BoundTo>bac472a0-8cb9-49a3-9586-3739114885e6</BoundTo>
+      <DependentUpon>Launch.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ca5b776c-6f4f-4cbb-8cd6-4ab08bc54ce2</id>
+    </Compile>
+    <Compile Include="Memrise\WebApp\Staging\LogIn.cs">
+      <BoundTo>1fc208cd-7d17-4f41-8c9e-655eebe22187</BoundTo>
+      <DependentUpon>LogIn.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>91d3caab-45de-49b9-9fcf-c73c083606cd</id>
+    </Compile>
+    <Compile Include="Memrise\WebApp\Staging\LogIn.UserCode.cs">
+      <BoundTo>1fc208cd-7d17-4f41-8c9e-655eebe22187</BoundTo>
+      <DependentUpon>LogIn.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>94da42ea-195f-4050-9936-0c94e86eb2a2</id>
+    </Compile>
+    <Compile Include="Memrise\WebApp\Staging\Pop_up.cs">
+      <BoundTo>1782e348-baf9-4843-8618-0d3d28cafe93</BoundTo>
+      <DependentUpon>Pop_up.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8dbd0a57-5563-4cef-8c21-ebf4e3f278a7</id>
+    </Compile>
+    <Compile Include="Memrise\WebApp\Staging\Pop_up.UserCode.cs">
+      <BoundTo>1782e348-baf9-4843-8618-0d3d28cafe93</BoundTo>
+      <DependentUpon>Pop_up.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>86b3ea98-c093-4418-9211-f7e223f89905</id>
+    </Compile>
+    <Compile Include="Memrise\WebApp\Staging\Payment.cs">
+      <DependentUpon>Payment.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>471782af-cdf4-46a4-8448-a3d656b921ec</id>
+      <BoundTo>7a763d60-4a7a-4b5d-a717-0e0fd497d9bb</BoundTo>
+    </Compile>
+    <Compile Include="Memrise\WebApp\Staging\Payment.UserCode.cs">
+      <DependentUpon>Payment.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e4a82830-3869-4454-8a2b-74ad1d347406</id>
+      <BoundTo>7a763d60-4a7a-4b5d-a717-0e0fd497d9bb</BoundTo>
+    </Compile>
     <Compile Include="Memrise\WebApp\Start events\LaunchInChromeIncognito.cs">
       <BoundTo>97dbd32c-2411-4c6f-9171-eb8447c1f047</BoundTo>
       <DependentUpon>LaunchInChromeIncognito.rxrec</DependentUpon>
@@ -226,6 +322,30 @@
       <DependentUpon>LaunchInChromeIncognito.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>5f1f03c1-f3ea-4eda-9e05-f8d2fc51e192</id>
+    </Compile>
+    <Compile Include="Memrise\WebApp\Start events\LaunchChromeInIncognitoLoginPage.cs">
+      <BoundTo>4ad03daa-b463-4a45-be94-d8238c447f34</BoundTo>
+      <DependentUpon>LaunchChromeInIncognitoLoginPage.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b45d0646-95e2-46aa-bcd0-dcc720822f5e</id>
+    </Compile>
+    <Compile Include="Memrise\WebApp\Start events\LaunchChromeInIncognitoLoginPage.UserCode.cs">
+      <BoundTo>4ad03daa-b463-4a45-be94-d8238c447f34</BoundTo>
+      <DependentUpon>LaunchChromeInIncognitoLoginPage.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4e1580d6-3897-4153-8fdd-258d8844ca36</id>
+    </Compile>
+    <Compile Include="Memrise\WebApp\Start events\LaunchStaging.cs">
+      <BoundTo>0065987e-1a0d-49a2-9322-e114f40ceda8</BoundTo>
+      <DependentUpon>LaunchStaging.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b12c7d06-6a69-4e38-a096-45a25fc5cf34</id>
+    </Compile>
+    <Compile Include="Memrise\WebApp\Start events\LaunchStaging.UserCode.cs">
+      <BoundTo>0065987e-1a0d-49a2-9322-e114f40ceda8</BoundTo>
+      <DependentUpon>LaunchStaging.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ecd6124a-16a2-43de-8030-910fa10a0ce3</id>
     </Compile>
     <Compile Include="MyTest1Repository.cs">
       <BoundTo>4bb8a466-5557-4837-9030-ee0422c06940</BoundTo>
@@ -266,6 +386,11 @@
       <id>06f503ff-1472-45bf-9d22-faa0830c6f35</id>
       <recordtableid>f8c50ae9-a04e-46e9-a1dc-590fc36cfd41</recordtableid>
     </None>
+    <None Include="Memrise\WebApp\EndEvents\CloseBrowserOnLogin.rxrec">
+      <BoundTo>4bb8a466-5557-4837-9030-ee0422c06940</BoundTo>
+      <id>700bcf18-1339-43b0-87ab-cd237d17f356</id>
+      <recordtableid>eb613431-6790-4100-b1d8-e9ef3681c573</recordtableid>
+    </None>
     <None Include="Memrise\WebApp\Logins\EmailLogin.rxrec">
       <BoundTo>4bb8a466-5557-4837-9030-ee0422c06940</BoundTo>
       <id>9fb51175-a7ce-4d5f-9bb1-5a57c96ce9d2</id>
@@ -280,6 +405,21 @@
       <BoundTo>4bb8a466-5557-4837-9030-ee0422c06940</BoundTo>
       <id>6b800360-08cf-4ae6-8fbe-5dbef2321eb7</id>
       <recordtableid>58d877e0-4d18-4101-960d-4c894965b86a</recordtableid>
+    </None>
+    <None Include="Memrise\WebApp\Logins\FailedEmailLogin.rxrec">
+      <BoundTo>4bb8a466-5557-4837-9030-ee0422c06940</BoundTo>
+      <id>cb9528dd-b086-4d63-a6e1-e2dba1403c15</id>
+      <recordtableid>877c8cca-d1da-4904-9587-fd62c631cd1d</recordtableid>
+    </None>
+    <None Include="Memrise\WebApp\Logins\FailedNoUsername.rxrec">
+      <BoundTo>4bb8a466-5557-4837-9030-ee0422c06940</BoundTo>
+      <id>cbefa14b-0fbf-4219-8300-3a49e390d42a</id>
+      <recordtableid>54212252-7821-4006-a932-62b3f6df0c58</recordtableid>
+    </None>
+    <None Include="Memrise\WebApp\Logins\FailedNoPassword.rxrec">
+      <BoundTo>4bb8a466-5557-4837-9030-ee0422c06940</BoundTo>
+      <id>1f48049f-f30d-4d06-8eaf-c6ab60586de3</id>
+      <recordtableid>f7a574be-5f89-472c-a074-86e02a0f5010</recordtableid>
     </None>
     <None Include="Memrise\WebApp\Logout\Logout.rxrec">
       <BoundTo>4bb8a466-5557-4837-9030-ee0422c06940</BoundTo>
@@ -301,10 +441,40 @@
       <id>1c18c553-bea1-45d3-bbe3-9a3808c86f73</id>
       <recordtableid>b6e7675d-3e5d-44bb-ae34-2168cccc92f2</recordtableid>
     </None>
+    <None Include="Memrise\WebApp\Staging\Launch.rxrec">
+      <BoundTo>4bb8a466-5557-4837-9030-ee0422c06940</BoundTo>
+      <id>bac472a0-8cb9-49a3-9586-3739114885e6</id>
+      <recordtableid>12ce727f-160f-4edb-9b8c-8ee713eca96d</recordtableid>
+    </None>
+    <None Include="Memrise\WebApp\Staging\LogIn.rxrec">
+      <BoundTo>4bb8a466-5557-4837-9030-ee0422c06940</BoundTo>
+      <id>1fc208cd-7d17-4f41-8c9e-655eebe22187</id>
+      <recordtableid>21141f37-5cde-40ce-9afd-07f21f14b3e3</recordtableid>
+    </None>
+    <None Include="Memrise\WebApp\Staging\Pop_up.rxrec">
+      <BoundTo>4bb8a466-5557-4837-9030-ee0422c06940</BoundTo>
+      <id>1782e348-baf9-4843-8618-0d3d28cafe93</id>
+      <recordtableid>f1c3760c-f8db-41db-9cb5-7b436d9cbb51</recordtableid>
+    </None>
+    <None Include="Memrise\WebApp\Staging\Payment.rxrec">
+      <BoundTo>4bb8a466-5557-4837-9030-ee0422c06940</BoundTo>
+      <id>7a763d60-4a7a-4b5d-a717-0e0fd497d9bb</id>
+      <recordtableid>1765bd43-0044-43ba-81a9-74ab7548b394</recordtableid>
+    </None>
     <None Include="Memrise\WebApp\Start events\LaunchInChromeIncognito.rxrec">
       <BoundTo>4bb8a466-5557-4837-9030-ee0422c06940</BoundTo>
       <id>97dbd32c-2411-4c6f-9171-eb8447c1f047</id>
       <recordtableid>99c6a36f-9788-4315-85ec-d3166512f478</recordtableid>
+    </None>
+    <None Include="Memrise\WebApp\Start events\LaunchChromeInIncognitoLoginPage.rxrec">
+      <BoundTo>4bb8a466-5557-4837-9030-ee0422c06940</BoundTo>
+      <id>4ad03daa-b463-4a45-be94-d8238c447f34</id>
+      <recordtableid>6535a83d-603f-4e89-bf35-164e297470a7</recordtableid>
+    </None>
+    <None Include="Memrise\WebApp\Start events\LaunchStaging.rxrec">
+      <BoundTo>4bb8a466-5557-4837-9030-ee0422c06940</BoundTo>
+      <id>0065987e-1a0d-49a2-9322-e114f40ceda8</id>
+      <recordtableid>a2fd2eb6-54c0-4748-9d5e-23d6fe3c4545</recordtableid>
     </None>
     <None Include="MyTest1Repository.rximg">
       <BoundTo>4bb8a466-5557-4837-9030-ee0422c06940</BoundTo>
@@ -355,6 +525,9 @@
     </Folder>
     <Folder Include="Memrise\WebApp\Logout">
       <id>72d55765-6716-4c15-a648-078a1af7fc89</id>
+    </Folder>
+    <Folder Include="Memrise\WebApp\Staging">
+      <id>10961f72-cb5d-4b6b-a91f-20d4986efad1</id>
     </Folder>
     <Folder Include="Memrise\WebApp\Start events">
       <id>3e190b43-51ae-45ed-bf03-8d7a80234720</id>

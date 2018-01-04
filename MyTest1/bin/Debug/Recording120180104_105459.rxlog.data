@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="37cc5ee7952b3a3"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="beatr"
+		rxversion="7.2.1.0"
+		host="DESKTOP-A2LH711"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="5296x1824"
+		timestamp="04/01/2018 10:55:16"
+		timestampiso="2018-01-04T10:55:16"
+		endtime="04/01/2018 10:55:19"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.750"
+			timeRelativeToTestModuleStartTime="00:00.750"
+			timeWallClock="10:55:17"
+			time="00:00.750"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'http://memrise.com' with browser 'chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\beatr\OneDrive\Documents\MemriseTesting-master\MemriseTesting-master\MyTest1\Memrise\WebApp\EndEvents\Recording1.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.843"
+			timeRelativeToTestModuleStartTime="00:00.843"
+			timeWallClock="10:55:17"
+			time="00:00.843"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MemriseLearningMadeJoyful.Login' at 35;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.memrise.com']//div[#'header']/?/?/ul//span[@innertext='Login']"
+				fullname="MyTest1Repository.MemriseLearningMadeJoyful.Login"
+				id="b382df2f4b3445a995e03b6cb62e9ef6"
+				timeout="60000"
+				codefile="c:\Users\beatr\OneDrive\Documents\MemriseTesting-master\MemriseTesting-master\MyTest1\Memrise\WebApp\EndEvents\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.193"
+			timeRelativeToTestModuleStartTime="00:02.193"
+			timeWallClock="10:55:18"
+			time="00:02.193"
+			level="Info"
+			category="Application">
+			<message>
+				Closing application containing item 'MemriseLoginGoogleChrome'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^Memrise\ -\ Login\ -\ Google\ ']"
+				fullname="MyTest1Repository.MemriseLoginGoogleChrome"
+				id="654f10fa5dfa4d7798e81bb2d6e20812"
+				timeout="30000"
+				codefile="c:\Users\beatr\OneDrive\Documents\MemriseTesting-master\MemriseTesting-master\MyTest1\Memrise\WebApp\EndEvents\Recording1.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

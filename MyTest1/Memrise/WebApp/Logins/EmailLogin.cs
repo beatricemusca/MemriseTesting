@@ -105,9 +105,9 @@ namespace MyTest1.Memrise.WebApp.Logins
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MemriseLearningMadeJoyful.HeaderNav.HttpsWwwMemriseComLogin' at Center.", repo.MemriseLearningMadeJoyful.HeaderNav.HttpsWwwMemriseComLoginInfo, new RecordItemIndex(0));
-            repo.MemriseLearningMadeJoyful.HeaderNav.HttpsWwwMemriseComLogin.Click();
-            Delay.Milliseconds(200);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MemriseLearningMadeJoyful.HeaderNav.HttpsWwwMemriseComLogin' at Center.", repo.MemriseLearningMadeJoyful.HeaderNav.HttpsWwwMemriseComLoginInfo, new RecordItemIndex(0));
+            //repo.MemriseLearningMadeJoyful.HeaderNav.HttpsWwwMemriseComLogin.Click();
+            //Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MemriseLearningMadeJoyful.Username' at Center.", repo.MemriseLearningMadeJoyful.UsernameInfo, new RecordItemIndex(1));
             repo.MemriseLearningMadeJoyful.Username.Click();

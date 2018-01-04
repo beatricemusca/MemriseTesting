@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="f4119cc6661a1cf"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="beatr"
+		rxversion="7.2.1.0"
+		host="DESKTOP-A2LH711"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="5296x1824"
+		timestamp="04/01/2018 10:51:57"
+		timestampiso="2018-01-04T10:51:57"
+		endtime="04/01/2018 10:52:05"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<errormessage>
+			Failed to find item 'MyTest1Repository.DashboardMemriseGoogleChrome.Self'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.734"
+			timeRelativeToTestModuleStartTime="00:00.734"
+			timeWallClock="10:51:58"
+			time="00:00.734"
+			level="Info"
+			category="Website"
+			errimg=".\Recordin_3ddfeb12_84b91200_trace.jpg"
+			errthumb=".\Recordin_3ddfeb12_84b91200_trace_thumb.jpg">
+			<message>
+				Opening web site 'http://memrise.com' with browser 'chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\beatr\OneDrive\Documents\MemriseTesting-master\MemriseTesting-master\MyTest1\Memrise\WebApp\EndEvents\Recording1.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.843"
+			timeRelativeToTestModuleStartTime="00:00.843"
+			timeWallClock="10:51:58"
+			time="00:00.843"
+			level="Info"
+			category="Mouse"
+			errimg=".\Recordin_3ddfeb12_84b91200_trace.jpg"
+			errthumb=".\Recordin_3ddfeb12_84b91200_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'MemriseLearningMadeJoyful.Login' at 35;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.memrise.com']//div[#'header']/?/?/ul//span[@innertext='Login']"
+				fullname="MyTest1Repository.MemriseLearningMadeJoyful.Login"
+				id="b382df2f4b3445a995e03b6cb62e9ef6"
+				timeout="60000"
+				codefile="c:\Users\beatr\OneDrive\Documents\MemriseTesting-master\MemriseTesting-master\MyTest1\Memrise\WebApp\EndEvents\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.276"
+			timeRelativeToTestModuleStartTime="00:04.276"
+			timeWallClock="10:52:01"
+			time="00:04.276"
+			level="Info"
+			category="Application"
+			errimg=".\Recordin_3ddfeb12_d380ac2a_trace.jpg"
+			errthumb=".\Recordin_3ddfeb12_d380ac2a_trace_thumb.jpg">
+			<message>
+				Closing application containing item 'DashboardMemriseGoogleChrome'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^Dashboard\ -\ Memrise\ -\ Goo']"
+				fullname="MyTest1Repository.DashboardMemriseGoogleChrome.Self"
+				id="5dfb4af40a2d43dbbc670798908e96c3"
+				timeout="3000"
+				codefile="c:\Users\beatr\OneDrive\Documents\MemriseTesting-master\MemriseTesting-master\MyTest1\Memrise\WebApp\EndEvents\Recording1.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.403"
+			timeRelativeToTestModuleStartTime="00:07.403"
+			timeWallClock="10:52:05"
+			time="00:07.403"
+			level="Error"
+			category="Module"
+			errimg=".\Recordin_3ddfeb12_48d1e20b_trace.jpg"
+			errthumb=".\Recordin_3ddfeb12_48d1e20b_trace_thumb.jpg">
+			<message>
+				Failed to find item 'MyTest1Repository.DashboardMemriseGoogleChrome.Self'.<br/>No element found for path '/form[@title~'^Dashboard\ -\ Memrise\ -\ Goo']' within 3s.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at MyTest1.MyTest1RepositoryFolders.DashboardMemriseGoogleChromeAppFolder.get_Self() in c:\Users\beatr\OneDrive\Documents\MemriseTesting-master\MemriseTesting-master\MyTest1\MyTest1Repository.cs:line 3219
+   at MyTest1.Memrise.WebApp.EndEvents.Recording1.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\beatr\OneDrive\Documents\MemriseTesting-master\MemriseTesting-master\MyTest1\Memrise\WebApp\EndEvents\Recording1.cs:line 95
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\beatr\OneDrive\Documents\MemriseTesting-master\MemriseTesting-master\MyTest1\Memrise\WebApp\EndEvents\Recording1.cs"
+				codeline="95"
+				type="repoitem"
+				path="/form[@title~'^Dashboard\ -\ Memrise\ -\ Goo']"
+				fullname="MyTest1Repository.DashboardMemriseGoogleChrome.Self"
+				id="5dfb4af40a2d43dbbc670798908e96c3"
+				timeout="3000"
+				loglvl="Error"
+				itemindex="3">
+			</metainfo>
+		</item>
+	</activity>
+</report>

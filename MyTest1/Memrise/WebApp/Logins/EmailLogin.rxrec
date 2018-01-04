@@ -43,7 +43,7 @@ rxversion="7.2">
 		action="Click"
 		button="Left"
 		duration="500ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -523,7 +523,7 @@ QAYooooA/9k=
 			</helperscreenshot>
 		</mouseitem>
 		<keysequenceitem
-		KeySequence="$varUsername"
+		KeySequence=" "
 		duration="100ms"
 		enabled="True"
 		optional="False"
@@ -1246,7 +1246,7 @@ pRgelFFABgelGB6UUUAGKKKKAP/Z
 			</helperscreenshot>
 		</mouseitem>
 		<keysequenceitem
-		KeySequence="{RShiftKey down}M{RShiftKey up}emrise{RShiftKey down}BM{RShiftKey up}12345"
+		KeySequence=" "
 		duration="100ms"
 		enabled="True"
 		optional="False"

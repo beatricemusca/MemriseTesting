@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1c4179040014e3c0"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="beatr"
+		rxversion="7.2.1.0"
+		host="DESKTOP-A2LH711"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="1920x1200"
+		timestamp="04/01/2018 10:19:20"
+		timestampiso="2018-01-04T10:19:20"
+		endtime="04/01/2018 10:19:20"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="62ms"
+			durationms="62"
+			type="test-suite"
+			rid="3d844cb5b8490"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="MyTest1"
+			headertext="MyTest1"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Failed"
+				duration="0ms"
+				durationms="0"
+				type="test-case"
+				rid="4d293e165bad8a6"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="0"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				testcontainername="TestCase1"
+				testcontainerid="eba435ef-9b04-4999-969c-e604b2250644"
+				headertext="TestCase1"
+				displayName="TestCase1"
+				iteration="0"
+				activity-exectype="execute"
+				conditionstate="none">
+				<errormessage>
+					Failed to get rows from data source: The Excel file with name 'C:\Users\Beatrice\Desktop\AuthenticationTestData.xlsx' could not be found.
+				</errormessage>
+			</activity>
+		</activity>
+	</activity>
+</report>

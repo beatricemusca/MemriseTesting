@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="eb613431-6790-4100-b1d8-e9ef3681c573"
+mode="Desktop"
+rxversion="7.2">
+	<name>
+		CloseBrowserOnLogin
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowserOnLogin"
+	namespace="MyTest1.Memrise.WebApp.EndEvents">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="b81cc0f8-146b-49a5-b868-11b0d08f4763">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="654f10fa-5dfa-4d77-98e8-1bb2d6e20812"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/form[@title~'^Memrise\ -\ Login\ -\ Google\ ']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="ff7215c2-1fdf-425f-a3c5-e5cdf3f84e9d"
+	name="MyTest1Repository"
+	relativepath="..\..\..\MyTest1Repository.rxrep"
+	rxversion="7.2">
+		<codegen
+		classname="MyTest1Repository"
+		namespace="MyTest1">
+		</codegen>
+		<rootfolder
+		id="db9647e4-ee00-45ed-ba86-06c2f3589160"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowserOnLogin.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

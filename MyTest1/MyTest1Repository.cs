@@ -42,6 +42,7 @@ namespace MyTest1
         MyTest1RepositoryFolders.MemriseUpgradeToMemriseProGooglAppFolder _memriseupgradetomemriseprogoogl;
         MyTest1RepositoryFolders.DashboardMemriseGoogleChromeAppFolder _dashboardmemrisegooglechrome;
         MyTest1RepositoryFolders.MemriseMobileAppsGoogleChromeAppFolder _memrisemobileappsgooglechrome;
+        MyTest1RepositoryFolders.MemriseLoginAppFolder _memriselogin;
         RepoItemInfo _memriselogingooglechromeInfo;
 
         /// <summary>
@@ -74,6 +75,7 @@ namespace MyTest1
             _memriseupgradetomemriseprogoogl = new MyTest1RepositoryFolders.MemriseUpgradeToMemriseProGooglAppFolder(this);
             _dashboardmemrisegooglechrome = new MyTest1RepositoryFolders.DashboardMemriseGoogleChromeAppFolder(this);
             _memrisemobileappsgooglechrome = new MyTest1RepositoryFolders.MemriseMobileAppsGoogleChromeAppFolder(this);
+            _memriselogin = new MyTest1RepositoryFolders.MemriseLoginAppFolder(this);
             _memriselogingooglechromeInfo = new RepoItemInfo(this, "MemriseLoginGoogleChrome", "/form[@title~'^Memrise\\ -\\ Login\\ -\\ Google\\ ']", 30000, null, "654f10fa-5dfa-4d77-98e8-1bb2d6e20812");
         }
 
@@ -250,6 +252,15 @@ namespace MyTest1
         public virtual MyTest1RepositoryFolders.MemriseMobileAppsGoogleChromeAppFolder MemriseMobileAppsGoogleChrome
         {
             get { return _memrisemobileappsgooglechrome; }
+        }
+
+        /// <summary>
+        /// The MemriseLogin folder.
+        /// </summary>
+        [RepositoryFolder("de85b253-e70a-4268-974f-bbe1d0da9598")]
+        public virtual MyTest1RepositoryFolders.MemriseLoginAppFolder MemriseLogin
+        {
+            get { return _memriselogin; }
         }
     }
 
@@ -1076,6 +1087,10 @@ namespace MyTest1
             RepoItemInfo _backInfo;
             RepoItemInfo _yourcardwasdeclinedyourrequestwasInfo;
             RepoItemInfo _beatricetestInfo;
+            RepoItemInfo _oopsiewrongpasswordorusernamemayInfo;
+            RepoItemInfo _footerInfo;
+            RepoItemInfo _memrisereverseheaderruledplainInfo;
+            RepoItemInfo _thisfieldisrequiredInfo;
 
             /// <summary>
             /// Creates a new MemriseLearningMadeJoyful  folder.
@@ -1109,6 +1124,10 @@ namespace MyTest1
                 _backInfo = new RepoItemInfo(this, "Back", ".//div[#'back-btn']/a[@innertext='Back']", 3000, null, "e1d5d273-3e27-4b65-ad3e-db186e8ae106");
                 _yourcardwasdeclinedyourrequestwasInfo = new RepoItemInfo(this, "YourCardWasDeclinedYourRequestWas", ".//div[#'tooltip979944']/div[@innertext~'^Your\\ card\\ was\\ declined\\.\\ Y']", 3000, null, "8d06fff9-baa6-4595-98aa-44e0a8140c9a");
                 _beatricetestInfo = new RepoItemInfo(this, "BeatriceTest", ".//div[#'page-head']/div/div/div/div[2]/a[@href~'^https://www\\.memrise\\.com/c']/h1[@innertext='Beatrice test']", 3000, null, "5b6dca89-7963-4a45-862d-2fa1b9214cbb");
+                _oopsiewrongpasswordorusernamemayInfo = new RepoItemInfo(this, "OopsieWrongPasswordOrUsernameMay", ".//form[#'login']/?/?/li[@innertext~'^Oopsie,\\ wrong\\ password\\.\\ O']", 3000, null, "78fda3e9-6f19-4a55-9905-a6af65114774");
+                _footerInfo = new RepoItemInfo(this, "Footer", ".//div[#'footer']", 3000, null, "90e7ce97-2905-46c2-baa8-ad2a999c4b44");
+                _memrisereverseheaderruledplainInfo = new RepoItemInfo(this, "MemriseReverseHeaderRuledPlain", "body", 3000, null, "3a02435e-c05a-4ca6-901c-3348f2dac3fd");
+                _thisfieldisrequiredInfo = new RepoItemInfo(this, "ThisFieldIsRequired", ".//form[#'login']//li[@innertext='This field is required.']", 3000, null, "48f452dc-8388-4d44-bdf5-31ef3316dbc7");
             }
 
             /// <summary>
@@ -1684,6 +1703,102 @@ namespace MyTest1
                 get
                 {
                     return _beatricetestInfo;
+                }
+            }
+
+            /// <summary>
+            /// The OopsieWrongPasswordOrUsernameMay item.
+            /// </summary>
+            [RepositoryItem("78fda3e9-6f19-4a55-9905-a6af65114774")]
+            public virtual Ranorex.LiTag OopsieWrongPasswordOrUsernameMay
+            {
+                get
+                {
+                    return _oopsiewrongpasswordorusernamemayInfo.CreateAdapter<Ranorex.LiTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The OopsieWrongPasswordOrUsernameMay item info.
+            /// </summary>
+            [RepositoryItemInfo("78fda3e9-6f19-4a55-9905-a6af65114774")]
+            public virtual RepoItemInfo OopsieWrongPasswordOrUsernameMayInfo
+            {
+                get
+                {
+                    return _oopsiewrongpasswordorusernamemayInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Footer item.
+            /// </summary>
+            [RepositoryItem("90e7ce97-2905-46c2-baa8-ad2a999c4b44")]
+            public virtual Ranorex.DivTag Footer
+            {
+                get
+                {
+                    return _footerInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Footer item info.
+            /// </summary>
+            [RepositoryItemInfo("90e7ce97-2905-46c2-baa8-ad2a999c4b44")]
+            public virtual RepoItemInfo FooterInfo
+            {
+                get
+                {
+                    return _footerInfo;
+                }
+            }
+
+            /// <summary>
+            /// The MemriseReverseHeaderRuledPlain item.
+            /// </summary>
+            [RepositoryItem("3a02435e-c05a-4ca6-901c-3348f2dac3fd")]
+            public virtual Ranorex.BodyTag MemriseReverseHeaderRuledPlain
+            {
+                get
+                {
+                    return _memrisereverseheaderruledplainInfo.CreateAdapter<Ranorex.BodyTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The MemriseReverseHeaderRuledPlain item info.
+            /// </summary>
+            [RepositoryItemInfo("3a02435e-c05a-4ca6-901c-3348f2dac3fd")]
+            public virtual RepoItemInfo MemriseReverseHeaderRuledPlainInfo
+            {
+                get
+                {
+                    return _memrisereverseheaderruledplainInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ThisFieldIsRequired item.
+            /// </summary>
+            [RepositoryItem("48f452dc-8388-4d44-bdf5-31ef3316dbc7")]
+            public virtual Ranorex.LiTag ThisFieldIsRequired
+            {
+                get
+                {
+                    return _thisfieldisrequiredInfo.CreateAdapter<Ranorex.LiTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ThisFieldIsRequired item info.
+            /// </summary>
+            [RepositoryItemInfo("48f452dc-8388-4d44-bdf5-31ef3316dbc7")]
+            public virtual RepoItemInfo ThisFieldIsRequiredInfo
+            {
+                get
+                {
+                    return _thisfieldisrequiredInfo;
                 }
             }
 
@@ -3293,6 +3408,357 @@ namespace MyTest1
                 get
                 {
                     return _closeInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The MemriseLoginAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("de85b253-e70a-4268-974f-bbe1d0da9598")]
+        public partial class MemriseLoginAppFolder : RepoGenBaseFolder
+        {
+            MyTest1RepositoryFolders.LoginFolder _login;
+            RepoItemInfo _ptag50percentoffInfo;
+            RepoItemInfo _textInfo;
+            RepoItemInfo _ccnumInfo;
+            RepoItemInfo _text1Info;
+            RepoItemInfo _paybtnInfo;
+            RepoItemInfo _congratulationsupgradesuccessfulInfo;
+            RepoItemInfo _continueInfo;
+
+            /// <summary>
+            /// Creates a new MemriseLogin  folder.
+            /// </summary>
+            public MemriseLoginAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("MemriseLogin", "/dom[@domain='staging.memrise.com']", parentFolder, 3000, null, false, "de85b253-e70a-4268-974f-bbe1d0da9598", "")
+            {
+                _login = new MyTest1RepositoryFolders.LoginFolder(this);
+                _ptag50percentoffInfo = new RepoItemInfo(this, "PTag50PercentOFF", ".//div[#'promotion-modal']//a[@href~'^https://staging\\.memrise\\.c']/div/p[@innertext='50% OFF']", 3000, null, "2faf9fa2-dd19-4217-ad1e-dce2bebc9e8a");
+                _textInfo = new RepoItemInfo(this, "Text", ".//form[#'payment-form']//input[@type='text']", 3000, null, "f576cd7a-6627-4dcc-bd65-a7823f6351d6");
+                _ccnumInfo = new RepoItemInfo(this, "Ccnum", ".//input[#'ccnum']", 3000, null, "27f74a4c-b897-439b-bb74-05a82d0e1016");
+                _text1Info = new RepoItemInfo(this, "Text1", ".//form[#'payment-form']/div[4]/label/input[@type='text']", 3000, null, "e9abbc11-64d5-4356-adf9-dd66ff27e368");
+                _paybtnInfo = new RepoItemInfo(this, "PayBtn", ".//button[#'pay-btn']", 3000, null, "555472b7-9011-4e7d-9542-a311b446a8e3");
+                _congratulationsupgradesuccessfulInfo = new RepoItemInfo(this, "CongratulationsUpgradeSuccessful", ".//div[#'success-container']/?/?/h1[@innertext~'^Congratulations\\ -\\ Upgrade']", 3000, null, "392f2a36-92e6-449e-a765-0ba333a506b0");
+                _continueInfo = new RepoItemInfo(this, "Continue", ".//div[#'success-container']/?/?/a[@innertext='Continue']", 3000, null, "b7bac0fe-125c-4727-9f55-1808b692f0eb");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("de85b253-e70a-4268-974f-bbe1d0da9598")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("de85b253-e70a-4268-974f-bbe1d0da9598")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The PTag50PercentOFF item.
+            /// </summary>
+            [RepositoryItem("2faf9fa2-dd19-4217-ad1e-dce2bebc9e8a")]
+            public virtual Ranorex.PTag PTag50PercentOFF
+            {
+                get
+                {
+                    return _ptag50percentoffInfo.CreateAdapter<Ranorex.PTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PTag50PercentOFF item info.
+            /// </summary>
+            [RepositoryItemInfo("2faf9fa2-dd19-4217-ad1e-dce2bebc9e8a")]
+            public virtual RepoItemInfo PTag50PercentOFFInfo
+            {
+                get
+                {
+                    return _ptag50percentoffInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Text item.
+            /// </summary>
+            [RepositoryItem("f576cd7a-6627-4dcc-bd65-a7823f6351d6")]
+            public virtual Ranorex.InputTag Text
+            {
+                get
+                {
+                    return _textInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Text item info.
+            /// </summary>
+            [RepositoryItemInfo("f576cd7a-6627-4dcc-bd65-a7823f6351d6")]
+            public virtual RepoItemInfo TextInfo
+            {
+                get
+                {
+                    return _textInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Ccnum item.
+            /// </summary>
+            [RepositoryItem("27f74a4c-b897-439b-bb74-05a82d0e1016")]
+            public virtual Ranorex.InputTag Ccnum
+            {
+                get
+                {
+                    return _ccnumInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Ccnum item info.
+            /// </summary>
+            [RepositoryItemInfo("27f74a4c-b897-439b-bb74-05a82d0e1016")]
+            public virtual RepoItemInfo CcnumInfo
+            {
+                get
+                {
+                    return _ccnumInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Text1 item.
+            /// </summary>
+            [RepositoryItem("e9abbc11-64d5-4356-adf9-dd66ff27e368")]
+            public virtual Ranorex.InputTag Text1
+            {
+                get
+                {
+                    return _text1Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Text1 item info.
+            /// </summary>
+            [RepositoryItemInfo("e9abbc11-64d5-4356-adf9-dd66ff27e368")]
+            public virtual RepoItemInfo Text1Info
+            {
+                get
+                {
+                    return _text1Info;
+                }
+            }
+
+            /// <summary>
+            /// The PayBtn item.
+            /// </summary>
+            [RepositoryItem("555472b7-9011-4e7d-9542-a311b446a8e3")]
+            public virtual Ranorex.ButtonTag PayBtn
+            {
+                get
+                {
+                    return _paybtnInfo.CreateAdapter<Ranorex.ButtonTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PayBtn item info.
+            /// </summary>
+            [RepositoryItemInfo("555472b7-9011-4e7d-9542-a311b446a8e3")]
+            public virtual RepoItemInfo PayBtnInfo
+            {
+                get
+                {
+                    return _paybtnInfo;
+                }
+            }
+
+            /// <summary>
+            /// The CongratulationsUpgradeSuccessful item.
+            /// </summary>
+            [RepositoryItem("392f2a36-92e6-449e-a765-0ba333a506b0")]
+            public virtual Ranorex.H1Tag CongratulationsUpgradeSuccessful
+            {
+                get
+                {
+                    return _congratulationsupgradesuccessfulInfo.CreateAdapter<Ranorex.H1Tag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The CongratulationsUpgradeSuccessful item info.
+            /// </summary>
+            [RepositoryItemInfo("392f2a36-92e6-449e-a765-0ba333a506b0")]
+            public virtual RepoItemInfo CongratulationsUpgradeSuccessfulInfo
+            {
+                get
+                {
+                    return _congratulationsupgradesuccessfulInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Continue item.
+            /// </summary>
+            [RepositoryItem("b7bac0fe-125c-4727-9f55-1808b692f0eb")]
+            public virtual Ranorex.ATag Continue
+            {
+                get
+                {
+                    return _continueInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Continue item info.
+            /// </summary>
+            [RepositoryItemInfo("b7bac0fe-125c-4727-9f55-1808b692f0eb")]
+            public virtual RepoItemInfo ContinueInfo
+            {
+                get
+                {
+                    return _continueInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Login folder.
+            /// </summary>
+            [RepositoryFolder("a2eb8266-e493-480e-b05a-11335701fcc2")]
+            public virtual MyTest1RepositoryFolders.LoginFolder Login
+            {
+                get { return _login; }
+            }
+        }
+
+        /// <summary>
+        /// The LoginFolder folder.
+        /// </summary>
+        [RepositoryFolder("a2eb8266-e493-480e-b05a-11335701fcc2")]
+        public partial class LoginFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _passwordInfo;
+            RepoItemInfo _usernameInfo;
+            RepoItemInfo _submitInfo;
+
+            /// <summary>
+            /// Creates a new Login  folder.
+            /// </summary>
+            public LoginFolder(RepoGenBaseFolder parentFolder) :
+                    base("Login", ".//form[#'login']", parentFolder, 3000, null, false, "a2eb8266-e493-480e-b05a-11335701fcc2", "")
+            {
+                _passwordInfo = new RepoItemInfo(this, "Password", "?/?/input[@name='password']", 3000, null, "5e05c5f0-6350-4d6c-b5a1-26ca4e2f1423");
+                _usernameInfo = new RepoItemInfo(this, "Username", "?/?/input[@name='username']", 3000, null, "a164430a-f448-4584-b215-095476c2e122");
+                _submitInfo = new RepoItemInfo(this, "Submit", "input[@type='submit']", 3000, null, "79c86a15-b889-4335-928a-35b0056f73fd");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("a2eb8266-e493-480e-b05a-11335701fcc2")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("a2eb8266-e493-480e-b05a-11335701fcc2")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Password item.
+            /// </summary>
+            [RepositoryItem("5e05c5f0-6350-4d6c-b5a1-26ca4e2f1423")]
+            public virtual Ranorex.InputTag Password
+            {
+                get
+                {
+                    return _passwordInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Password item info.
+            /// </summary>
+            [RepositoryItemInfo("5e05c5f0-6350-4d6c-b5a1-26ca4e2f1423")]
+            public virtual RepoItemInfo PasswordInfo
+            {
+                get
+                {
+                    return _passwordInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Username item.
+            /// </summary>
+            [RepositoryItem("a164430a-f448-4584-b215-095476c2e122")]
+            public virtual Ranorex.InputTag Username
+            {
+                get
+                {
+                    return _usernameInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Username item info.
+            /// </summary>
+            [RepositoryItemInfo("a164430a-f448-4584-b215-095476c2e122")]
+            public virtual RepoItemInfo UsernameInfo
+            {
+                get
+                {
+                    return _usernameInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Submit item.
+            /// </summary>
+            [RepositoryItem("79c86a15-b889-4335-928a-35b0056f73fd")]
+            public virtual Ranorex.InputTag Submit
+            {
+                get
+                {
+                    return _submitInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Submit item info.
+            /// </summary>
+            [RepositoryItemInfo("79c86a15-b889-4335-928a-35b0056f73fd")]
+            public virtual RepoItemInfo SubmitInfo
+            {
+                get
+                {
+                    return _submitInfo;
                 }
             }
         }
