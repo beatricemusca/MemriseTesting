@@ -1,11 +1,10 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="Memrise\WebApp\EndEvents\Close_browser.rxrec" />
+    <Element value="MyTest1.rxtst" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="Memrise\WebApp\Payment\PaymentPage.rxrec" />
-    <Element value="Memrise\WebApp\EndEvents\Close_browser.rxrec" />
     <Element value="Memrise\WebApp\Logins\EmailLogin.rxrec" />
     <Element value="Memrise\WebApp\Logins\EmailLogin.cs" />
     <Element value="Memrise\WebApp\Logins\EmailLogin.UserCode.cs" />
