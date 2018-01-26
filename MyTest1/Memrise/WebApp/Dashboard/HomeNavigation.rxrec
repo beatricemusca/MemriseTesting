@@ -705,6 +705,23 @@ oAKKKKAP/9k=
 				Beatrice test
 			</matchvalue>
 		</validationitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="cc8bdcc3-41cc-4441-bc96-18f316d2f288"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</mouseitem>
 	</recorditems>
 	<repository
 	id="ff7215c2-1fdf-425f-a3c5-e5cdf3f84e9d"

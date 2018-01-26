@@ -164,3 +164,13 @@ C:\Users\beatr\OneDrive\Documents\MemriseTesting-master\MemriseTesting-master\My
 C:\Users\beatr\OneDrive\Documents\MemriseTesting-master\MemriseTesting-master\MyTest1\obj\x86\Debug\MyTest1.csprojResolveAssemblyReference.cache
 C:\Users\beatr\OneDrive\Documents\MemriseTesting-master\MemriseTesting-master\MyTest1\obj\x86\Debug\MyTest1.exe
 C:\Users\beatr\OneDrive\Documents\MemriseTesting-master\MemriseTesting-master\MyTest1\obj\x86\Debug\MyTest1.pdb
+C:\Program Files (x86)\Ranorex 7.2\RanorexStudio\bin\MemriseTesting\MyTest1\bin\Debug\MyTest1.rxtmg
+C:\Program Files (x86)\Ranorex 7.2\RanorexStudio\bin\MemriseTesting\MyTest1\bin\Debug\MyTest1.rxtst
+C:\Program Files (x86)\Ranorex 7.2\RanorexStudio\bin\MemriseTesting\MyTest1\bin\Debug\MyTest1.exe.config
+C:\Program Files (x86)\Ranorex 7.2\RanorexStudio\bin\MemriseTesting\MyTest1\bin\Debug\MyTest1.exe
+C:\Program Files (x86)\Ranorex 7.2\RanorexStudio\bin\MemriseTesting\MyTest1\bin\Debug\MyTest1.pdb
+C:\Program Files (x86)\Ranorex 7.2\RanorexStudio\bin\MemriseTesting\MyTest1\bin\Debug\stdole.dll
+C:\Program Files (x86)\Ranorex 7.2\RanorexStudio\bin\MemriseTesting\MyTest1\bin\Debug\System.Windows.Interactivity.dll
+C:\Program Files (x86)\Ranorex 7.2\RanorexStudio\bin\MemriseTesting\MyTest1\obj\x86\Debug\MyTest1.csprojResolveAssemblyReference.cache
+C:\Program Files (x86)\Ranorex 7.2\RanorexStudio\bin\MemriseTesting\MyTest1\obj\x86\Debug\MyTest1.exe
+C:\Program Files (x86)\Ranorex 7.2\RanorexStudio\bin\MemriseTesting\MyTest1\obj\x86\Debug\MyTest1.pdb

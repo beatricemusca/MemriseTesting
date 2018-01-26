@@ -104,6 +104,11 @@ namespace MyTest1.Memrise.WebApp.Dashboard
             Validate.Attribute(repo.MemriseLearningMadeJoyful.BeatriceTestInfo, "InnerText", "Beatrice test");
             Delay.Milliseconds(100);
             
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click at {X=0,Y=0}.", new RecordItemIndex(6));
+            Mouse.MoveTo(0, 0);
+            Mouse.Click(System.Windows.Forms.MouseButtons.Left);
+            Delay.Milliseconds(200);
+            
         }
 
 #region Image Feature Data

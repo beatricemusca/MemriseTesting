@@ -83,8 +83,8 @@ namespace MyTest1.Memrise.WebApp.Start_events
             Host.Current.OpenBrowser("http://memrise.com", "chrome", "", false, false, false, true, false);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='\n    Unlock your learning superpowers with Memrise\n    ') on item 'MemriseLearningMadeJoyful.H1TagUnlockYourLearningSuperpowe'.", repo.MemriseLearningMadeJoyful.H1TagUnlockYourLearningSuperpoweInfo, new RecordItemIndex(1));
-            Validate.Attribute(repo.MemriseLearningMadeJoyful.H1TagUnlockYourLearningSuperpoweInfo, "InnerText", "\n    Unlock your learning superpowers with Memrise\n    ");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='\n    Unlock your learning superpowers with Memrise\r\n    ') on item 'MemriseLearningMadeJoyful.H1TagUnlockYourLearningSuperpowe'.", repo.MemriseLearningMadeJoyful.H1TagUnlockYourLearningSuperpoweInfo, new RecordItemIndex(1));
+            Validate.Attribute(repo.MemriseLearningMadeJoyful.H1TagUnlockYourLearningSuperpoweInfo, "InnerText", "\n    Unlock your learning superpowers with Memrise\r\n    ");
             Delay.Milliseconds(100);
             
         }
